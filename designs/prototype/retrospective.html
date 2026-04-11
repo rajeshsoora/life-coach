@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith — Retrospective</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .retro-page { padding-bottom: 60px; }
+
+        /* ═══ CELEBRATION ═══ */
+        .celebration {
+            text-align: center;
+            padding: 48px 0 8px;
+            opacity: 0; transform: translateY(12px);
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        .celebration-number {
+            font-size: 72px;
+            font-weight: 800;
+            letter-spacing: -4px;
+            line-height: 1;
+            background: linear-gradient(180deg, var(--text-primary) 30%, var(--text-tertiary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .celebration-sub {
+            font-size: 15px;
+            color: var(--text-secondary);
+            margin-top: 8px;
+        }
+
+        .celebration-detail {
+            font-size: 13px;
+            color: var(--text-tertiary);
+            margin-top: 4px;
+        }
+
+        /* ═══ STATS ROW ═══ */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+            margin-top: 32px;
+            opacity: 0; transform: translateY(12px);
+            animation: fadeUp 0.6s ease 0.15s forwards;
+        }
+
+        .stat-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--text-tertiary);
+            margin-top: 4px;
+        }
+
+        /* ═══ BEFORE / AFTER ═══ */
+        .compare-section {
+            margin-top: 32px;
+            opacity: 0; transform: translateY(12px);
+            animation: fadeUp 0.6s ease 0.3s forwards;
+        }
+
+        .compare-grid {
+            display: grid;
+            grid-template-columns: 1fr 60px 1fr;
+            gap: 0;
+            align-items: center;
+        }
+
+        .compare-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .compare-label {
+            font-size: 11px;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .compare-arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: var(--text-tertiary);
+        }
+
+        .compare-score {
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+            margin-top: 16px;
+        }
+
+        .compare-score-num {
+            font-size: 36px;
+            font-weight: 800;
+            letter-spacing: -2px;
+        }
+
+        .compare-score-grade {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        .compare-pillar-list {
+            width: 100%;
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .compare-pillar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12px;
+            color: var(--text-secondary);
+            padding: 4px 0;
+        }
+
+        .compare-pillar-left {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .compare-change {
+            font-size: 11px;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .change-up {
+            color: var(--body);
+            background: rgba(110, 231, 183, 0.1);
+        }
+
+        .change-same {
+            color: var(--text-tertiary);
+            background: var(--bg-hover);
+        }
+
+        /* ═══ INSIGHTS ═══ */
+        .insights-section {
+            margin-top: 32px;
+            opacity: 0; transform: translateY(12px);
+            animation: fadeUp 0.6s ease 0.45s forwards;
+        }
+
+        .insight-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .insight-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 18px 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .insight-icon {
+            font-size: 16px;
+            margin-top: 1px;
+        }
+
+        .insight-text {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .insight-text strong {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        /* ═══ NEXT SPRINT ═══ */
+        .next-section {
+            margin-top: 32px;
+            opacity: 0; transform: translateY(12px);
+            animation: fadeUp 0.6s ease 0.6s forwards;
+        }
+
+        .next-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+        }
+
+        .next-orchi {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .next-orchi-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #1a1a1e, #2a2a30);
+            border: 1px solid var(--border-default);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 13px;
+            flex-shrink: 0;
+            color: var(--text-secondary);
+        }
+
+        .next-orchi-text {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .next-orchi-text strong {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .next-swap {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .swap-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 16px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-primary);
+            border: 1px solid var(--border-subtle);
+        }
+
+        .swap-from, .swap-to {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+        }
+
+        .swap-from { color: var(--text-tertiary); }
+        .swap-to { color: var(--text-primary); font-weight: 500; }
+
+        .swap-arrow {
+            color: var(--text-tertiary);
+            font-size: 14px;
+        }
+
+        .swap-reason {
+            font-size: 11px;
+            color: var(--text-tertiary);
+            margin-left: auto;
+        }
+
+        .next-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .next-btn {
+            padding: 10px 24px;
+            border-radius: var(--radius-sm);
+            font-size: 14px;
+            font-family: inherit;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+            border: none;
+        }
+
+        .next-btn-primary {
+            background: var(--text-primary);
+            color: var(--bg-primary);
+        }
+
+        .next-btn-primary:hover { opacity: 0.9; }
+
+        .next-btn-secondary {
+            background: transparent;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-default);
+        }
+
+        .next-btn-secondary:hover { border-color: var(--border-strong); }
+    </style>
+</head>
+<body>
+
+    <!-- ═══ NAVBAR ═══ -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="dashboard.html">
+            <div class="navbar-logo">Z</div>
+            <span class="navbar-name">Zenith</span>
+        </a>
+        <div class="navbar-center">
+            <a class="nav-tab" href="dashboard.html">Dashboard</a>
+            <a class="nav-tab" href="council.html">Council</a>
+            <a class="nav-tab" href="roadmap.html">Roadmap</a>
+            <a class="nav-tab active" href="retrospective.html">Retrospective</a>
+        </div>
+        <div class="navbar-right">
+            <div class="energy-badge">
+                ⚡ 20/20
+                <div class="energy-bar-mini"><div class="energy-bar-mini-fill" style="width:100%"></div></div>
+            </div>
+            <div class="navbar-avatar">R</div>
+        </div>
+    </nav>
+
+    <div class="app retro-page">
+
+        <!-- ═══ CELEBRATION ═══ -->
+        <section class="celebration">
+            <div class="celebration-number">24</div>
+            <div class="celebration-sub">tasks completed in 10 days</div>
+            <div class="celebration-detail">Sprint 1 Complete · Day 10 Retrospective</div>
+        </section>
+
+        <!-- ═══ STATS ═══ -->
+        <section class="stats-row">
+            <div class="stat-card">
+                <div class="stat-value">10</div>
+                <div class="stat-label">Day Streak 🔥</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">86%</div>
+                <div class="stat-label">Task Completion Rate</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">3</div>
+                <div class="stat-label">Pillars Improved</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">47</div>
+                <div class="stat-label">Agent Consultations</div>
+            </div>
+        </section>
+
+        <!-- ═══ BEFORE / AFTER ═══ -->
+        <section class="compare-section">
+            <p class="section-label" style="margin-bottom:16px;">Your Pentagon — Before & After</p>
+            <div class="compare-grid">
+                <div class="compare-card">
+                    <span class="compare-label">Day 1</span>
+                    <canvas id="pentBefore" width="400" height="400" style="width:180px;height:180px;"></canvas>
+                    <div class="compare-score">
+                        <span class="compare-score-num">63</span>
+                        <span class="compare-score-grade">C+</span>
+                    </div>
+                    <div class="compare-pillar-list">
+                        <div class="compare-pillar"><span class="compare-pillar-left"><span>🧠</span> Mind</span> <span>72</span></div>
+                        <div class="compare-pillar"><span class="compare-pillar-left"><span>💪</span> Body</span> <span>85</span></div>
+                        <div class="compare-pillar"><span class="compare-pillar-left"><span>💰</span> Wealth</span> <span>51</span></div>
+                        <div class="compare-pillar"><span class="compare-pillar-left"><span>❤️</span> Bonds</span> <span>38</span></div>
+                        <div class="compare-pillar"><span class="compare-pillar-left"><span>🌱</span> Growth</span> <span>68</span></div>
+                    </div>
+                </div>
+
+                <div class="compare-arrow">→</div>
+
+                <div class="compare-card">
+                    <span class="compare-label">Day 10</span>
+                    <canvas id="pentAfter" width="400" height="400" style="width:180px;height:180px;"></canvas>
+                    <div class="compare-score">
+                        <span class="compare-score-num" style="color:var(--body)">68</span>
+                        <span class="compare-score-grade">B-</span>
+                    </div>
+                    <div class="compare-pillar-list">
+                        <div class="compare-pillar">
+                            <span class="compare-pillar-left"><span>🧠</span> Mind</span>
+                            <span>76 <span class="compare-change change-up">+4</span></span>
+                        </div>
+                        <div class="compare-pillar">
+                            <span class="compare-pillar-left"><span>💪</span> Body</span>
+                            <span>87 <span class="compare-change change-up">+2</span></span>
+                        </div>
+                        <div class="compare-pillar">
+                            <span class="compare-pillar-left"><span>💰</span> Wealth</span>
+                            <span>51 <span class="compare-change change-same">—</span></span>
+                        </div>
+                        <div class="compare-pillar">
+                            <span class="compare-pillar-left"><span>❤️</span> Bonds</span>
+                            <span>42 <span class="compare-change change-up">+4</span></span>
+                        </div>
+                        <div class="compare-pillar">
+                            <span class="compare-pillar-left"><span>🌱</span> Growth</span>
+                            <span>72 <span class="compare-change change-up">+4</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ INSIGHTS ═══ -->
+        <section class="insights-section">
+            <p class="section-label" style="margin-bottom:12px;">Key Insights from Sprint 1</p>
+            <div class="insight-list">
+                <div class="insight-item">
+                    <span class="insight-icon">🧠</span>
+                    <div class="insight-text"><strong>Sleep improved significantly.</strong> You went from 5.5 avg hours to 6.8. Caffeine cutoff at 2 PM was the biggest lever — you stuck with it 8/10 days.</div>
+                </div>
+                <div class="insight-item">
+                    <span class="insight-icon">💪</span>
+                    <div class="insight-text"><strong>Consistency beat intensity.</strong> You completed 7 of 8 scheduled workouts. Switching to morning sessions removed the "I'm too tired after work" excuse.</div>
+                </div>
+                <div class="insight-item">
+                    <span class="insight-icon">❤️</span>
+                    <div class="insight-text"><strong>The Day 5 conflict resolution session moved the needle.</strong> After that conversation with Zenith, you reported feeling closer to your partner for the first time in weeks.</div>
+                </div>
+                <div class="insight-item">
+                    <span class="insight-icon">💰</span>
+                    <div class="insight-text"><strong>Wealth was untouched this sprint</strong> — that's okay. You can't fix everything at once. Focus creates results. Consider adding it to Sprint 2.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ NEXT SPRINT ═══ -->
+        <section class="next-section">
+            <p class="section-label" style="margin-bottom:12px;">Sprint 2 — What's Next?</p>
+            <div class="next-card">
+                <div class="next-orchi">
+                    <div class="next-orchi-avatar">Z</div>
+                    <div class="next-orchi-text">
+                        <strong>Great sprint.</strong> Your MIND and BODY are responding well. Sleep is stabilizing and your training consistency is strong. I'd suggest we keep the Fitness Coach active but <strong>swap the Sleep Optimizer for the Career Strategist</strong> — your Wealth score hasn't moved, and you mentioned wanting to negotiate a raise. Sound good?
+                    </div>
+                </div>
+
+                <p class="section-label">Suggested Agent Changes</p>
+                <div class="next-swap">
+                    <div class="swap-row">
+                        <span class="swap-from">🧠 Sleep Optimizer</span>
+                        <span class="swap-arrow">→</span>
+                        <span class="swap-to">💰 Career Strategist</span>
+                        <span class="swap-reason">Wealth score stagnant</span>
+                    </div>
+                    <div class="swap-row">
+                        <span class="swap-from">💪 Fitness Coach</span>
+                        <span class="swap-arrow">→</span>
+                        <span class="swap-to">💪 Fitness Coach</span>
+                        <span class="swap-reason">Keep — strong momentum</span>
+                    </div>
+                    <div class="swap-row">
+                        <span class="swap-from">🌱 Habit Coach</span>
+                        <span class="swap-arrow">→</span>
+                        <span class="swap-to">🌱 Habit Coach</span>
+                        <span class="swap-reason">Keep — morning routine building</span>
+                    </div>
+                </div>
+
+                <div class="next-actions">
+                    <button class="next-btn next-btn-primary" onclick="window.location.href='roadmap.html'">Accept & Start Sprint 2</button>
+                    <button class="next-btn next-btn-secondary">Customize Agents</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        // ═══ PENTAGON DRAWING UTILITY ═══
+        function drawPent(canvasId, scores, colors) {
+            const c = document.getElementById(canvasId);
+            const ctx = c.getContext('2d');
+            const W = c.width, H = c.height;
+            const cx = W/2, cy = H/2, mR = 140;
+            const angles = scores.map((_,i) => (Math.PI*2*i)/5 - Math.PI/2);
+
+            function pt(a,r){ return {x:cx+Math.cos(a)*r, y:cy+Math.sin(a)*r}; }
+
+            // Grid
+            [0.33,0.66,1].forEach(l => {
+                ctx.beginPath();
+                angles.forEach((a,i)=>{ const p=pt(a,mR*l); i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y); });
+                ctx.closePath(); ctx.strokeStyle='rgba(255,255,255,0.05)'; ctx.lineWidth=1; ctx.stroke();
+            });
+
+            // Data
+            ctx.beginPath();
+            scores.forEach((s,i)=>{ const p=pt(angles[i],(s/100)*mR); i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y); });
+            ctx.closePath();
+            ctx.fillStyle='rgba(167,139,250,0.06)'; ctx.fill();
+            ctx.strokeStyle='rgba(237,237,239,0.2)'; ctx.lineWidth=1.5; ctx.stroke();
+
+            // Dots
+            scores.forEach((s,i)=>{
+                const p=pt(angles[i],(s/100)*mR);
+                ctx.beginPath(); ctx.arc(p.x,p.y,4,0,Math.PI*2); ctx.fillStyle=colors[i]; ctx.fill();
+            });
+        }
+
+        const clrs = ['#a78bfa','#6ee7b7','#fbbf24','#7dd3fc','#f9a8d4'];
+        drawPent('pentBefore', [72, 85, 51, 68, 38], clrs);
+        drawPent('pentAfter', [76, 87, 51, 72, 42], clrs);
+    </script>
+</body>
+</html>

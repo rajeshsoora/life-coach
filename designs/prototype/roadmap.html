@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith — Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .roadmap-page { padding-bottom: 60px; }
+
+        /* ═══ HORIZON ═══ */
+        .horizon-section {
+            margin-top: 32px;
+            opacity: 0; transform: translateY(12px);
+            animation: fadeUp 0.6s ease 0.2s forwards;
+        }
+
+        .horizon-scroll {
+            display: flex;
+            gap: 14px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+            scrollbar-width: none;
+        }
+
+        .horizon-scroll::-webkit-scrollbar { display: none; }
+
+        .horizon-card {
+            min-width: 220px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 18px;
+            cursor: pointer;
+            transition: all 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .horizon-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0; left: 0; right: 0;
+            height: 2px;
+            opacity: 0.5;
+        }
+
+        .horizon-card:nth-child(1)::after { background: var(--body); }
+        .horizon-card:nth-child(2)::after { background: var(--wealth); }
+        .horizon-card:nth-child(3)::after { background: var(--mind); }
+        .horizon-card:nth-child(4)::after { background: var(--growth); }
+        .horizon-card:nth-child(5)::after { background: var(--tribe); }
+
+        .horizon-card:hover {
+            border-color: var(--border-strong);
+            transform: translateY(-2px);
+        }
+
+        .horizon-pillar {
+            font-size: 11px;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .horizon-goal {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.35;
+        }
+
+        .horizon-progress-track {
+            height: 3px;
+            background: var(--bg-hover);
+            border-radius: 100px;
+            overflow: hidden;
+        }
+
+        .horizon-progress-fill {
+            height: 100%;
+            border-radius: 100px;
+            transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .horizon-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: var(--text-tertiary);
+            margin-top: 8px;
+        }
+
+        /* ═══ SPRINT ═══ */
+        .sprint-section {
+            margin-top: 36px;
+            opacity: 0; transform: translateY(12px);
+            animation: fadeUp 0.6s ease 0.35s forwards;
+        }
+
+        .sprint-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .sprint-header-left h2 {
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 4px;
+        }
+
+        .sprint-header-left p {
+            font-size: 12px;
+            color: var(--text-tertiary);
+        }
+
+        .sprint-timer {
+            padding: 6px 14px;
+            border-radius: 100px;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-secondary);
+            font-size: 12px;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .sprint-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 14px;
+        }
+
+        .sprint-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .sprint-card:hover {
+            border-color: var(--border-strong);
+        }
+
+        .sprint-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .sprint-focus {
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .sprint-ring {
+            width: 40px;
+            height: 40px;
+            position: relative;
+        }
+
+        .sprint-ring svg {
+            width: 100%;
+            height: 100%;
+            transform: rotate(-90deg);
+        }
+
+        .sprint-ring-bg {
+            fill: none;
+            stroke: var(--bg-hover);
+            stroke-width: 3;
+        }
+
+        .sprint-ring-fill {
+            fill: none;
+            stroke-width: 3;
+            stroke-linecap: round;
+            transition: stroke-dashoffset 1s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .sprint-ring-text {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        .sprint-desc {
+            font-size: 12px;
+            color: var(--text-tertiary);
+            line-height: 1.5;
+            margin-top: 4px;
+        }
+
+        .sprint-agent {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            margin-top: 10px;
+            font-size: 11px;
+            color: var(--text-tertiary);
+            padding: 3px 8px;
+            border-radius: 4px;
+            border: 1px solid var(--border-subtle);
+        }
+
+        /* ═══ DAILY GRIND ═══ */
+        .daily-section {
+            margin-top: 36px;
+            opacity: 0; transform: translateY(12px);
+            animation: fadeUp 0.6s ease 0.5s forwards;
+        }
+
+        .daily-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .daily-header h2 {
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .daily-progress-text {
+            font-size: 13px;
+            color: var(--text-tertiary);
+        }
+
+        .daily-progress-text strong {
+            color: var(--text-secondary);
+        }
+
+        .daily-list {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .daily-task {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 14px 18px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .daily-task:hover {
+            border-color: var(--border-default);
+            background: var(--bg-elevated);
+        }
+
+        .daily-check {
+            width: 20px;
+            height: 20px;
+            border-radius: 6px;
+            border: 2px solid var(--border-strong);
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.15s;
+            cursor: pointer;
+        }
+
+        .daily-check.done {
+            border-color: var(--body);
+            background: var(--body);
+        }
+
+        .daily-check.done::after {
+            content: '✓';
+            font-size: 11px;
+            color: #000;
+            font-weight: 800;
+        }
+
+        .daily-task-content {
+            flex: 1;
+        }
+
+        .daily-task-title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+
+        .daily-task-title.done-text {
+            text-decoration: line-through;
+            color: var(--text-tertiary);
+        }
+
+        .daily-task-meta {
+            font-size: 11px;
+            color: var(--text-tertiary);
+        }
+
+        .daily-pillar-tag {
+            font-size: 11px;
+            padding: 3px 10px;
+            border-radius: 100px;
+            border: 1px solid var(--border-subtle);
+            color: var(--text-tertiary);
+            white-space: nowrap;
+        }
+
+        /* ═══ GROWTH TREE ═══ */
+        .tree-section {
+            margin-top: 36px;
+            opacity: 0; transform: translateY(12px);
+            animation: fadeUp 0.6s ease 0.65s forwards;
+        }
+
+        .tree-card {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .tree-visual {
+            width: 200px;
+            height: 200px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tree-info h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .tree-info p {
+            font-size: 13px;
+            color: var(--text-tertiary);
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .tree-stages {
+            display: flex;
+            gap: 6px;
+        }
+
+        .tree-stage {
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            color: var(--text-tertiary);
+            background: var(--bg-hover);
+            border: 1px solid transparent;
+        }
+
+        .tree-stage.current {
+            color: var(--body);
+            border-color: var(--body);
+            background: rgba(110, 231, 183, 0.08);
+        }
+
+        .tree-stage.past {
+            color: var(--text-tertiary);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ═══ NAVBAR ═══ -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="dashboard.html">
+            <div class="navbar-logo">Z</div>
+            <span class="navbar-name">Zenith</span>
+        </a>
+        <div class="navbar-center">
+            <a class="nav-tab" href="dashboard.html">Dashboard</a>
+            <a class="nav-tab" href="council.html">Council</a>
+            <a class="nav-tab active" href="roadmap.html">Roadmap</a>
+            <a class="nav-tab" href="retrospective.html">Retrospective</a>
+        </div>
+        <div class="navbar-right">
+            <div class="energy-badge">
+                ⚡ 16/20
+                <div class="energy-bar-mini"><div class="energy-bar-mini-fill" style="width:80%"></div></div>
+            </div>
+            <div class="navbar-avatar">R</div>
+        </div>
+    </nav>
+
+    <div class="app roadmap-page">
+
+        <!-- ═══ HEADER ═══ -->
+        <header class="page-header">
+            <h1>Your Roadmap</h1>
+            <p>Long-term goals on the horizon. Short-term sprints to get there. Daily actions that compound.</p>
+        </header>
+
+        <!-- ═══ HORIZON ═══ -->
+        <section class="horizon-section">
+            <p class="section-label">The Horizon — Your Long-Term Goals</p>
+            <div class="horizon-scroll">
+                <div class="horizon-card">
+                    <div class="horizon-pillar">💪 Body</div>
+                    <div class="horizon-goal">Run a 10K without stopping</div>
+                    <div class="horizon-progress-track"><div class="horizon-progress-fill" style="width:15%;background:var(--body)"></div></div>
+                    <div class="horizon-meta"><span>15% complete</span><span>~12 weeks</span></div>
+                </div>
+                <div class="horizon-card">
+                    <div class="horizon-pillar">💰 Wealth</div>
+                    <div class="horizon-goal">Save ₹5,00,000 emergency fund</div>
+                    <div class="horizon-progress-track"><div class="horizon-progress-fill" style="width:32%;background:var(--wealth)"></div></div>
+                    <div class="horizon-meta"><span>₹1.6L saved</span><span>~6 months</span></div>
+                </div>
+                <div class="horizon-card">
+                    <div class="horizon-pillar">🧠 Mind</div>
+                    <div class="horizon-goal">Sleep 7+ hours consistently for 30 days</div>
+                    <div class="horizon-progress-track"><div class="horizon-progress-fill" style="width:23%;background:var(--mind)"></div></div>
+                    <div class="horizon-meta"><span>7/30 days</span><span>~3 weeks</span></div>
+                </div>
+                <div class="horizon-card">
+                    <div class="horizon-pillar">🌱 Growth</div>
+                    <div class="horizon-goal">Learn conversational Spanish</div>
+                    <div class="horizon-progress-track"><div class="horizon-progress-fill" style="width:8%;background:var(--growth)"></div></div>
+                    <div class="horizon-meta"><span>A1 basics</span><span>~6 months</span></div>
+                </div>
+                <div class="horizon-card">
+                    <div class="horizon-pillar">❤️ Bonds</div>
+                    <div class="horizon-goal">Reconnect with 5 old friends</div>
+                    <div class="horizon-progress-track"><div class="horizon-progress-fill" style="width:40%;background:var(--tribe)"></div></div>
+                    <div class="horizon-meta"><span>2/5 reached out</span><span>~4 weeks</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ SPRINT ═══ -->
+        <section class="sprint-section">
+            <div class="sprint-header">
+                <div class="sprint-header-left">
+                    <h2>Current Sprint</h2>
+                    <p>Focus areas for Days 1–14. At the end, you'll review and recalibrate.</p>
+                </div>
+                <div class="sprint-timer">🔄 9 days remaining</div>
+            </div>
+            <div class="sprint-grid">
+                <div class="sprint-card">
+                    <div class="sprint-card-header">
+                        <span class="sprint-focus">Fix Sleep Routine</span>
+                        <div class="sprint-ring">
+                            <svg viewBox="0 0 36 36">
+                                <circle class="sprint-ring-bg" cx="18" cy="18" r="15.9"></circle>
+                                <circle class="sprint-ring-fill" cx="18" cy="18" r="15.9" style="stroke:var(--mind);stroke-dasharray:100;stroke-dashoffset:55"></circle>
+                            </svg>
+                            <span class="sprint-ring-text">45%</span>
+                        </div>
+                    </div>
+                    <p class="sprint-desc">Bed by 10:30 PM, no screens after 9, caffeine cutoff at 2 PM.</p>
+                    <span class="sprint-agent">🧠 Sleep Optimizer</span>
+                </div>
+                <div class="sprint-card">
+                    <div class="sprint-card-header">
+                        <span class="sprint-focus">Start Training Again</span>
+                        <div class="sprint-ring">
+                            <svg viewBox="0 0 36 36">
+                                <circle class="sprint-ring-bg" cx="18" cy="18" r="15.9"></circle>
+                                <circle class="sprint-ring-fill" cx="18" cy="18" r="15.9" style="stroke:var(--body);stroke-dasharray:100;stroke-dashoffset:40"></circle>
+                            </svg>
+                            <span class="sprint-ring-text">60%</span>
+                        </div>
+                    </div>
+                    <p class="sprint-desc">3x/week bodyweight → gym transition. Progressive overload tracking.</p>
+                    <span class="sprint-agent">💪 Fitness Coach</span>
+                </div>
+                <div class="sprint-card">
+                    <div class="sprint-card-header">
+                        <span class="sprint-focus">Build Morning Routine</span>
+                        <div class="sprint-ring">
+                            <svg viewBox="0 0 36 36">
+                                <circle class="sprint-ring-bg" cx="18" cy="18" r="15.9"></circle>
+                                <circle class="sprint-ring-fill" cx="18" cy="18" r="15.9" style="stroke:var(--growth);stroke-dasharray:100;stroke-dashoffset:70"></circle>
+                            </svg>
+                            <span class="sprint-ring-text">30%</span>
+                        </div>
+                    </div>
+                    <p class="sprint-desc">Wake by 6:30, journal 5 min, hydrate, 20 pages. Habit stacking.</p>
+                    <span class="sprint-agent">🌱 Habit Coach</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ DAILY GRIND ═══ -->
+        <section class="daily-section">
+            <div class="daily-header">
+                <h2>Today's Tasks</h2>
+                <span class="daily-progress-text"><strong>1</strong> of 4 completed</span>
+            </div>
+            <div class="daily-list">
+                <div class="daily-task" onclick="toggleDaily(this)">
+                    <div class="daily-check done"></div>
+                    <div class="daily-task-content">
+                        <div class="daily-task-title done-text">Read 20 pages of Atomic Habits</div>
+                        <div class="daily-task-meta">Generated by Habit Coach · Completed at 7:15 AM</div>
+                    </div>
+                    <span class="daily-pillar-tag">🌱 Growth</span>
+                </div>
+                <div class="daily-task" onclick="toggleDaily(this)">
+                    <div class="daily-check"></div>
+                    <div class="daily-task-content">
+                        <div class="daily-task-title">30-min bodyweight circuit (Push day)</div>
+                        <div class="daily-task-meta">Generated by Fitness Coach · Est. 30 min</div>
+                    </div>
+                    <span class="daily-pillar-tag">💪 Body</span>
+                </div>
+                <div class="daily-task" onclick="toggleDaily(this)">
+                    <div class="daily-check"></div>
+                    <div class="daily-task-content">
+                        <div class="daily-task-title">Journal for 5 minutes — prompt: "What drained my energy today?"</div>
+                        <div class="daily-task-meta">Generated by Sleep Optimizer · Est. 5 min</div>
+                    </div>
+                    <span class="daily-pillar-tag">🧠 Mind</span>
+                </div>
+                <div class="daily-task" onclick="toggleDaily(this)">
+                    <div class="daily-check"></div>
+                    <div class="daily-task-content">
+                        <div class="daily-task-title">No caffeine after 2 PM</div>
+                        <div class="daily-task-meta">Generated by Sleep Optimizer · All day</div>
+                    </div>
+                    <span class="daily-pillar-tag">🧠 Mind</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ GROWTH TREE ═══ -->
+        <section class="tree-section">
+            <div class="card tree-card" style="cursor: pointer; transition: transform 0.2s, border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.borderColor=''; this.style.transform='';" onclick="window.location.href='tree.html'">
+                <div class="tree-visual">
+                    <svg width="160" height="180" viewBox="0 0 160 180">
+                        <!-- Ground -->
+                        <ellipse cx="80" cy="170" rx="50" ry="8" fill="rgba(110,231,183,0.06)" />
+                        <!-- Trunk -->
+                        <rect x="74" y="100" width="12" height="70" rx="4" fill="rgba(255,255,255,0.1)" />
+                        <!-- Small branches -->
+                        <line x1="80" y1="120" x2="55" y2="105" stroke="rgba(255,255,255,0.08)" stroke-width="3" stroke-linecap="round"/>
+                        <line x1="80" y1="110" x2="110" y2="95" stroke="rgba(255,255,255,0.08)" stroke-width="3" stroke-linecap="round"/>
+                        <!-- Leaves / Canopy -->
+                        <circle cx="50" cy="98" r="14" fill="rgba(167,139,250,0.15)" />
+                        <circle cx="80" cy="75" r="20" fill="rgba(110,231,183,0.15)" />
+                        <circle cx="110" cy="88" r="16" fill="rgba(125,211,252,0.12)" />
+                        <circle cx="65" cy="70" r="12" fill="rgba(249,168,212,0.1)" />
+                        <circle cx="95" cy="65" r="10" fill="rgba(251,191,36,0.1)" />
+                        <!-- Glow dots for completed tasks -->
+                        <circle cx="80" cy="68" r="3" fill="var(--body)" opacity="0.7">
+                            <animate attributeName="opacity" values="0.7;0.3;0.7" dur="3s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="50" cy="95" r="2.5" fill="var(--mind)" opacity="0.5">
+                            <animate attributeName="opacity" values="0.5;0.2;0.5" dur="2.5s" repeatCount="indefinite"/>
+                        </circle>
+                    </svg>
+                </div>
+                <div class="tree-info">
+                    <h3>Your Growth Tree</h3>
+                    <p>Every completed task adds energy to your tree. Each pillar grows its own branch. As you level up, your tree transforms.</p>
+                    <div class="tree-stages">
+                        <span class="tree-stage past">🌰 Seed</span>
+                        <span class="tree-stage current">🌱 Sprout</span>
+                        <span class="tree-stage">🌿 Sapling</span>
+                        <span class="tree-stage">🌳 Tree</span>
+                        <span class="tree-stage">🏔️ Ancient</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function toggleDaily(el) {
+            const c = el.querySelector('.daily-check');
+            const t = el.querySelector('.daily-task-title');
+            c.classList.toggle('done');
+            t.classList.toggle('done-text');
+        }
+    </script>
+</body>
+</html>

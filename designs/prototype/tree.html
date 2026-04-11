@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith — Growth Tree</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { overflow: hidden; background: #050507; }
+
+        .tree-page {
+            width: 100vw;
+            height: calc(100vh - 53px);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ═══ CANVAS LAYER ═══ */
+        #treeCanvas {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        /* ═══ UI OVERLAY ═══ */
+        .tree-ui {
+            position: relative;
+            z-index: 10;
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .tree-ui > * { pointer-events: auto; }
+
+        /* ─── Top Bar ─── */
+        .tree-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 24px 40px 0;
+        }
+
+        .tree-title-area {
+            opacity: 0;
+            animation: fadeUp 0.8s ease 0.3s forwards;
+        }
+
+        .tree-stage-name {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-tertiary);
+            font-weight: 600;
+        }
+
+        .tree-level-name {
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-top: 2px;
+            background: linear-gradient(135deg, #6ee7b7, #7dd3fc, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tree-xp-area {
+            opacity: 0;
+            animation: fadeUp 0.8s ease 0.5s forwards;
+            text-align: right;
+        }
+
+        .tree-xp-label {
+            font-size: 11px;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .tree-xp-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 6px;
+        }
+
+        .tree-xp-bar {
+            width: 200px;
+            height: 6px;
+            background: rgba(255,255,255,0.06);
+            border-radius: 100px;
+            overflow: hidden;
+        }
+
+        .tree-xp-fill {
+            height: 100%;
+            border-radius: 100px;
+            background: linear-gradient(90deg, #6ee7b7, #a78bfa);
+            width: 0%;
+            transition: width 2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .tree-xp-text {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        /* ─── Stage Progression ─── */
+        .tree-stages-bar {
+            position: absolute;
+            bottom: 210px; /* Positions it right above the branch-panel near the roots */
+            left: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            opacity: 0;
+            animation: fadeUp 0.8s ease 0.7s forwards;
+        }
+
+        .stage-node {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            position: relative;
+            z-index: 2;
+        }
+
+        .stage-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            background: var(--bg-primary);
+            transition: all 0.3s;
+        }
+
+        .stage-node.completed .stage-icon {
+            border-color: var(--body);
+            box-shadow: 0 0 16px rgba(110, 231, 183, 0.2);
+        }
+
+        .stage-node.current .stage-icon {
+            border-color: var(--body);
+            box-shadow: 0 0 20px rgba(110, 231, 183, 0.3), 0 0 40px rgba(110, 231, 183, 0.1);
+            animation: glowPulse 2s infinite;
+        }
+
+        .stage-name {
+            font-size: 10px;
+            color: var(--text-tertiary);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stage-node.current .stage-name { color: var(--body); }
+        .stage-node.completed .stage-name { color: var(--text-secondary); }
+
+        .stage-line {
+            width: 60px;
+            height: 2px;
+            background: rgba(255,255,255,0.06);
+            margin: 0 -1px;
+            margin-bottom: 20px;
+            z-index: 1;
+        }
+
+        .stage-line.completed {
+            background: linear-gradient(90deg, var(--body), var(--body));
+            box-shadow: 0 0 8px rgba(110, 231, 183, 0.15);
+        }
+
+        .stage-line.active {
+            background: linear-gradient(90deg, var(--body), rgba(255,255,255,0.06));
+        }
+
+        /* ─── Spacer pushes bottom panel down ─── */
+        .tree-spacer { flex: 1; }
+
+        /* ─── Branch Detail Panel ─── */
+        .branch-panel {
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            gap: 2px;
+            padding: 0 40px 28px;
+            opacity: 0;
+            animation: fadeUp 0.8s ease 1s forwards;
+        }
+
+        .branch-card {
+            flex: 1;
+            max-width: 240px;
+            background: rgba(17, 17, 19, 0.7);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            padding: 18px;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .branch-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            opacity: 0.6;
+            transition: opacity 0.3s;
+        }
+
+        .branch-card:nth-child(1)::before { background: var(--mind); }
+        .branch-card:nth-child(2)::before { background: var(--body); }
+        .branch-card:nth-child(3)::before { background: var(--wealth); }
+        .branch-card:nth-child(4)::before { background: var(--tribe); }
+        .branch-card:nth-child(5)::before { background: var(--growth); }
+
+        .branch-card:hover {
+            border-color: rgba(255,255,255,0.12);
+            transform: translateY(-4px);
+        }
+
+        .branch-card:hover::before { opacity: 1; }
+
+        .branch-card.active {
+            border-color: rgba(255,255,255,0.15);
+            background: rgba(24, 24, 27, 0.8);
+        }
+
+        .branch-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .branch-pillar {
+            font-size: 13px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .branch-score {
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .branch-tasks {
+            font-size: 11px;
+            color: var(--text-tertiary);
+            margin-bottom: 8px;
+        }
+
+        .branch-bar-track {
+            height: 4px;
+            background: rgba(255,255,255,0.06);
+            border-radius: 100px;
+            overflow: hidden;
+            margin-bottom: 8px;
+        }
+
+        .branch-bar-fill {
+            height: 100%;
+            border-radius: 100px;
+            width: 0%;
+            transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .branch-streak {
+            display: flex;
+            gap: 3px;
+        }
+
+        .streak-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 2px;
+            background: rgba(255,255,255,0.06);
+        }
+
+        .streak-dot.lit { background: var(--body); opacity: 0.7; }
+        .streak-dot.today { box-shadow: 0 0 6px var(--body); }
+
+        /* ─── Floating Stats ─── */
+        .floating-stats {
+            position: absolute;
+            bottom: 200px;
+            left: 40px;
+            z-index: 10;
+            opacity: 0;
+            animation: fadeUp 0.8s ease 1.2s forwards;
+        }
+
+        .float-stat {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 0;
+        }
+
+        .float-stat-value {
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .float-stat-label {
+            font-size: 11px;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* ─── Back button ─── */
+        .tree-back {
+            position: absolute;
+            top: 70px;
+            right: 40px;
+            z-index: 10;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            color: var(--text-tertiary);
+            font-size: 12px;
+            font-family: inherit;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.15s;
+            opacity: 0;
+            animation: fadeUp 0.8s ease 0.5s forwards;
+        }
+
+        .tree-back:hover {
+            background: rgba(255,255,255,0.08);
+            color: var(--text-secondary);
+        }
+
+        @keyframes glowPulse {
+            0%, 100% { box-shadow: 0 0 20px rgba(110,231,183,0.3), 0 0 40px rgba(110,231,183,0.1); }
+            50% { box-shadow: 0 0 28px rgba(110,231,183,0.45), 0 0 56px rgba(110,231,183,0.15); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ═══ NAVBAR ═══ -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="dashboard.html">
+            <div class="navbar-logo">Z</div>
+            <span class="navbar-name">Zenith</span>
+        </a>
+        <div class="navbar-center">
+            <a class="nav-tab" href="dashboard.html">Dashboard</a>
+            <a class="nav-tab" href="council.html">Council</a>
+            <a class="nav-tab" href="roadmap.html">Roadmap</a>
+            <a class="nav-tab" href="retrospective.html">Retrospective</a>
+        </div>
+        <div class="navbar-right">
+            <div class="energy-badge">
+                ⚡ 18/20
+                <div class="energy-bar-mini"><div class="energy-bar-mini-fill" style="width:90%"></div></div>
+            </div>
+            <div class="navbar-avatar">R</div>
+        </div>
+    </nav>
+
+    <div class="tree-page">
+        <canvas id="treeCanvas"></canvas>
+
+        <div class="tree-ui">
+
+            <!-- Top Info -->
+            <div class="tree-top">
+                <div class="tree-title-area">
+                    <div class="tree-stage-name">Current Stage</div>
+                    <div class="tree-level-name">Sprout</div>
+                </div>
+                <div class="tree-xp-area">
+                    <div class="tree-xp-label">Growth XP</div>
+                    <div class="tree-xp-row">
+                        <div class="tree-xp-bar"><div class="tree-xp-fill" id="xpFill"></div></div>
+                        <span class="tree-xp-text">240 / 500</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stage Progression -->
+            <!-- The UI overlay spacer -->
+            <div class="tree-spacer"></div>
+
+            <div class="tree-stages-bar">
+                <div class="stage-node completed">
+                    <div class="stage-icon">🌰</div>
+                    <span class="stage-name">Seed</span>
+                </div>
+                <div class="stage-line completed"></div>
+                <div class="stage-node current">
+                    <div class="stage-icon">🌱</div>
+                    <span class="stage-name">Sprout</span>
+                </div>
+                <div class="stage-line active"></div>
+                <div class="stage-node">
+                    <div class="stage-icon">🌿</div>
+                    <span class="stage-name">Sapling</span>
+                </div>
+                <div class="stage-line"></div>
+                <div class="stage-node">
+                    <div class="stage-icon">🌳</div>
+                    <span class="stage-name">Mighty Oak</span>
+                </div>
+                <div class="stage-line"></div>
+                <div class="stage-node">
+                    <div class="stage-icon">✨</div>
+                    <span class="stage-name">Ancient</span>
+                </div>
+                <div class="stage-line"></div>
+                <div class="stage-node">
+                    <div class="stage-icon">🌌</div>
+                    <span class="stage-name">Celestial</span>
+                </div>
+            </div>
+
+            <!-- Floating Stats (Left) -->
+            <div class="floating-stats">
+                <div class="float-stat">
+                    <span class="float-stat-value">24</span>
+                    <span class="float-stat-label">Tasks Done</span>
+                </div>
+                <div class="float-stat">
+                    <span class="float-stat-value" style="color:var(--grade-c);">10</span>
+                    <span class="float-stat-label">Day Streak</span>
+                </div>
+                <div class="float-stat">
+                    <span class="float-stat-value" style="color:var(--body);">68</span>
+                    <span class="float-stat-label">Life Score</span>
+                </div>
+            </div>
+
+            <!-- Branch Detail Panel -->
+            <div class="branch-panel">
+                <div class="branch-card" data-pillar="mind" onmouseenter="highlightBranch(0)" onmouseleave="unhighlight()">
+                    <div class="branch-head">
+                        <span class="branch-pillar"><span>🧠</span> Mind</span>
+                        <span class="branch-score" style="color:var(--mind)">76</span>
+                    </div>
+                    <div class="branch-tasks">6 tasks completed</div>
+                    <div class="branch-bar-track"><div class="branch-bar-fill" style="background:var(--mind)" data-w="76"></div></div>
+                    <div class="branch-streak">
+                        <div class="streak-dot lit"></div><div class="streak-dot lit"></div><div class="streak-dot lit"></div>
+                        <div class="streak-dot"></div><div class="streak-dot lit"></div><div class="streak-dot lit"></div>
+                        <div class="streak-dot lit today"></div>
+                    </div>
+                </div>
+                <div class="branch-card" data-pillar="body" onmouseenter="highlightBranch(1)" onmouseleave="unhighlight()">
+                    <div class="branch-head">
+                        <span class="branch-pillar"><span>💪</span> Body</span>
+                        <span class="branch-score" style="color:var(--body)">87</span>
+                    </div>
+                    <div class="branch-tasks">8 tasks completed</div>
+                    <div class="branch-bar-track"><div class="branch-bar-fill" style="background:var(--body)" data-w="87"></div></div>
+                    <div class="branch-streak">
+                        <div class="streak-dot lit"></div><div class="streak-dot lit"></div><div class="streak-dot lit"></div>
+                        <div class="streak-dot lit"></div><div class="streak-dot lit"></div><div class="streak-dot lit"></div>
+                        <div class="streak-dot lit today"></div>
+                    </div>
+                </div>
+                <div class="branch-card" data-pillar="wealth" onmouseenter="highlightBranch(2)" onmouseleave="unhighlight()">
+                    <div class="branch-head">
+                        <span class="branch-pillar"><span>💰</span> Wealth</span>
+                        <span class="branch-score" style="color:var(--wealth)">51</span>
+                    </div>
+                    <div class="branch-tasks">2 tasks completed</div>
+                    <div class="branch-bar-track"><div class="branch-bar-fill" style="background:var(--wealth)" data-w="51"></div></div>
+                    <div class="branch-streak">
+                        <div class="streak-dot"></div><div class="streak-dot"></div><div class="streak-dot"></div>
+                        <div class="streak-dot"></div><div class="streak-dot"></div><div class="streak-dot lit"></div>
+                        <div class="streak-dot lit today"></div>
+                    </div>
+                </div>
+                <div class="branch-card" data-pillar="tribe" onmouseenter="highlightBranch(3)" onmouseleave="unhighlight()">
+                    <div class="branch-head">
+                        <span class="branch-pillar"><span>❤️</span> Bonds</span>
+                        <span class="branch-score" style="color:var(--tribe)">42</span>
+                    </div>
+                    <div class="branch-tasks">4 tasks completed</div>
+                    <div class="branch-bar-track"><div class="branch-bar-fill" style="background:var(--tribe)" data-w="42"></div></div>
+                    <div class="branch-streak">
+                        <div class="streak-dot"></div><div class="streak-dot lit"></div><div class="streak-dot"></div>
+                        <div class="streak-dot lit"></div><div class="streak-dot"></div><div class="streak-dot lit"></div>
+                        <div class="streak-dot lit today"></div>
+                    </div>
+                </div>
+                <div class="branch-card" data-pillar="growth" onmouseenter="highlightBranch(4)" onmouseleave="unhighlight()">
+                    <div class="branch-head">
+                        <span class="branch-pillar"><span>🌱</span> Growth</span>
+                        <span class="branch-score" style="color:var(--growth)">72</span>
+                    </div>
+                    <div class="branch-tasks">4 tasks completed</div>
+                    <div class="branch-bar-track"><div class="branch-bar-fill" style="background:var(--growth)" data-w="72"></div></div>
+                    <div class="branch-streak">
+                        <div class="streak-dot lit"></div><div class="streak-dot lit"></div><div class="streak-dot lit"></div>
+                        <div class="streak-dot lit"></div><div class="streak-dot"></div><div class="streak-dot lit"></div>
+                        <div class="streak-dot lit today"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════
+// THE GROWTH TREE — A Living, Breathing Canvas Visualization
+// ═══════════════════════════════════════════════════════════════
+
+const canvas = document.getElementById('treeCanvas');
+const ctx = canvas.getContext('2d');
+let W, H, cx, groundY;
+let activeBranch = -1;
+let time = 0;
+
+const PILLAR_COLORS = [
+    { r:167, g:139, b:250 }, // Mind - lavender
+    { r:110, g:231, b:183 }, // Body - sage
+    { r:251, g:191, b:36  }, // Wealth - amber
+    { r:249, g:168, b:212 }, // Tribe - rose
+    { r:125, g:211, b:252 }, // Growth - sky
+];
+
+const PILLAR_SCORES = [76, 87, 51, 42, 72]; // out of 100
+
+// ─── Particles ───
+let particles = [];
+let fireflies = [];
+let leaves = [];
+
+class Particle {
+    constructor(x, y, color, size) {
+        this.x = x;
+        this.y = y;
+        this.baseX = x;
+        this.color = color;
+        this.size = size || Math.random() * 2 + 0.5;
+        this.speedY = -(Math.random() * 0.6 + 0.2);
+        this.speedX = (Math.random() - 0.5) * 0.3;
+        this.alpha = Math.random() * 0.5 + 0.3;
+        this.life = Math.random() * 120 + 60;
+        this.maxLife = this.life;
+        this.wobbleSpeed = Math.random() * 0.02 + 0.01;
+        this.wobbleAmp = Math.random() * 15 + 5;
+    }
+
+    update() {
+        this.life--;
+        this.y += this.speedY;
+        this.x = this.baseX + Math.sin(time * this.wobbleSpeed + this.baseX) * this.wobbleAmp;
+        this.alpha = (this.life / this.maxLife) * 0.5;
+        return this.life > 0;
+    }
+
+    draw() {
+        const { r, g, b } = this.color;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${r},${g},${b},${this.alpha})`;
+        ctx.fill();
+
+        // Glow
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size * 3, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${r},${g},${b},${this.alpha * 0.15})`;
+        ctx.fill();
+    }
+}
+
+class Firefly {
+    constructor() {
+        this.reset();
+    }
+
+    reset() {
+        this.x = Math.random() * W;
+        this.y = groundY - Math.random() * (H * 0.7);
+        this.size = Math.random() * 2 + 1;
+        this.alpha = 0;
+        this.targetAlpha = Math.random() * 0.4 + 0.1;
+        this.speed = Math.random() * 0.003 + 0.001;
+        this.angle = Math.random() * Math.PI * 2;
+        this.radius = Math.random() * 40 + 20;
+        this.centerX = this.x;
+        this.centerY = this.y;
+        this.fadeSpeed = Math.random() * 0.008 + 0.003;
+        this.phase = Math.random() * Math.PI * 2;
+    }
+
+    update() {
+        this.angle += this.speed;
+        this.x = this.centerX + Math.cos(this.angle) * this.radius;
+        this.y = this.centerY + Math.sin(this.angle * 0.7) * this.radius * 0.5;
+
+        // Breathing alpha
+        this.alpha = this.targetAlpha * (0.5 + 0.5 * Math.sin(time * this.fadeSpeed + this.phase));
+    }
+
+    draw() {
+        const warmth = Math.random() > 0.5;
+        const r = warmth ? 200 : 150;
+        const g = warmth ? 220 : 230;
+        const b = warmth ? 180 : 255;
+
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${r},${g},${b},${this.alpha})`;
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size * 4, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${r},${g},${b},${this.alpha * 0.1})`;
+        ctx.fill();
+    }
+}
+
+// ─── Tree Structure ───
+
+function drawTrunk(progress) {
+    const trunkH = H * 0.12 * progress;
+    const trunkW = 16;
+    const baseY = groundY;
+    const topY = baseY - trunkH;
+
+    // Trunk
+    const grad = ctx.createLinearGradient(cx, baseY, cx, topY);
+    grad.addColorStop(0, 'rgba(80, 70, 60, 0.6)');
+    grad.addColorStop(1, 'rgba(60, 55, 50, 0.3)');
+
+    ctx.beginPath();
+    ctx.moveTo(cx - trunkW/2, baseY);
+    ctx.quadraticCurveTo(cx - trunkW/2 - 2, baseY - trunkH * 0.5, cx - 4, topY);
+    ctx.lineTo(cx + 4, topY);
+    ctx.quadraticCurveTo(cx + trunkW/2 + 2, baseY - trunkH * 0.5, cx + trunkW/2, baseY);
+    ctx.fillStyle = grad;
+    ctx.fill();
+
+    // Subtle trunk texture lines
+    for (let i = 0; i < 5; i++) {
+        const y = baseY - (trunkH * (i + 1) / 6);
+        ctx.beginPath();
+        ctx.moveTo(cx - trunkW/3, y);
+        ctx.lineTo(cx + trunkW/3, y + 2);
+        ctx.strokeStyle = 'rgba(255,255,255,0.03)';
+        ctx.lineWidth = 0.5;
+        ctx.stroke();
+    }
+
+    return { topY, baseY, trunkH };
+}
+
+function drawBranch(startX, startY, angle, length, thickness, color, pillarIdx, progress, depth = 0) {
+    if (depth > 4 || length < 8) return;
+
+    const endX = startX + Math.cos(angle) * length * progress;
+    const endY = startY + Math.sin(angle) * length * progress;
+
+    const { r, g, b } = color;
+    const isHighlighted = activeBranch === pillarIdx;
+    const baseAlpha = isHighlighted ? 0.7 : (activeBranch === -1 ? 0.35 : 0.1);
+    const glowAlpha = isHighlighted ? 0.15 : 0;
+
+    // Branch glow
+    if (glowAlpha > 0) {
+        ctx.beginPath();
+        ctx.moveTo(startX, startY);
+        ctx.lineTo(endX, endY);
+        ctx.strokeStyle = `rgba(${r},${g},${b},${glowAlpha})`;
+        ctx.lineWidth = thickness * 4;
+        ctx.lineCap = 'round';
+        ctx.stroke();
+    }
+
+    // Branch itself
+    ctx.beginPath();
+    ctx.moveTo(startX, startY);
+    ctx.lineTo(endX, endY);
+    ctx.strokeStyle = `rgba(${r},${g},${b},${baseAlpha})`;
+    ctx.lineWidth = thickness;
+    ctx.lineCap = 'round';
+    ctx.stroke();
+
+    // Sub branches
+    if (progress > 0.3 && depth < 3) {
+        const subLen = length * (0.55 + Math.random() * 0.15);
+        const subThick = thickness * 0.6;
+        const spreadAngle = 0.4 + Math.random() * 0.3;
+
+        drawBranch(endX, endY, angle - spreadAngle, subLen, subThick, color, pillarIdx, progress, depth + 1);
+        drawBranch(endX, endY, angle + spreadAngle, subLen, subThick, color, pillarIdx, progress, depth + 1);
+
+        if (Math.random() > 0.5) {
+            drawBranch(endX, endY, angle + (Math.random() - 0.5) * 0.3, subLen * 0.8, subThick * 0.8, color, pillarIdx, progress, depth + 1);
+        }
+    }
+
+    // Leaf nodes at tips
+    if (depth >= 2 && progress > 0.5) {
+        const leafAlpha = isHighlighted ? 0.5 : (activeBranch === -1 ? 0.2 : 0.05);
+        const breathe = 0.8 + 0.2 * Math.sin(time * 0.02 + endX * 0.01);
+        const leafSize = (4 + thickness) * breathe;
+
+        // Outer glow
+        ctx.beginPath();
+        ctx.arc(endX, endY, leafSize * 2, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${r},${g},${b},${leafAlpha * 0.15 * breathe})`;
+        ctx.fill();
+
+        // Core
+        ctx.beginPath();
+        ctx.arc(endX, endY, leafSize, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${r},${g},${b},${leafAlpha * breathe})`;
+        ctx.fill();
+
+        // Spawn particles occasionally
+        if (Math.random() < 0.008 && (isHighlighted || activeBranch === -1)) {
+            particles.push(new Particle(endX, endY, color, Math.random() * 1.5 + 0.5));
+        }
+    }
+}
+
+function drawGround() {
+    // Gradient ground glow
+    const grad = ctx.createRadialGradient(cx, groundY + 20, 10, cx, groundY + 20, W * 0.45);
+    grad.addColorStop(0, 'rgba(110, 231, 183, 0.04)');
+    grad.addColorStop(0.5, 'rgba(110, 231, 183, 0.015)');
+    grad.addColorStop(1, 'rgba(0, 0, 0, 0)');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, groundY - 40, W, 120);
+
+    // Ground line
+    ctx.beginPath();
+    ctx.moveTo(cx - W * 0.35, groundY);
+    ctx.lineTo(cx + W * 0.35, groundY);
+    ctx.strokeStyle = 'rgba(255,255,255,0.04)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+
+    // Root tendrils
+    for (let i = 0; i < 5; i++) {
+        const rx = cx + (i - 2) * 30;
+        const depth = 15 + Math.random() * 20;
+        ctx.beginPath();
+        ctx.moveTo(rx, groundY);
+        ctx.quadraticCurveTo(rx + (Math.random()-0.5)*20, groundY + depth/2, rx + (Math.random()-0.5)*40, groundY + depth);
+        ctx.strokeStyle = 'rgba(80, 70, 60, 0.15)';
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+    }
+}
+
+function drawStars() {
+    if (!window._stars) {
+        window._stars = [];
+        for (let i = 0; i < 80; i++) {
+            window._stars.push({
+                x: Math.random() * W,
+                y: Math.random() * H * 0.6,
+                size: Math.random() * 1.2 + 0.3,
+                phase: Math.random() * Math.PI * 2,
+                speed: Math.random() * 0.01 + 0.005,
+            });
+        }
+    }
+
+    window._stars.forEach(s => {
+        const a = 0.15 + 0.1 * Math.sin(time * s.speed + s.phase);
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, s.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(200, 210, 230, ${a})`;
+        ctx.fill();
+    });
+}
+
+// ─── Animation Loop ───
+let growthAnim = 0;
+
+function resize() {
+    W = canvas.width = canvas.offsetWidth * 2;
+    H = canvas.height = canvas.offsetHeight * 2;
+    ctx.scale(1, 1);
+    cx = W / 2;
+    groundY = H * 0.72;
+
+    // Recreate fireflies
+    fireflies = [];
+    for (let i = 0; i < 25; i++) {
+        fireflies.push(new Firefly());
+    }
+
+    window._stars = null;
+}
+
+function render() {
+    time++;
+    ctx.clearRect(0, 0, W, H);
+
+    // Background gradient
+    const bg = ctx.createRadialGradient(cx, groundY * 0.5, 0, cx, groundY * 0.5, H);
+    bg.addColorStop(0, '#0a0b10');
+    bg.addColorStop(1, '#050507');
+    ctx.fillStyle = bg;
+    ctx.fillRect(0, 0, W, H);
+
+    drawStars();
+    drawGround();
+
+    // Animate growth
+    if (growthAnim < 1) growthAnim += 0.008;
+    const ease = 1 - Math.pow(1 - growthAnim, 3);
+
+    const trunk = drawTrunk(ease);
+
+    // 5 main branches — each for a pillar
+    const branchAngles = [
+        -Math.PI * 0.85,  // Mind - far left
+        -Math.PI * 0.65,  // Body - left
+        -Math.PI * 0.5,   // Wealth - center up
+        -Math.PI * 0.35,  // Tribe - right
+        -Math.PI * 0.15,  // Growth - far right
+    ];
+
+    const branchStartY = trunk.topY;
+
+    PILLAR_SCORES.forEach((score, i) => {
+        const branchLen = (score / 100) * H * 0.2 + H * 0.06;
+        const thickness = (score / 100) * 4 + 2;
+        const startOffset = (i - 2) * 8;
+
+        drawBranch(
+            cx + startOffset, branchStartY + Math.abs(startOffset) * 0.3,
+            branchAngles[i],
+            branchLen,
+            thickness,
+            PILLAR_COLORS[i],
+            i,
+            ease
+        );
+    });
+
+    // Update and draw particles
+    particles = particles.filter(p => {
+        const alive = p.update();
+        if (alive) p.draw();
+        return alive;
+    });
+
+    // Update and draw fireflies
+    fireflies.forEach(f => {
+        f.update();
+        f.draw();
+    });
+
+    requestAnimationFrame(render);
+}
+
+function highlightBranch(idx) {
+    activeBranch = idx;
+}
+
+function unhighlight() {
+    activeBranch = -1;
+}
+
+// ─── Init ───
+window.addEventListener('resize', resize);
+resize();
+render();
+
+// Animate XP bar and branch bars
+setTimeout(() => {
+    document.getElementById('xpFill').style.width = '48%';
+    document.querySelectorAll('.branch-bar-fill').forEach(b => {
+        b.style.width = b.dataset.w + '%';
+    });
+}, 500);
+</script>
+
+</body>
+</html>
