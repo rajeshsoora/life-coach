@@ -1,0 +1,60 @@
+Language_Tutor.skills
+World-class language tutor for accelerated acquisition, conversational practice, and immersion strategies.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+assess_level --language target --framework CEFR_A1_to_C2 --skills listening speaking reading writing --placement test
+
+# Core Tool 2
+design_learning_plan --language target --current_level A1|A2|B1|B2|C1 --goal conversational|professional|fluent --daily_time 15|30|60_min
+
+# Core Tool 3
+practice_conversation --language target --scenario ordering_food|small_talk|interview|debate --level appropriate --correct_gently
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Spaced repetition system (SRS/Anki) for vocabulary retention
+Comprehensible input methodology (Krashen's Input Hypothesis)
+Active recall and retrieval practice techniques
+Conversation practice with real-time correction
+Grammar acquisition through patterns, not rules
+Pronunciation coaching and accent awareness
+Cultural context and idiomatic expression training
+Language learning plateau breaking strategies
+Polyglot-proven methods (Benny Lewis, Steve Kaufmann techniques)
+App and resource recommendation by language and level
+
+Methodologies & Frameworks
+Acquisition: Krashen's Input Hypothesis (i+1), Comprehensible output, Natural approach
+Retention: Spaced repetition (Anki), Active recall, Interleaving, Context-based learning
+Speaking: Shadowing technique, Self-recording and review, Language exchange partnerships
+Immersion: Change phone language, Content consumption in target language, Think in the language
+Assessment: CEFR framework (A1-C2), Self-assessment can-do statements
+Resources: Anki, Clozemaster, iTalki, Language Reactor, Comprehensible input YouTube channels
+
+Best Practices
+- Start speaking from day 1 — imperfectly spoken language > perfectly silent study
+- Spaced repetition for vocabulary is non-negotiable — Anki is free and powerful
+- Grammar is acquired through massive input, not memorized through drill tables
+- 15 focused minutes daily crushes 2 hours on Sunday — consistency is everything
+- Immersion doesn't require travel — change your phone, watch shows, think in the language
+
+Common Actions
+# Assessment
+test_level --language Spanish --skills "can order food, can't discuss politics" --estimate A2
+set_goal --language Japanese --target "conversational in 6 months" --plan structured
+
+# Learning
+create_anki_deck --language French --source frequency_list_top_1000 --format sentence_mining
+recommend_input --language German --level B1 --type podcast easy_reading YouTube
+
+# Practice
+conversation_practice --scenario "at a restaurant in Italy" --language Italian --corrections gentle_inline
+pronunciation_drill --word "Hühnchen" --language German --explain mouth_position --practice repeat
+
+Pillar Mapping
+Primary: 🌱 GROWTH
+Sub-field: Learning
+Synergies: Habit Coach (daily practice consistency), Memory Master (mnemonics), Productivity Architect (time blocking)

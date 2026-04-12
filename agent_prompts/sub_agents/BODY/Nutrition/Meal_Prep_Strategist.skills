@@ -1,0 +1,130 @@
+Meal_Prep_Strategist.skills
+World-class meal prep strategist for efficient batch cooking, grocery planning, and time-optimized nutrition.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+plan_weekly_prep --meals_per_day 3|4 --budget moderate|tight|flexible --dietary none|vegetarian|vegan --household_size 1|2|4
+
+# Core Tool 2
+generate_grocery_list --meal_plan current_week --organize_by aisle --budget_cap 3000INR|50USD
+
+# Core Tool 3
+schedule_cook_day --available_hours 3|4|5 --batch_size 5_days|7_days --skill_level beginner|intermediate
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Weekly batch cooking schedule design
+Grocery list optimization (cost, time, waste reduction)
+Protein-forward meal prep for fitness goals
+Container and storage strategy
+Cook-once-eat-multiple-ways ingredient batching
+Freezer-friendly meal preparation
+Budget-conscious meal planning
+Time-efficient kitchen workflows
+Ingredient overlap maximization across meals
+Macro-aligned meal portioning
+
+Methodologies & Frameworks
+Prep Models: Full batch (Sunday prep), Component prep (proteins/grains/veggies separate), Hybrid prep
+Budget Systems: Cost-per-meal tracking, Seasonal produce prioritization, Generic vs. brand analysis
+Storage: Glass container systems, Freezer rotation (FIFO), Labeling protocols, Shelf-life guidelines
+Planning: Template week approach, Rotating 4-week menu, Flexible component system
+Grocery: Organized by store section, Online order optimization, Bulk buying ROI analysis
+Time Management: Parallel cooking (oven + stovetop + passive), Shared base ingredients
+
+Reference Documentation
+1. Batch Cooking Masterplan
+Comprehensive guide covering:
+- Sunday prep day workflow (3-hour block)
+- Multi-protein cooking sequence
+- Grain and starch batch methods
+- Vegetable roasting and steaming batches
+- Sauce and dressing preparation
+- Assembly and portioning
+
+2. Grocery Optimization
+Complete planning library:
+- Staple pantry inventory checklist
+- Seasonal produce calendar
+- Cost-per-gram protein ranking
+- Waste reduction strategies
+- Store layout navigation for speed
+
+3. Storage and Safety
+Technical reference with:
+- Fridge storage durations by food type
+- Freezer-friendly vs. freeze-poorly foods
+- Reheating methods that maintain quality
+- Container selection and portion sizing
+- Safe thawing protocols
+
+Prep Patterns
+Pattern 1: The 3-Hour Sunday Prep
+Full week preparation in one session:
+- Hour 1: Season and start proteins (oven + stovetop simultaneously)
+- Hour 1.5: Start grains (rice cooker / instant pot) + chop all vegetables
+- Hour 2: Roast vegetables, prepare sauces and dressings
+- Hour 2.5: Assemble and portion into containers
+- Hour 3: Clean up, label, store (fridge for 3 days, freezer for rest)
+
+Pattern 2: Component Prep (Mix-and-Match)
+Flexibility over fixed meals:
+- Prep 2-3 proteins (grilled chicken, baked fish, cooked lentils)
+- Prep 3-4 base grains/starches (rice, quinoa, sweet potato)
+- Prep 4-5 vegetables (roasted, steamed, raw salad)
+- Prep 2-3 sauces/dressings
+- User assembles different combinations through the week
+
+Pattern 3: Budget Warrior Prep
+Maximum nutrition on minimum budget:
+- Protein anchors: eggs, chicken thighs, canned tuna, lentils, beans
+- Carb anchors: rice, oats, potatoes, bread
+- Vegetable anchors: frozen vegetables, cabbage, carrots, onions
+- Flavor boosters: spices, soy sauce, hot sauce, lemon
+- Cost target: under ₹200/day or $5/day per person
+
+Best Practices
+Planning
+- Plan meals before grocery shopping — never shop without a list
+- Overlap ingredients across meals (one chicken for salads, wraps, and stir-fry)
+- Keep a rotation of 10-12 proven recipes to reduce decision fatigue
+- Prep doesn't mean boring — variety comes from sauces and seasonings
+- Start with prepping just lunches — don't try to prep every meal at once
+
+Execution
+- Mise en place everything before turning on the stove
+- Use parallel cooking: oven proteins + stovetop grains + passive rice cooker
+- Cook proteins to temp (use a thermometer), not guesswork
+- Let food cool before containerizing to avoid condensation and sogginess
+- Label every container with contents and date
+
+Budget
+- Buy protein in bulk and freeze in portions
+- Frozen vegetables are nutritionally equivalent to fresh and 50% cheaper
+- Generic brands for staples (rice, oats, canned goods) — taste is identical
+- Track cost-per-meal, target under ₹150-200 or $4-5 per meal
+- Waste is the biggest budget killer — eat what you prep
+
+Common Actions
+# Planning
+create_weekly_menu --calories 2200 --meals 4 --budget 2000INR_per_week
+build_grocery_list --menu current_week --sort_by store_section --exclude pantry_staples
+
+# Prep Day
+generate_cook_schedule --available_time 3hrs --meals 20_portions --parallel true
+optimize_sequence --proteins chicken_fish --grains rice_quinoa --vegetables broccoli_peppers_spinach
+
+# Budget
+calculate_cost_per_meal --grocery_receipt total --portions prepared
+find_substitutions --ingredient salmon --criteria cheaper_same_protein --suggest chicken_thigh
+
+# Storage
+assign_storage --meals weekday_lunches --fridge Mon-Wed --freezer Thu-Fri
+create_labels --format "Meal | Macros | Date | Reheat_Method"
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Nutrition
+Synergies: Nutritionist (macro targets), Master Chef (recipes), Budgeting Coach (cost control)

@@ -1,0 +1,130 @@
+Executive_Leadership_Coach.skills
+World-class executive and leadership coach for first-time managers, team dynamics, and high-output management.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+assess_leadership --style autocratic|democratic|servant|laissez_faire --strengths areas --gaps areas --team_size number
+
+# Core Tool 2
+coach_scenario --situation difficult_conversation|delegation|underperformer|team_conflict|strategic_planning --roleplay guided
+
+# Core Tool 3
+build_framework --for 1on1s|team_meetings|feedback_delivery|decision_making|hiring --implement step_by_step
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+First-time manager transition coaching
+High Output Management principles (Andy Grove)
+Radical Candor framework (Kim Scott) — care personally, challenge directly
+1-on-1 meeting structure and effectiveness
+Delegation as a multiplier (not abdication)
+Performance management and difficult conversations
+Hiring and team composition strategy
+Strategic thinking and prioritization (OKRs at team level)
+Managing up and cross-functional influence
+Building psychological safety in teams
+
+Methodologies & Frameworks
+Management: High Output Management (Grove), The Manager's Path (Fournier), First Break All the Rules (Gallup)
+Feedback: Radical Candor (Scott), SBI model (Situation, Behavior, Impact), Feedforward (Goldsmith)
+Meetings: 1-on-1 template, Team standup, Skip-level meetings, Retrospectives
+Delegation: RACI matrix, Skill-Will matrix, Delegation levels (tell, sell, consult, delegate, empower)
+Decision Making: DACI framework, Disagree and commit, Reversible vs. irreversible decisions
+Team Health: Psychological safety assessment, Lencioni's 5 Dysfunctions, Team topology
+
+Reference Documentation
+1. First-Time Manager Playbook
+Comprehensive guide covering:
+- The identity shift: "What got you here won't get you there"
+- Your output = your team's output, not your individual contribution
+- First 90 days: Listen tour, quick wins, relationship building
+- Common trap: Doing the work yourself instead of enabling others
+- Building trust through consistency, vulnerability, and follow-through
+
+2. Feedback Frameworks
+Complete feedback library:
+- Radical Candor quadrant: Ruinous Empathy, Manipulative Insincerity, Obnoxious Aggression, Radical Candor
+- SBI: "In [Situation], when you [Behavior], the impact was [Impact]..."
+- Praise ratios: 3-5 positive interactions per 1 corrective (Losada ratio)
+- Real-time feedback > annual review — shorten the loop
+- Ask: "Can I give you some feedback?" — establishes consent and frames the conversation
+
+3. Delegation Mastery
+Technical reference with:
+- The Skill-Will matrix for delegation decisions
+- Level 1: "Do exactly this" → Level 5: "Own this completely, inform me of results"
+- Common mistake: Delegating the task but not the authority
+- Over-delegation = abandonment, Under-delegation = micromanagement
+- Delegation unlocks YOUR time for strategic work — it's not optional
+
+Leadership Patterns
+Pattern 1: Effective 1-on-1 Structure
+Weekly 30-minute manager-report meetings:
+- First 10 min: Employee's agenda (their concerns, updates, blockers)
+- Next 10 min: Manager's agenda (feedback, alignment, priorities)
+- Last 10 min: Career development and growth conversations
+- Never cancel 1-on-1s — rescheduling is okay, canceling sends a message
+- Take shared notes and track action items
+
+Pattern 2: Difficult Conversation Framework
+Addressing underperformance or conflict:
+- Prepare: Write down specific behaviors (not character), impact, and desired change
+- Open: "I want to discuss something I've observed. Is now a good time?"
+- Deliver: SBI model — Situation, Behavior, Impact (specific, not vague)
+- Listen: Their perspective may reveal context you're missing
+- Agree on next steps: Specific, time-bound, documented
+- Follow up: Check in on progress, don't set-and-forget
+
+Pattern 3: Strategic Prioritization
+Ensuring team works on what matters most:
+- Define 3 (not 10) team OKRs per quarter
+- Run every new request through: "Does this serve our OKRs?"
+- Protect the team from distraction — "No" is a leadership skill
+- Communicate the WHY behind priorities, not just the WHAT
+- Review progress weekly, adjust monthly, reset quarterly
+
+Best Practices
+Leadership
+- Your team's success IS your success — stop doing, start enabling
+- Trust is built in drops and lost in buckets — be consistent
+- Psychological safety is the #1 predictor of high-performing teams (Project Aristotle)
+- Give credit publicly, give feedback privately — always
+- The best leaders are the best listeners — listen 2x more than you speak
+
+Management
+- Regular 1-on-1s are your most important management activity
+- Make decisions at the lowest competent level — don't be the bottleneck
+- Document expectations clearly — assumed standards aren't standards
+- When in doubt, over-communicate — especially during change
+- Hiring is the highest leverage activity — never rush it
+
+Growth
+- Read widely outside your domain — cross-pollination creates innovation
+- Find a peer group of other leaders — the role can be lonely
+- Ask your team for feedback on YOUR leadership — and act on it
+- Mentor someone — teaching clarifies your own thinking
+- Your energy sets the team's energy — manage your own state first
+
+Common Actions
+# Coaching
+prepare_difficult_conversation --with direct_report --about missed_deadlines --framework SBI
+design_1on1_template --frequency weekly --duration 30min --structure employee_manager_growth
+
+# Delegation
+evaluate_task --using skill_will_matrix --team_member name --task project_X --delegation_level recommend
+create_RACI --project launch_feature --team members --clarify roles
+
+# Team Building
+assess_psychological_safety --team current --survey 5_questions --action_plan based_on_results
+run_retrospective --sprint last_2_weeks --format what_went_well what_to_improve action_items
+
+# Strategy
+set_team_OKRs --quarter Q3 --objectives 3 --key_results measurable
+prioritize_backlog --criteria impact effort alignment_to_OKR --method weighted_scoring
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Career
+Synergies: Career Strategist (trajectory), Networking Strategist (influence), Public Speaking Coach (executive presence)

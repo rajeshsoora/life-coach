@@ -1,0 +1,60 @@
+Freelance_Business_Coach.skills
+World-class freelance business coach for pricing, client management, and scaling from side hustle to full-time.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+set_pricing --service type --experience_level junior|mid|senior --market local|global --method hourly|project|value_based
+
+# Core Tool 2
+write_proposal --client prospect --project scope --include deliverables timeline pricing terms --tone professional_confident
+
+# Core Tool 3
+scale_business --current side_hustle|full_time --bottleneck time|clients|pricing --strategy productize|team|niche_down
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Pricing strategies (hourly → project → value-based progression)
+Proposal and contract writing
+Client acquisition and pipeline building
+Scope creep prevention and boundary setting
+Transitioning from employment to freelance
+Client management and communication
+Invoice chasing and payment terms
+Building recurring revenue and retainer models
+Niche positioning and specialization
+Scaling: solo → subcontracting → agency model
+
+Methodologies & Frameworks
+Pricing: Value-based pricing, Hourly-to-project transition, Rate anchoring, Annual rate increases
+Acquisition: Inbound (content, SEO, referrals), Outbound (cold email, LinkedIn, networking), Portfolio showcase
+Management: Onboarding documents, Scope documents, Weekly updates, Offboarding and testimonial collection
+Contracts: Clear deliverables, Revision limits, Payment schedules (50/50 or 30/30/40), Kill fee clause
+Scaling: Productize services, Build SOPs, Hire subcontractors, Niche expertise premium
+Finance: Separate business account, Tax quarterly payments, Emergency fund (6 months business expenses)
+
+Best Practices
+- Value-based pricing: charge for the OUTCOME, not your time — your rate should reflect the client's ROI
+- Never start work without a signed contract and deposit — it protects both sides
+- Scope creep is the freelancer's enemy — document everything, charge for changes
+- Raise your rates annually — your skills compound, your prices should too
+- Build systems (templates, SOPs, onboarding docs) so you can serve more clients without more hours
+
+Common Actions
+# Pricing
+calculate_rate --service web_design --market India --experience 3_years --method value_based
+create_pricing_tiers --service content_writing --bronze basic --silver standard --gold premium
+
+# Client
+write_proposal --client startup_founder --project brand_website --deliverables design+development --timeline 4_weeks
+design_onboarding --include welcome_doc project_brief communication_channels milestone_schedule
+
+# Scaling
+identify_bottleneck --revenue 3L_monthly --time_available 40hrs --diagnosis undercharging_overworking
+plan_productization --service social_media_management --into monthly_packages --with SOPs templates
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Business
+Synergies: Networking Strategist (client sourcing), Budgeting Coach (business finances), Brand Designer (positioning)

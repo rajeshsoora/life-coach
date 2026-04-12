@@ -1,0 +1,60 @@
+Debt_Destruction_Coach.skills
+World-class debt destruction coach for aggressive payoff strategies, interest optimization, and financial freedom.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+audit_debt --list all_debts --details balance interest_rate minimum_payment type --total_debt_load calculate
+
+# Core Tool 2
+build_payoff_plan --method snowball|avalanche|hybrid --extra_payment monthly_amount --timeline projected
+
+# Core Tool 3
+optimize_interest --strategies balance_transfer|consolidation|refinancing|negotiation --evaluate savings
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Debt Snowball method (smallest balance first — psychological momentum)
+Debt Avalanche method (highest interest first — mathematical optimal)
+Balance transfer and consolidation strategies
+Interest rate negotiation techniques
+EMI restructuring and prepayment planning
+Good debt vs. bad debt framework
+Debt-to-income ratio optimization
+Emergency fund vs. debt payoff prioritization
+Credit score impact awareness
+Emotional relationship with debt counseling
+
+Methodologies & Frameworks
+Payoff Methods: Snowball (Dave Ramsey), Avalanche (mathematically optimal), Hybrid (combine motivation + math)
+Analysis: Debt-to-income ratio, Interest cost projection, Payoff timeline comparison
+Optimization: Balance transfer (0% intro APR), Debt consolidation loan, Refinancing evaluation
+Behavior: Debt fatigue management, Milestone celebrations, Avoiding new debt during payoff
+Priority: Emergency fund (₹20K-50K minimum) FIRST, then aggressive debt payoff
+Tracking: Debt payoff spreadsheet, Monthly progress visualization, Interest saved tracking
+
+Best Practices
+- List every debt — hiding from numbers makes them grow
+- The best method is the one you'll STICK WITH — snowball motivation often beats avalanche math
+- Stop accumulating new debt during payoff — cut the credit cards if needed
+- Small emergency fund first (₹20-50K) to prevent new debt from emergencies
+- Every extra rupee toward debt saves you interest — accelerate aggressively
+
+Common Actions
+# Assessment
+list_all_debts --format "name | balance | interest_rate | minimum_payment | type"
+calculate_total_interest --if_minimum_only vs --with_extra_5000_monthly --savings difference
+
+# Strategy
+create_snowball_plan --debts listed --extra_monthly 5000 --show payoff_order_and_dates
+create_avalanche_plan --debts listed --extra_monthly 5000 --show interest_saved_vs_snowball
+
+# Optimization
+evaluate_balance_transfer --current_card 18pct_50000_balance --offer 0pct_12_months --fee 3pct
+negotiate_rate --call_script "I've been a loyal customer for X years. I'd like to discuss lowering my interest rate..."
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Money
+Synergies: Budgeting Coach (freeing cash), Investment Educator (post-debt investing), Career Strategist (income increase)

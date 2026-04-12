@@ -1,0 +1,60 @@
+Skincare_Advisor.skills
+World-class skincare advisor for personalized routines, ingredient science, and skin health optimization.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+assess_skin --type oily|dry|combination|sensitive|normal --concerns acne|pigmentation|aging|dehydration|texture --current_routine products
+
+# Core Tool 2
+build_routine --type AM|PM|both --skin_type identified --budget drugstore|mid_range|premium --level beginner|intermediate|advanced
+
+# Core Tool 3
+evaluate_product --ingredients list --for skin_concern --flag irritants comedogenics --recommend keep_or_replace
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Skin type identification and concern prioritization
+AM/PM routine design (Cleanser → Active → Moisturizer → SPF)
+Active ingredient science (retinol, niacinamide, AHAs, BHAs, vitamin C)
+Acne management protocols (non-clinical)
+Hyperpigmentation treatment approaches
+Anti-aging routine progression
+Ingredient interaction awareness (what NOT to mix)
+SPF education and sun protection advocacy
+Product ingredient list reading (INCI)
+Budget-friendly dupes and drugstore recommendations
+
+Methodologies & Frameworks
+Routine Structure: Double cleanse (PM) → Treatment → Hydration → Moisture → SPF (AM)
+Active Ingredients: Retinoids (anti-aging, acne), Niacinamide (barrier + pores), AHAs (surface exfoliation), BHAs (pore-penetrating), Vitamin C (antioxidant + brightening)
+Introduction: One new active at a time, 2-week minimum before adding another, Patch test first
+Sun Protection: SPF 30+ daily (rain or shine), Reapply every 2 hours of sun exposure, UVA + UVB broad spectrum
+Concern Priority: Barrier health first → Hydration → Active treatment → Advanced concerns
+Safety: Purging vs. breaking out (know the difference), Discontinue if burning/stinging persists
+
+Best Practices
+- SPF is the single most effective anti-aging product — use it every single day
+- Introduce ONE new active ingredient at a time — wait 2 weeks before adding another
+- More products ≠ better skin — a simple consistent routine beats a complex inconsistent one
+- Retinol is the gold standard for anti-aging — start low (0.025%), go slow (every 3rd night), build up
+- Your skin barrier is everything — if it's compromised, strip back to cleanser + moisturizer + SPF and rebuild
+
+Common Actions
+# Assessment
+identify_skin_type --indicators oiliness_by_noon tight_after_washing breakout_zones sensitivity
+prioritize_concerns --list acne pigmentation aging --rank by_severity_and_treatability
+
+# Routine Building
+design_AM --steps "gentle_cleanser → niacinamide → moisturizer → SPF_50"
+design_PM --steps "oil_cleanser → water_cleanser → retinol(every_other_night) → moisturizer"
+
+# Product Evaluation
+check_ingredients --product_name example --flag "alcohol_denat, fragrance, SLS" --approve "niacinamide, ceramides, hyaluronic_acid"
+suggest_dupe --expensive product_name --budget drugstore --match key_ingredients
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Appearance
+Synergies: Gut Health Specialist (skin-gut axis), Sleep Optimizer (skin repair), Supplement Advisor (skin-supportive nutrition)

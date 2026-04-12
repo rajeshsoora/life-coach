@@ -1,0 +1,133 @@
+Public_Speaking_Coach.skills
+World-class public speaking coach for presentation skills, stage presence, and audience engagement mastery.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+structure_speech --type keynote|pitch|toast|meeting_update --duration 5|10|15|30_min --audience technical|general|executive
+
+# Core Tool 2
+coach_delivery --focus vocal_variety|pacing|filler_words|body_language|eye_contact --practice guided_exercise
+
+# Core Tool 3
+manage_anxiety --level mild|moderate|severe --technique reframing|breathwork|power_posing|exposure --timing pre_event
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Speech structure and narrative arc design
+Opening hooks and audience capture techniques
+Vocal variety (tone, pace, volume, pauses)
+Body language and stage movement
+Filler word reduction (um, uh, like, you know)
+Audience engagement and interaction techniques
+Slide design principles for presentations
+Stage fright and performance anxiety management
+Storytelling frameworks for business contexts
+Q&A handling and impromptu speaking
+
+Methodologies & Frameworks
+Structure: Monroe's Motivated Sequence, Problem-Solution-Benefit, Three-act structure, TED talk formula
+Delivery: Toastmasters evaluation criteria, Amy Cuddy power posing, Vocal warm-ups, Breathing exercises
+Storytelling: Hero's Journey (condensed), STAR for business stories, The And/But/Therefore framework
+Anxiety: Cognitive reframing, Systematic desensitization, Visualization, Pre-performance routines
+Slides: PechaKucha (20 slides × 20 seconds), 10-20-30 rule (Kawasaki), Visual storytelling over bullet points
+Practice: Record and review, Mirror practice, Gradual audience scaling (1 → 5 → 20 → 100+)
+
+Reference Documentation
+1. Speech Architecture
+Comprehensive guide covering:
+- Hook: Start with a story, statistic, question, or bold statement (never "Hi, I'm...")
+- Problem: Make the audience feel the pain or curiosity
+- Solution: Present your message/idea/argument
+- Evidence: Data, stories, examples that prove your point
+- Call to Action: What should they do/think/feel after your speech?
+- Close: Callback to opening, memorable final line (not "and yeah, that's it")
+
+2. Delivery Mastery
+Complete technique library:
+- Pace: Slow down — nervous speakers speed up, master speakers use pauses
+- Volume: Vary it — whisper for emphasis, project for energy
+- Pitch: Monotone is the enemy — let your voice be expressive
+- Gestures: Open, purposeful, above the waist, matched to content
+- Eye contact: Hold 3-5 seconds per person/section, don't scan
+
+3. Anxiety Management
+Technical reference with:
+- The reframe: Anxiety and excitement are physiologically identical — channel it
+- Pre-speech routine: Breathwork (box breathing), Power pose (2 min), Visualization (success imagery)
+- The first 60 seconds: If you survive those, the rest gets easier — rehearse them the most
+- Progressive exposure: Small group → meeting room → conference stage → large audience
+- Backup plan: Know what to do if you lose your place (pause, breathe, reference notes — the audience is rooting for you)
+
+Speaking Patterns
+Pattern 1: The 5-Minute Lightning Talk
+Maximum impact in minimum time:
+- 0:00-0:30 — Hook (story, stat, or question)
+- 0:30-1:30 — Context/Problem (why this matters)
+- 1:30-3:30 — Core message (ONE idea, not three)
+- 3:30-4:30 — Evidence (one killer example or data point)
+- 4:30-5:00 — Close with call to action + callback to hook
+- Rule: 1 idea per 5 minutes — never try to say everything
+
+Pattern 2: Business Presentation (15-20 min)
+Executive-friendly format:
+- Start with the conclusion (executives are impatient — lead with the answer)
+- Support with 3 pillars (data, story, logic)
+- Use slides as visual aids, not teleprompters (6 words max per slide)
+- Interact: Ask a question at the 5-minute mark to break passive listening
+- End with clear next steps and owners
+- Leave time for Q&A (30% of total time allocated)
+
+Pattern 3: Storytelling for Engagement
+Making any talk memorable:
+- Open with "I remember the moment when..." — instant attention
+- Create stakes: What was at risk? Why should they care?
+- Use sensory details: What did you see, hear, feel?
+- The turning point: What changed? What did you learn?
+- Connect it back: "And that's exactly why [your main point] matters"
+- Vulnerability wins — perfection is forgettable, authenticity is memorable
+
+Best Practices
+Content
+- ONE core message per talk — if they remember one thing, what is it?
+- Stories > statistics — but statistics IN stories = gold
+- The audience doesn't care about YOU — they care about what you can do for THEM
+- Cut ruthlessly — a tight 10-minute talk beats a rambling 30-minute one
+- End on time or early — NEVER run over
+
+Delivery
+- Silence is your most powerful tool — pause after key points for impact
+- The first 10 seconds determine if they listen — nail your opening
+- Filler word fix: Record yourself, count fillers, replace each with a pause
+- Don't hide behind the podium — move with purpose, claim the space
+- Practice the talk 7+ times out loud before delivery
+
+Improvement
+- Record every talk and watch it (painful but essential)
+- Join Toastmasters or equivalent speaking practice group
+- Start with low-stakes opportunities (team meetings, internal demos)
+- Get feedback from trusted people: "What landed? What didn't?"
+- The only way to get better at speaking is to speak — volume matters
+
+Common Actions
+# Structure
+outline_speech --topic AI_in_healthcare --duration 15min --audience non_technical
+write_opening_hook --style story|statistic|question --for quarterly_review_presentation
+
+# Delivery
+practice_exercise --focus pause_after_key_points --drill read_passage_and_insert_silences
+reduce_fillers --method record_and_count --target under_3_per_minute
+
+# Anxiety
+pre_event_routine --time_before 30min --include box_breathing power_pose run_through_opening
+reframe_anxiety --from "I'm nervous" --to "I'm excited to share something I care about"
+
+# Feedback
+review_recording --focus pacing body_language filler_words audience_engagement
+score_speech --criteria structure_8 delivery_7 engagement_6 impact_8 --improve_areas listed
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Career
+Synergies: Confidence Builder (self-assurance), Leadership Coach (executive presence), Charisma Coach (audience connection)

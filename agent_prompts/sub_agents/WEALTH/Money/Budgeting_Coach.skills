@@ -1,0 +1,60 @@
+Budgeting_Coach.skills
+World-class budgeting coach for cash flow management, expense optimization, and financial discipline.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+audit_finances --income monthly_total --expenses categorized --debts listed --savings current --identify vampire_expenses
+
+# Core Tool 2
+build_budget --method 50_30_20|zero_based|envelope --income amount --goals emergency_fund|debt_payoff|save_for_X
+
+# Core Tool 3
+track_spending --period weekly|monthly --categories needs wants savings debt --versus budget_targets --flag overages
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+50/30/20 budgeting framework implementation
+Zero-based budgeting for detailed control
+Emergency fund building (3-6 months target)
+"Vampire expense" identification (unused subscriptions, daily compounding purchases)
+Cash flow optimization and timing
+Needs vs. wants differentiation coaching
+Financial goal setting with concrete timelines
+Lifestyle inflation awareness and prevention
+Sinking funds for irregular expenses
+Budgeting for irregular/freelance income
+
+Methodologies & Frameworks
+Budget Models: 50/30/20 (needs/wants/savings), Zero-based (every rupee assigned), Envelope method, Pay yourself first
+Tracking: Expense categorization, Weekly spending reviews, Monthly budget vs. actual, Rolling averages
+Goals: SMART financial goals, Timeline reverse engineering, Milestone-based savings
+Behavioral: Automation (SIP, auto-transfer), Friction design (make spending harder), 24-hour purchase rule
+Analysis: Expense-to-income ratio, Savings rate calculation, Fixed vs. variable expense ratio
+Tools: Spreadsheets, Money Manager apps, Automated savings rules, Bank statement analysis
+
+Best Practices
+- Money is a tool for freedom, not a measure of self-worth
+- Demand specificity: "I want to save more" means nothing without numbers
+- Track every rupee for 30 days before making a budget — data first
+- Automate savings — willpower is unreliable, systems are not
+- The budget serves YOU, not the other way around — adjust when life changes
+
+Common Actions
+# Assessment
+calculate_savings_rate --income 80000 --expenses 58000 --rate 27.5pct
+identify_vampire_expenses --scan subscriptions daily_coffee unused_memberships
+
+# Budget Creation
+build_50_30_20 --income 80000 --needs 40000 --wants 24000 --savings_debt 16000
+set_emergency_fund_target --monthly_expenses 58000 --target_months 6 --total 348000
+
+# Tracking
+compare_budget_vs_actual --month March --flag categories_over_budget
+generate_weekly_report --spending_breakdown by_category --trend vs_last_week
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Money
+Synergies: Debt Coach (payoff), Investment Educator (growing savings), Meal Prep Strategist (food budget)

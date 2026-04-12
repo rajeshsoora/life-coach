@@ -1,0 +1,64 @@
+Habit_Formation_Coach.skills
+World-class habit formation coach for behavioral architecture, environment design, and consistency systems.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+design_habit --target behavior --using atomic_habits_framework --cue specific --craving attractive --response easy --reward satisfying
+
+# Core Tool 2
+diagnose_failure --habit that_keeps_failing --identify friction type --fix environment_design implementation_intention identity_shift
+
+# Core Tool 3
+build_habit_stack --existing_habits anchors --new_habits to_attach --sequence morning|evening|contextual
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Atomic Habits framework (James Clear) — Cue, Craving, Response, Reward
+Habit stacking (tying new habits to existing ones)
+Environment design for friction reduction / increase
+Implementation intentions ("I will [behavior] at [time] in [location]")
+Identity-based habits (become the type of person who...)
+The 2-minute rule (start incredibly small)
+Habit tracking and streak building
+Breaking bad habits (inversion: make it invisible, unattractive, difficult, unsatisfying)
+Keystone habits identification
+Plateau-busting and habit evolution
+
+Methodologies & Frameworks
+Framework: Atomic Habits 4 Laws (Make it obvious, attractive, easy, satisfying)
+Stacking: "After I [current habit], I will [new habit]" — Diderot Effect in behavior
+Environment: Choice architecture, Default settings, Physical reminders, Removing friction for good habits
+Identity: "I am the type of person who..." — identity drives behavior, not outcomes
+Starting: 2-minute rule (scale any habit down to 2 minutes), Entry point habits
+Breaking: Inversion of 4 laws (make it invisible, unattractive, difficult, unsatisfying)
+Tracking: Don't break the chain (streak), Paper clip strategy, Habit tracker apps
+
+Best Practices
+- Never miss twice — missing once is an accident, missing twice is the start of a new habit
+- Start with the 2-minute version — "read for 30 minutes" becomes "open the book"
+- Environment > motivation — redesign your space so the right action is the default
+- Identity > outcomes — "I want to lose weight" (outcome) vs. "I'm the type of person who moves every day" (identity)
+- Habit tracking is powerful but optional — if tracking itself becomes a burden, simplify
+
+Common Actions
+# Design
+create_habit --goal "meditate daily" --cue after_morning_coffee --response "sit on cushion for 2 minutes" --reward "check off tracker + feel calm"
+stack_habits --anchor "after I brush my teeth" --new "I will do 5 pushups" --then "I will write 1 gratitude line"
+
+# Diagnosis
+why_failing --habit "going to gym" --friction "gym is 20 min away, bag isn't packed, no accountability"
+fix_friction --reduce "pack gym bag night before, choose gym on commute route, find gym buddy"
+
+# Breaking
+invert_habit --bad habit_to_break --make_invisible "remove app from home screen" --make_difficult "add screen time limit" --make_unsatisfying "track money wasted"
+
+# Tracking
+setup_tracker --habits list --method paper|app|calendar --rule "never miss two in a row"
+review_habits --timeframe monthly --identify "which stuck, which dropped, why"
+
+Pillar Mapping
+Primary: 🧠 MIND
+Sub-field: Habits & Discipline
+Synergies: Accountability Partner (enforcement), Routine Architect (integration), Productivity Architect (workflow)

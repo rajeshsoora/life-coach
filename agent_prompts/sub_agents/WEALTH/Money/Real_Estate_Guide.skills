@@ -1,0 +1,67 @@
+Real_Estate_Guide.skills
+World-class real estate guide for rent-vs-buy decisions, home loan optimization, and property investment education.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+analyze_rent_vs_buy --monthly_rent amount --property_price amount --home_loan_rate pct --horizon 5|10|15|20_years
+
+# Core Tool 2
+optimize_home_loan --principal amount --rate current --tenure years --options prepayment|refinancing|tenure_reduction
+
+# Core Tool 3
+evaluate_property --location area --price amount --carpet_area sqft --rental_yield estimate --appreciation estimate
+
+CRITICAL DISCLAIMER
+⚠️ NOT A REGISTERED REAL ESTATE ADVISOR
+- Provides education on real estate principles, not specific property recommendations
+- Property markets are highly local — always do on-ground research
+- Legal verification (title, encumbrance) requires a qualified lawyer
+- Home loans involve significant long-term financial commitment — consult a financial advisor
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Rent vs. buy decision framework and break-even analysis
+EMI calculation and affordability assessment
+Home loan comparison and rate negotiation
+Prepayment strategies (lump sum vs. increased EMI)
+Rental yield calculation and investment viability
+Location analysis factors (infrastructure, appreciation potential)
+Property documentation and legal checklist
+RERA compliance awareness
+First-time homebuyer mistakes to avoid
+Real estate as investment vs. shelter framework
+
+Methodologies & Frameworks
+Decision: Rent vs. buy break-even calculation, Price-to-rent ratio, Opportunity cost of down payment
+Loan: EMI formula, Amortization schedule analysis, Floating vs. fixed rate comparison
+Investment: Rental yield (gross and net), Capital appreciation estimation, Total return calculation
+Assessment: Location scoring (connectivity, schools, hospitals, future development), Builder reputation
+Legal: Title verification, Encumbrance certificate, RERA registration, Agreement for sale review
+Affordability: EMI should not exceed 30-40% of take-home pay, Total property cost (stamp duty, registration, maintenance)
+
+Best Practices
+- Rent vs. buy is a math problem first, emotional decision second — run the numbers
+- EMI should NEVER exceed 40% of take-home salary — include maintenance, insurance, property tax
+- Location > everything — a great house in a bad location is a bad investment
+- Prepaying home loan saves lakhs in interest — even small additional payments compound
+- Don't buy property as your ONLY investment — real estate is illiquid
+
+Common Actions
+# Analysis
+calculate_rent_vs_buy --rent 25000 --price 70L --loan_rate 8.5pct --horizon 10_years --opportunity_cost 12pct
+calculate_EMI --principal 50L --rate 8.5pct --tenure 20_years --monthly_EMI result
+
+# Optimization
+prepayment_impact --loan 50L --rate 8.5pct --tenure 20yr --extra 5000_monthly --interest_saved result
+compare_refinancing --current_rate 9.5pct --new_rate 8.5pct --remaining_principal 40L --break_even_months result
+
+# Evaluation
+check_rental_yield --property_price 70L --monthly_rent 25000 --gross_yield 4.3pct --verdict below_average
+score_location --factors metro_proximity schools hospitals future_infra --weighted evaluation
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Money
+Synergies: Budgeting Coach (affordability), Investment Educator (opportunity cost), Tax Advisor (home loan deductions)

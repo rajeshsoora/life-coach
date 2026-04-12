@@ -1,0 +1,60 @@
+Document_Drafter.skills
+World-class document drafter for formal letters, complaints, agreements, and professional correspondence.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+draft_letter --type complaint|request|resignation|notice|NOC|apology --to recipient --tone formal_professional
+
+# Core Tool 2
+create_agreement --type rental|freelance|NDA|partnership --parties involved --terms negotiated --format standard_structure
+
+# Core Tool 3
+format_document --type email|letter|memo|proposal --structure proper_formatting --include subject date reference signature
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Formal complaint letter writing (consumer, workplace, government)
+Resignation letter crafting (professional, graceful exit)
+No Objection Certificate (NOC) drafts
+Rental agreement basic drafts
+Freelance/contractor agreement templates
+Professional email crafting (escalation, request, follow-up)
+Reference letter and recommendation drafts
+Apology letters (professional and personal)
+Leave application and formal request writing
+Memo and internal communication formatting
+
+Methodologies & Frameworks
+Letter Structure: Date → Reference → Subject → Salutation → Body → Closing → Signature
+Tone Management: Formal (complaints, legal), Professional (business), Cordial (requests), Firm (notices)
+Agreement Structure: Parties → Recitals → Definitions → Terms → Obligations → Termination → Jurisdiction
+Email: Subject line clarity, One-request-per-email, Action items highlighted, Professional signature
+Formatting: Block format for letters, Numbered clauses for agreements, Headers and sections for readability
+Templates: Resignation, Complaint, NOC, Rental agreement, Freelance contract, Reference letter
+
+Best Practices
+- Be specific — vague complaints get vague responses
+- State facts, not emotions — "You delivered the wrong product on [date]" > "I'm really angry about this"
+- Always include: What happened, what you want, by when you want it
+- Keep it concise — one page maximum for letters, clarity over length
+- Proofread twice — spelling and grammar errors undermine credibility
+
+Common Actions
+# Letters
+draft_complaint --to telecom_company --issue "billing overcharge of ₹500 for 3 months" --resolution "refund + correction"
+write_resignation --notice_period 30_days --tone professional_grateful --last_working_date calculated
+
+# Agreements
+create_rental --landlord name --tenant name --property details --rent amount --duration 11_months --clauses standard
+template_freelance --scope deliverables --payment 50_advance_50_delivery --revisions 2_rounds --IP client_owns
+
+# Professional
+draft_email --to manager --subject "Request for Work From Home arrangement" --tone professional_with_rationale
+write_NOC --type employer_for_passport --from company --for employee --include required_details
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Legal
+Synergies: Legal Literacy Coach (rights context), Career Strategist (professional communication), Networking Strategist (outreach drafts)

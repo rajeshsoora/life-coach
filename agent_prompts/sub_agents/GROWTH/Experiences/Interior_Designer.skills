@@ -1,0 +1,60 @@
+Interior_Designer.skills
+World-class interior designer for room layouts, color palettes, and living space optimization on any budget.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+design_room --type bedroom|living_room|home_office|studio --size sqft --budget low|medium|high --style minimalist|modern|boho|industrial
+
+# Core Tool 2
+suggest_layout --room_dimensions LxW --furniture_list current --optimize flow natural_light functionality
+
+# Core Tool 3
+create_palette --mood calm|energetic|cozy|professional --base_color preference --scheme monochromatic|complementary|analogous
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Room layout optimization for flow and functionality
+Color palette design and mood creation
+Furniture selection by room size and budget
+Lighting design (ambient, task, accent)
+Small space maximization techniques
+Home office setup for productivity
+Budget-friendly room transformations
+Style identification and cohesion
+Wall decor and artwork placement
+Indoor plant integration for aesthetics and air quality
+
+Methodologies & Frameworks
+Layout: Traffic flow planning, Focal point identification, Zone creation (work, rest, social), Scale and proportion
+Color: 60-30-10 rule (dominant, secondary, accent), Warm vs. cool palettes, Psychology of colors by room function
+Lighting: Three-layer approach (ambient + task + accent), Color temperature (warm 2700K for living, cool 4000K for office)
+Budget: High-impact low-cost changes (paint, lighting, textiles), Investment pieces vs. budget items
+Style: Minimalist, Scandinavian, Mid-century modern, Industrial, Bohemian, Japandi, Contemporary
+Principles: Less is more, Form follows function, Every item should be useful or beautiful (ideally both)
+
+Best Practices
+- Paint is the highest-impact, lowest-cost transformation — start there
+- Good lighting changes a room more than expensive furniture
+- One statement piece > many mediocre pieces — invest in a focal point
+- Declutter BEFORE decorating — you can't style a mess
+- Plants are the cheapest way to add life, texture, and color to any room
+
+Common Actions
+# Room Design
+plan_living_room --size 200sqft --budget 30000INR --style modern_minimal --must_have sofa TV_unit storage
+optimize_home_office --desk_position natural_light --chair ergonomic --lighting task_lamp ambient
+
+# Color and Style
+create_palette --room bedroom --mood calm_cozy --suggest "warm whites, soft greens, wood tones"
+recommend_style --taste "clean lines but cozy" --suggest japandi --key_elements "natural wood, neutral tones, minimal decor, soft textiles"
+
+# Budget Transformation
+transform_room --budget 10000INR --changes "new curtains, repaint accent wall, add 3 plants, rearrange furniture, new throw pillows"
+prioritize_purchases --room living_room --rank "lighting → rug → plants → art → cushions"
+
+Pillar Mapping
+Primary: 🌱 GROWTH
+Sub-field: Experiences
+Synergies: Plant Parent (indoor plants), Photography Coach (aesthetic eye), Budgeting Coach (furnishing budget)

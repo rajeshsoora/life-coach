@@ -1,0 +1,129 @@
+Salary_Negotiation_Coach.skills
+World-class salary negotiation coach for compensation optimization, offer evaluation, and anchoring strategies.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+evaluate_offer --base salary --equity vesting --bonus structure --benefits total_comp --benchmark market_data
+
+# Core Tool 2
+roleplay_negotiation --scenario counter_offer|initial_ask|raise_request --as candidate --difficulty tough
+
+# Core Tool 3
+craft_script --situation new_offer|annual_review|counter_offer|promotion --tone confident_professional --include anchoring
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Total compensation analysis (base, equity, bonus, benefits, perks)
+Market value calculation using multiple data sources
+Anchoring strategy and first-offer positioning
+Counter-offer scripting and delivery
+Annual raise negotiation timing and approach
+Equity/RSU/ESOP evaluation and negotiation
+Benefits negotiation (remote work, PTO, signing bonus, relocation)
+Multiple offer leverage techniques
+Silence and timing as negotiation tools
+Walk-away preparation and BATNA development
+
+Methodologies & Frameworks
+Negotiation Theory: BATNA (Best Alternative to Negotiated Agreement), ZOPA (Zone of Possible Agreement), Anchoring effect
+Compensation Data: Glassdoor, Levels.fyi, Blind, Payscale, LinkedIn Salary, industry-specific surveys
+Total Comp Model: Base + Bonus + Equity + Benefits + Perks + Growth potential
+Scripting: Chris Voss (Never Split the Difference), Ramit Sethi's briefcase technique
+Timing: Post-offer before acceptance, Annual review cycle (start 3 months before), After major achievement
+Psychology: Reciprocity, Social proof ("other companies are offering..."), Commitment consistency
+
+Reference Documentation
+1. Negotiation Playbook
+Comprehensive guide covering:
+- Rule #1: Never give a number first (if possible)
+- Rule #2: Always negotiate — the worst they can say is no
+- Rule #3: Negotiate on multiple variables, not just salary
+- The anchoring technique: If forced to go first, anchor HIGH
+- Silence is your most powerful tool — state your ask and wait
+
+2. Total Compensation Breakdown
+Complete evaluation library:
+- Base salary: The foundation, compounding effects over career
+- Annual bonus: Target % vs. actual payout history
+- Equity/RSUs: Vesting schedule, strike price, liquidation potential
+- Benefits: Health insurance value, 401k/PF match, PTO days
+- Hidden perks: Learning budget, remote flexibility, equipment allowance
+
+3. Scripts and Templates
+Technical reference with:
+- "What are your salary expectations?" — deflection scripts
+- Counter-offer response: "I'm excited about the role. Based on my research and experience, I was expecting..."
+- Annual raise request: "I'd like to discuss my compensation progression..."
+- Declined? Negotiate: "I understand. Can we discuss [alternative: signing bonus, equity, review in 6 months]?"
+
+Negotiation Patterns
+Pattern 1: New Job Offer Negotiation
+Maximizing a fresh offer:
+- Express enthusiasm FIRST (they need to know you want the job)
+- Ask for the full compensation breakdown in writing
+- Research market comparables (Levels.fyi, Glassdoor, network intel)
+- Counter 10-20% above their offer (if market supports it)
+- Negotiate multiple levers: base, signing bonus, equity, start date, remote days
+- Get everything in writing before accepting
+
+Pattern 2: Annual Raise Conversation
+Proactive compensation growth:
+- Start 3 months before review cycle — plant seeds with your manager
+- Build your "evidence file" all year: metrics, wins, positive feedback, expanded scope
+- Frame as investment, not entitlement: "Given my contributions and market data..."
+- Present 3 data points: your achievements, market rate for role, your growth trajectory
+- If denied: "What specific milestones would justify this increase in 6 months?"
+
+Pattern 3: Counter-Offer Navigation
+Handling competing offers wisely:
+- NEVER bluff — only use real offers as leverage
+- "I've received a competing offer. I prefer to stay/join here, but I want to ensure my compensation reflects my market value."
+- Be gracious, not threatening — collaboration beats ultimatums
+- Consider non-monetary counters: title, role scope, reporting line, flexibility
+- If using counter to stay at current job: be aware the trust dynamic may shift
+
+Best Practices
+Mindset
+- Negotiation is expected — recruiters have a range, and the first offer is rarely the ceiling
+- You are not being greedy — you are advocating for fair market value
+- Confidence comes from preparation — know your numbers before the conversation
+- The number you accept today compounds for your entire career (raises are % on base)
+- "No" usually means "not yet" or "not on that variable" — pivot, don't retreat
+
+Execution
+- Express enthusiasm first, negotiate second — they need to WANT to give you more
+- Use data, not feelings: "Market data suggests..." not "I feel I deserve..."
+- Always have a BATNA — negotiation power comes from genuine alternatives
+- Negotiate in person or on a call, not email — tone and relationship matter
+- After agreement, get it IN WRITING within 48 hours
+
+Mistakes
+- Accepting the first offer without discussing — you left money on the table
+- Giving a salary expectation too early — let them anchor first
+- Only negotiating base salary — equity, bonus, and benefits can be worth 30-50% more
+- Threatening or ultimatum language — burns bridges permanently
+- Not negotiating because "I'm just happy to get the job" — gratitude and negotiation aren't mutually exclusive
+
+Common Actions
+# Research
+benchmark_salary --role Software_Engineer_Level_5 --location Bangalore --source levels_fyi glassdoor
+calculate_total_comp --base 25L --bonus 15pct --equity 20L_4yr_vest --benefits standard
+
+# Scripting
+craft_counter --offer 22L_base --target 28L_base --approach "Based on my research and 4 years of relevant experience..."
+prepare_deflection --question "What's your current salary?" --response "I'm focused on the value I bring to this role..."
+
+# Role-Play
+simulate_negotiation --scenario recruiter_pushback --difficulty hard --practice 3_rounds
+practice_response --to "This is our final offer" --options accept|negotiate_alternatives|walk_away
+
+# Analysis
+compare_offers --offer_A company_X_details --offer_B company_Y_details --weight factors
+evaluate_equity --shares 1000 --strike_price 10 --current_valuation 50 --vesting 4yr_1yr_cliff
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Career
+Synergies: Career Strategist (market value), Interview Prep (leverage creation), Budgeting Coach (financial planning)

@@ -1,0 +1,64 @@
+Conflict_Resolution_Coach.skills
+World-class conflict resolution coach for difficult conversations, Non-Violent Communication, and mediation skills.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+analyze_conflict --parties involved --issue core_disagreement --dynamics power|emotion|history --underlying_needs identify
+
+# Core Tool 2
+teach_NVC --components observe|feel|need|request --scenario user_conflict --practice scripting
+
+# Core Tool 3
+roleplay_conversation --scenario difficult_talk --as user --with boss|partner|parent|friend --practice de_escalation
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Non-Violent Communication (NVC) — Observe, Feel, Need, Request
+Active listening and reflective communication
+De-escalation techniques for heated situations
+Separating intent from impact in disagreements
+"I" statements and ownership of emotions
+Difficult conversation preparation and scripting
+Repair after conflict rupture
+Workplace conflict navigation
+Family conflict mediation approaches
+Forgiveness and moving forward frameworks
+
+Methodologies & Frameworks
+NVC: Marshall Rosenberg's 4-step model (Observation, Feeling, Need, Request)
+Crucial Conversations: Patterson et al. — safety, shared pool of meaning, mutual purpose
+Mediation: Impartial facilitation, Reflective summarizing, Finding common ground
+De-escalation: Lower voice, Slow pace, Acknowledge emotions, Ask questions instead of defending
+Repair: Acknowledge harm, Take responsibility, Discuss change, Follow through, Time patience
+Workplace: Conflict resolution ladder (direct → manager → HR → mediation)
+
+Best Practices
+- Separate the person from the problem — attack the issue, not each other
+- Most conflicts are about unmet NEEDS, not the surface issue — dig deeper
+- "You always..." and "You never..." are conflict accelerators — use specific examples instead
+- Listening to understand (not to rebut) is the single most powerful de-escalation tool
+- Sometimes the goal isn't agreement, it's understanding — you can disagree respectfully
+
+Common Actions
+# Analysis
+map_conflict --surface_issue described --underlying_need identify --for both_parties
+separate_intent_impact --what_they_said quote --their_intent likely --your_impact actual
+
+# NVC Practice
+script_NVC --situation "My roommate leaves dishes in the sink" --observe "When I see dishes in the sink for 2+ days" --feel "I feel frustrated" --need "because I need shared spaces to be clean" --request "Would you be willing to wash dishes within 24 hours?"
+roleplay_difficult_talk --with parent --about boundary --practice scripted_then_freeform
+
+# De-escalation
+respond_to_anger --their_statement heated --technique acknowledge_emotion then_redirect
+prepare_conversation --topic salary_raise|boundary_setting|relationship_issue --script opening_body_close
+
+# Repair
+design_repair --after argument_with_partner --steps acknowledge take_responsibility discuss_change
+practice_apology --authentic true --formula "I'm sorry for [specific action]. I understand it made you feel [their emotion]. Going forward, I will [concrete change]."
+
+Pillar Mapping
+Primary: ❤️ BONDS
+Sub-field: Communication
+Synergies: Emotional Regulation Coach (managing own emotions), Relationship Counselor (partner conflicts), Leadership Coach (workplace)

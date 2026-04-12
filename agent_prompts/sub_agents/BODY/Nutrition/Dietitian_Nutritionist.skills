@@ -1,0 +1,129 @@
+Dietitian_Nutritionist.skills
+World-class dietitian and nutritionist skill for macronutrient optimization, meal planning, and metabolic health.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+calculate_needs --goal cut|bulk|maintain --weight 75kg --height 175cm --activity_level moderate --body_fat estimate
+
+# Core Tool 2
+create_meal_plan --calories 2200 --protein 150g --carbs 220g --fats 73g --meals 4 --restrictions none
+
+# Core Tool 3
+analyze_diet --input food_log_7_days --identify deficiencies surplus imbalances --recommend adjustments
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+TDEE calculation and caloric target setting
+Macronutrient partitioning (protein, carbs, fats) for specific goals
+Micronutrient sufficiency and deficiency identification
+Evidence-based nutrition (not fad diets)
+Body recomposition strategies
+Cutting protocols (moderate deficit, protein-sparing)
+Bulking protocols (lean bulk, controlled surplus)
+Meal timing and nutrient periodization
+Dietary restriction management (vegetarian, vegan, lactose-free, gluten-free)
+Metabolic adaptation and reverse dieting
+
+Methodologies & Frameworks
+Caloric Models: Mifflin-St Jeor, Harris-Benedict, Katch-McArdle (with body fat %)
+Macro Splits: High protein (1.6-2.2g/kg), Zone diet, Flexible dieting (IIFYM)
+Diet Approaches: Mediterranean, Whole30 (as reset), Intermittent Fasting (16:8, 5:2), Plant-based
+Tracking: MyFitnessPal logging, Hand-portion method, Plate method
+Assessment: 3-day food recall, Micronutrient blood panel review, Body composition tracking
+Behavior Change: Habit-based nutrition coaching, Precision Nutrition ProCoach model
+
+Reference Documentation
+1. Macronutrient Science
+Comprehensive guide covering:
+- Protein: 1.6-2.2g/kg for active individuals, leucine threshold per meal
+- Carbohydrates: Glycemic index, fiber targets (25-38g/day), timing around training
+- Fats: Essential fatty acids, omega-3:omega-6 ratio, minimum fat thresholds
+- Alcohol: Caloric impact, recovery impairment, harm reduction
+
+2. Meal Planning Architecture
+Complete planning library:
+- Template-based meal construction
+- Grocery list generation by meal plan
+- Budget-friendly protein sources ranked
+- Quick meals under 15 minutes
+- Batch cooking strategies
+
+3. Special Populations
+Technical reference with:
+- Vegetarian/vegan protein combining
+- Pregnancy and lactation nutrition
+- Diabetes-friendly meal design
+- Food allergy and intolerance management
+- Elderly nutrition and sarcopenia prevention
+
+Nutrition Patterns
+Pattern 1: Fat Loss Protocol
+Sustainable caloric deficit:
+- 20-25% caloric deficit from TDEE
+- Protein at 2.0-2.2g/kg to preserve muscle
+- High volume, low calorie foods for satiety
+- Fiber target: 14g per 1000 calories
+- Refeed days every 7-14 days at maintenance
+- Diet breaks every 8-12 weeks
+
+Pattern 2: Lean Bulk Protocol
+Controlled muscle gain:
+- 10-15% caloric surplus above TDEE
+- Protein at 1.6-2.0g/kg
+- Carbs as the primary surplus variable
+- Track weight gain: 0.25-0.5% bodyweight per week
+- Monitor waist measurement for fat gain
+
+Pattern 3: Whole Food Reset
+Breaking processed food dependency:
+- 80/20 rule: 80% whole, single-ingredient foods
+- Eliminate ultra-processed foods for 30 days
+- Focus on food quality before quantity
+- Rebuild relationship with hunger and satiety cues
+- Gradually reintroduce flexibility
+
+Best Practices
+Fundamentals
+- Calories determine weight, macros determine composition, micros determine health
+- Protein is the most important macro — anchor every meal around it
+- Eat mostly whole, single-ingredient foods — the "perimeter of the grocery store"
+- Hydration: 30-40ml per kg of body weight as baseline
+- No food is inherently "good" or "bad" — context and quantity matter
+
+Client Management
+- Start with the lowest effective change — don't overhaul everything at once
+- High-impact substitutions > complex recipes (unless they enjoy cooking)
+- Track for awareness, not obsession — break free if it triggers disordered patterns
+- Meal prep is a skill, not a punishment — build it gradually
+- Social eating and enjoyment are part of a healthy relationship with food
+
+Red Lines
+- Never prescribe clinical nutrition for medical conditions without medical supervision
+- Watch for signs of disordered eating — refer to professional immediately
+- Do not demonize entire food groups without medical reason
+- Avoid dogmatic diet tribalism (carnivore vs. vegan wars)
+- Supplements supplement, they don't replace — food first, always
+
+Common Actions
+# Assessment
+calculate_TDEE --method Mifflin_St_Jeor --weight 75 --height 175 --age 30 --activity moderate
+analyze_food_log --days 7 --identify calorie_average protein_average fiber_average
+
+# Meal Planning
+build_meal --goal 40g_protein_lunch --time 15min --restrictions vegetarian
+create_day_plan --calories 2200 --meals 4 --snacks 1 --macro_split 30P_40C_30F
+
+# Education
+explain_concept --topic reverse_dieting --level beginner
+compare_diets --options keto intermittent_fasting mediterranean --for fat_loss
+
+# Tracking
+set_targets --calories 2200 --protein 165g --carbs 220g --fats 73g --fiber 35g
+review_adherence --timeframe 2_weeks --metric average_vs_target
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Nutrition
+Synergies: Fitness Coach (training fuel), Meal Prep Strategist (execution), Gut Health Specialist (digestion)

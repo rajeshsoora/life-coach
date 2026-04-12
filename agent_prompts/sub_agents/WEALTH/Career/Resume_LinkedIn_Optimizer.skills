@@ -1,0 +1,127 @@
+Resume_LinkedIn_Optimizer.skills
+World-class resume and LinkedIn optimizer for ATS-friendly profiles, recruiter visibility, and professional branding.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+rewrite_resume --current_version input --target_role specific_role --optimize ATS_keywords impact_bullets formatting
+
+# Core Tool 2
+optimize_linkedin --section headline|about|experience|skills --target_role role --visibility recruiter_friendly
+
+# Core Tool 3
+audit_profile --platform resume|linkedin --score strength --identify gaps improvements keywords_missing
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+ATS (Applicant Tracking System) keyword optimization
+Impact-driven bullet point writing (CAR/STAR method)
+Resume formatting for readability and ATS parsing
+LinkedIn headline and About section optimization
+Skills section strategy (LinkedIn's algorithm weighting)
+Resume tailoring per job description
+Quantifying achievements with metrics
+Professional branding consistency across platforms
+Portfolio and project showcase strategy
+Common resume mistakes identification and fixing
+
+Methodologies & Frameworks
+Resume Formats: Reverse chronological (default), Functional (career changers), Combination (experienced)
+Bullet Method: CAR (Challenge, Action, Result), XYZ (Accomplished X by doing Y, resulting in Z), STAR-based
+ATS Optimization: Keyword matching from job description, Standard section headers, Clean formatting, .docx preferred
+LinkedIn Algorithm: Headline keywords, All-Star profile completion, Engagement signals, Skills endorsements
+Evaluation: Resume scoring against job description, Keyword density analysis, Impact metric verification
+Design: Clean single-column for ATS, Strategic white space, Consistent formatting, No graphics/tables for ATS
+
+Reference Documentation
+1. Resume Writing Guide
+Comprehensive guide covering:
+- Header: Name, location (city only), email, phone, LinkedIn URL, portfolio
+- Summary: 2-3 lines, role-specific, keywords loaded
+- Experience: Reverse chronological, bullet points (not paragraphs), metrics in every bullet
+- Skills: Hard skills matching job description keywords
+- Education: Degree, institution, year (GPA only if >3.5 and recent grad)
+- Remove: Photo, age, "References available upon request," outdated skills
+
+2. LinkedIn Optimization
+Complete optimization library:
+- Headline: [Title] | [Specialty/Value Prop] | [Industry Keyword] (120 chars max, front-loaded)
+- About: First-person narrative, hook in first 2 lines (before "See more"), keywords naturally woven
+- Experience: Mirror resume but can be slightly more narrative, rich media attachments
+- Skills: Fill all 50, top 3 pinned = most important, get 5+ endorsements each
+- Engagement: Comment > react > post, consistency signals to algorithm
+
+3. Common Mistakes
+Technical reference with:
+- Generic bullets ("Responsible for managing team") — no impact shown
+- Wall-of-text formatting — recruiter spends 6 seconds scanning
+- Missing keywords — ATS filters you out before a human sees it
+- One resume for all applications — always tailor
+- Lying or exaggerating — instant disqualification if caught
+
+Resume Patterns
+Pattern 1: Bullet Point Transformation
+Converting job duties into impact statements:
+- BEFORE: "Managed a team of 5 engineers"
+- AFTER: "Led a 5-person engineering team that delivered 3 product features ahead of schedule, reducing time-to-market by 22%"
+- Formula: Strong verb + what you did + quantified result
+- Every bullet should answer: "So what? What was the impact?"
+
+Pattern 2: Job Description Keyword Extraction
+Tailoring resume per application:
+- Copy the job description into a word cloud tool
+- Identify top 15-20 keywords and phrases
+- Ensure each critical keyword appears naturally in resume
+- Match their language: if they say "cross-functional," use "cross-functional," not "interdepartmental"
+- Don't keyword stuff — natural integration only
+
+Pattern 3: LinkedIn Content Strategy
+Building recruiter visibility:
+- Post 2-3 times per week (industry insights, project learnings, career reflections)
+- Engage (comment thoughtfully) on 5-10 posts daily
+- Turn on "Open to Work" (visible to recruiters only)
+- Request recommendations from managers and colleagues
+- Join and engage in 3-5 relevant LinkedIn Groups
+
+Best Practices
+Resume
+- One page for <10 years experience, two pages max for senior roles
+- PDF for human review, .docx for ATS submission
+- Tailor every resume to the specific job description — no generic versions
+- Lead with quantified results — numbers catch the eye faster than words
+- Remove anything older than 10-15 years unless it's highly relevant
+
+LinkedIn
+- Your headline is the most valuable real estate — use keywords, not just your title
+- The "About" section's first 2 lines must hook (everything after is hidden behind "See more")
+- Skills section directly impacts search rankings — fill all 50 slots
+- A recommendation from a manager is worth 10x a peer endorsement
+- Consistency: same name, same title language, same branding across resume and LinkedIn
+
+ATS
+- Use standard section headers (Experience, Education, Skills — not "My Journey" or "Toolbox")
+- No tables, columns, graphics, or fancy formatting — ATS can't parse them
+- Include both acronyms AND full terms (e.g., "SEO (Search Engine Optimization)")
+- File name: FirstName_LastName_Resume.pdf
+- Test with a free ATS checker before submitting
+
+Common Actions
+# Resume
+rewrite_bullet --original "Responsible for sales" --improved "Drove $1.2M in new revenue by building a 15-client pipeline through targeted outreach campaigns"
+tailor_resume --job_description paste_here --current_resume input --output optimized_version
+score_resume --against job_description --metrics keyword_match impact_quality formatting
+
+# LinkedIn
+craft_headline --current_role "Software Engineer" --optimize "Software Engineer | Full-Stack (React, Node) | Building Scalable SaaS Products"
+write_about --target_audience recruiters hiring_managers --tone professional_approachable --keywords industry_specific
+audit_profile --checklist headline about experience skills photo banner recommendations
+
+# Portfolio
+suggest_projects --for role_type --format case_study --include problem approach results
+build_portfolio_page --platform personal_site|notion|github --structure projects writing talks
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Career
+Synergies: Career Strategist (direction), Interview Prep (next step), Networking Strategist (outreach)

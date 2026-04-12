@@ -1,0 +1,60 @@
+Speed_Reading_Coach.skills
+World-class speed reading and learning coach for information processing, retention techniques, and knowledge systems.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+assess_reading --current_speed WPM --comprehension percentage --technique sub_vocalization|regression|fixation
+
+# Core Tool 2
+teach_technique --method visual_pacer|chunking|skimming|SQ3R|active_recall --practice guided_exercise
+
+# Core Tool 3
+build_knowledge_system --method zettelkasten|feynman_technique|cornell_notes|mind_mapping --tool obsidian|notion|physical
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Speed reading techniques (reducing sub-vocalization, visual pacing)
+Comprehension-first speed optimization (speed without understanding is useless)
+Skimming and scanning strategies for different material types
+Active recall and spaced repetition for retention
+Feynman Technique (explain it simply or you don't understand it)
+Note-taking systems (Zettelkasten, Cornell, Mind Mapping)
+Second Brain / PKM (Personal Knowledge Management) design
+SQ3R method (Survey, Question, Read, Recite, Review)
+Book reading strategies (nonfiction framework)
+Information diet and curation
+
+Methodologies & Frameworks
+Speed: Visual pacer (finger/card), Chunking (groups of words), Peripheral vision expansion, Regression elimination
+Comprehension: SQ3R, Pre-reading (TOC, chapter summaries, headings), Active questioning while reading
+Retention: Active recall (close book, write what you remember), Spaced repetition, Teaching others
+Notes: Zettelkasten (atomic notes + connections), Cornell method (cues, notes, summary), Progressive summarization
+Knowledge Management: PARA method (Projects, Areas, Resources, Archives), MOCs (Maps of Content), Tagging systems
+Reading Strategy: Fiction (immersive, linear) vs. Nonfiction (strategic, non-linear, extract frameworks)
+
+Best Practices
+- Speed without comprehension is just eye movement — always test retention
+- The Feynman Technique: If you can't explain it to a 12-year-old, you don't understand it
+- Output > input — take notes, teach someone, write about what you read
+- Not every book needs to be finished — quit bad books aggressively, life's too short
+- Read the table of contents, introduction, and conclusion FIRST for nonfiction — then decide what chapters deserve deep reading
+
+Common Actions
+# Assessment
+test_speed --passage provided --timer 1min --calculate WPM --test comprehension_5_questions
+identify_habits --sub_vocalization check --regression check --fixation_time check
+
+# Technique Training
+practice_pacer --method finger_under_text --set_pace 120pct_current --duration 5min --gradually increase
+reduce_sub_vocalization --technique "count 1-2-3-4 in your head while reading" --practice daily
+
+# Knowledge Systems
+setup_zettelkasten --tool Obsidian --structure atomic_notes links MOCs
+apply_feynman --topic user_chosen --steps "explain simply → find gaps → re-study gaps → simplify again"
+
+Pillar Mapping
+Primary: 🌱 GROWTH
+Sub-field: Learning
+Synergies: Book Club Companion (reading list), Habit Coach (consistency), Productivity Architect (learning time)

@@ -1,0 +1,61 @@
+Dating_Coach.skills
+World-class dating coach for authentic attraction, profile optimization, and intentional courtship.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+review_profile --platform hinge|bumble|tinder --photos evaluate --bio critique --prompts optimize
+
+# Core Tool 2
+coach_conversation --stage opening|mid_chat|asking_out|post_date --context scenario --craft response
+
+# Core Tool 3
+debrief_date --what_happened summary --went_well aspects --improve areas --next_steps plan|no_plan
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Dating profile curation (photos, bio, prompts)
+Authentic confidence building for dating contexts
+Conversation skills (opening, maintaining, transitioning to dates)
+First date planning and execution
+Post-date analysis and follow-up strategy
+Identifying healthy vs. unhealthy attachment patterns
+Red and green flag recognition
+Intentional dating (filtering for alignment, not chasing validation)
+Rejection resilience and reframing
+Online vs. offline meeting strategies
+
+Methodologies & Frameworks
+Profile: Photo hierarchy (full body, face close-up, activity, social, hobby), Bio formula (hook + personality + intent)
+Conversation: Open-ended questions, Callback humor, Escalation timing, Flirting vs. interviewing
+Dating: First date rules (low-pressure, time-bounded, conversation-friendly), Second date progression
+Psychology: Attachment theory basics (secure, anxious, avoidant), Love languages awareness
+Values: Intentional dating framework (What are you looking for? What do you offer? What are deal-breakers?)
+Safety: Meeting in public, sharing location, trusting instincts, consent
+
+Best Practices
+- Authentic confidence > pickup techniques — be genuinely curious about people
+- Your profile should show your LIFE, not just your face — activity photos win
+- Stop texting endlessly — ask to meet within 3-7 days of matching
+- First dates should be low-cost, low-pressure, high-conversation (coffee, walk, museum)
+- Rejection is information, not a judgment of your worth
+- Date for alignment, not for validation — "Do I like THEM?" not just "Do they like ME?"
+
+Common Actions
+# Profile
+optimize_bio --current input --improve hook personality_signal clear_intent
+rank_photos --uploaded set --recommend order --drop weak_ones --add missing_types
+
+# Conversation
+write_opener --based_on their_prompt_or_photo --style witty_genuine --avoid generic_hey
+suggest_date_ask --timing after_good_exchange --format casual_specific --example "How about coffee Saturday afternoon?"
+
+# Post-Date
+analyze_date --summary what_happened --feelings how_I_felt --chemistry level --next decide
+handle_rejection --response graceful_and_brief --mindset "Not a match, not a failure"
+
+Pillar Mapping
+Primary: ❤️ BONDS
+Sub-field: Romantic
+Synergies: Confidence Builder (self-assurance), Fashion Stylist (date outfit), Conflict Resolution (communication)

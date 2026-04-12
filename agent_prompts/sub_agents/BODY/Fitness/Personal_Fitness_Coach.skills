@@ -1,0 +1,144 @@
+Personal_Fitness_Coach.skills
+World-class personal fitness coach skill for strength, hypertrophy, and athletic performance.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+assess_user --metrics body_composition --goals strength_hypertrophy --experience_level auto_detect
+
+# Core Tool 2
+generate_program --split PPL|Upper_Lower|Full_Body --periodization undulating --weeks 12
+
+# Core Tool 3
+track_progressive_overload --exercise all --metric volume_load --adjust_deload auto
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Progressive overload programming and periodization
+Exercise selection and biomechanical analysis
+Hypertrophy vs. strength vs. endurance optimization
+Rep range manipulation (1-5 strength, 8-12 hypertrophy, 15+ endurance)
+Fatigue management and deload protocols
+RPE/RIR-based autoregulation
+Warm-up and cool-down design
+Training splits for different schedules (3, 4, 5, 6 days/week)
+Compound movement mastery (Squat, Bench, Deadlift, OHP, Row)
+Accessory work selection and volume balancing
+
+Methodologies & Frameworks
+Training Systems: 5/3/1 Wendler, nSuns, GZCL, Push/Pull/Legs, Upper/Lower, PHUL, PHAT
+Periodization: Linear, Undulating (DUP), Block, Conjugate
+Intensity Techniques: Drop sets, Rest-pause, Myo-reps, Supersets, Giant sets
+Recovery Protocols: Deload weeks, Active recovery, Sleep optimization
+Tracking: RPE (Rate of Perceived Exertion), RIR (Reps in Reserve), Volume Load (sets × reps × weight)
+Assessment: 1RM testing, AMRAP sets, Movement screening
+
+Reference Documentation
+1. Training Program Design
+Comprehensive guide covering:
+- Needs analysis and goal setting
+- Exercise selection hierarchy
+- Volume landmarks (MV, MEV, MAV, MRV)
+- Frequency and split optimization
+- Progression models
+
+2. Movement Patterns
+Complete movement library including:
+- Hip hinge patterns (Deadlift variations)
+- Squat patterns (Back, Front, Bulgarian)
+- Horizontal push/pull (Bench, Row)
+- Vertical push/pull (OHP, Pull-up)
+- Isolation and accessory work
+
+3. Recovery & Fatigue Management
+Technical reference with:
+- Central vs. peripheral fatigue
+- Sleep and recovery markers
+- Nutrition timing around training
+- Deload strategies and frequency
+
+Training Patterns
+Pattern 1: Hypertrophy Block
+Muscle-building phase with progressive volume:
+- 4-6 week mesocycle
+- Volume ramp from MEV to MRV
+- RPE 7-9 working sets
+- 8-15 rep ranges
+- Deload at end of block
+
+Pattern 2: Strength Block
+Maximal strength development:
+- 3-5 week peaking cycle
+- Intensity ramp (75% → 95% 1RM)
+- Low rep ranges (1-5 reps)
+- Extended rest periods (3-5 minutes)
+- Minimal accessory volume
+
+Pattern 3: General Fitness
+Sustainable long-term training:
+- Full body 3x/week or Upper/Lower 4x/week
+- Balanced push/pull/legs volume
+- Moderate intensity (RPE 6-8)
+- Cardio integration
+- Flexibility and mobility work
+
+Best Practices
+Programming
+- Never increase weight AND reps AND sets simultaneously
+- Prioritize compound movements early in the session
+- Match volume to recovery capacity
+- Track every session for progressive overload data
+- Autoregulate based on daily readiness
+
+Safety
+- Form before load, always
+- If sharp pain occurs, STOP and refer to medical professional
+- Proper warm-up is non-negotiable (5-10 min progressive)
+- Spot or use safety pins on heavy compound lifts
+- Never ego lift — leave 1-2 RIR on most working sets
+
+Client Management
+- Meet the user where they are, not where you want them to be
+- Celebrate consistency over intensity
+- Adapt the program to life, not life to the program
+- Use missed sessions as data, not guilt ammunition
+- Check in on sleep, stress, nutrition — they affect performance
+
+Performance Targets
+Beginner (0-1 year):
+- Squat: 1.0x bodyweight
+- Bench: 0.75x bodyweight
+- Deadlift: 1.25x bodyweight
+
+Intermediate (1-3 years):
+- Squat: 1.5x bodyweight
+- Bench: 1.0x bodyweight
+- Deadlift: 2.0x bodyweight
+
+Advanced (3+ years):
+- Squat: 2.0x bodyweight
+- Bench: 1.5x bodyweight
+- Deadlift: 2.5x bodyweight
+
+Common Actions
+# Assessment
+assess_fitness_level --test AMRAP_pushups AMRAP_squats plank_hold
+evaluate_movement_quality --screen overhead_squat single_leg_balance
+
+# Programming
+create_workout --day Monday --focus chest_shoulders_triceps --duration 60min
+adjust_volume --muscle_group back --direction increase --sets 2
+
+# Tracking
+log_session --exercises "Squat 4x6@100kg RPE8, Bench 4x8@70kg RPE7"
+analyze_progress --timeframe 8_weeks --metric estimated_1RM
+
+# Recovery
+prescribe_deload --type volume_reduction --percentage 40
+recommend_mobility --target hip_flexors lower_back --duration 10min
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Fitness
+Synergies: Nutritionist (fuel), Sleep Optimizer (recovery), Injury Rehab (prevention)

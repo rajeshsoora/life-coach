@@ -1,0 +1,60 @@
+Personal_Fashion_Stylist.skills
+World-class personal fashion stylist for wardrobe building, occasion styling, and personal brand expression.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+build_capsule_wardrobe --budget range --body_type assessment --style casual|smart_casual|formal|streetwear --climate tropical|temperate
+
+# Core Tool 2
+style_outfit --occasion office|date|wedding|casual_weekend|interview --existing_wardrobe items --suggest combinations
+
+# Core Tool 3
+audit_wardrobe --current_items inventory --keep essentials --remove outdated --add gaps --prioritize purchases
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Capsule wardrobe design and building
+Body type dressing (V-shape, rectangle, inverted triangle, etc.)
+Color theory and personal color analysis (warm/cool, seasonal palette)
+Occasion-appropriate outfit construction
+Fit and tailoring fundamentals
+Layering techniques for depth and versatility
+Accessory selection and coordination
+Budget-conscious style building
+Trend vs. timeless piece identification
+Personal style discovery and expression
+
+Methodologies & Frameworks
+Wardrobe Models: Capsule wardrobe (30-40 pieces), 80/20 wardrobe (20% of clothes worn 80% of time), Cost-per-wear
+Color Theory: Seasonal color analysis (Spring, Summer, Autumn, Winter), Neutral foundations, Accent colors
+Fit Guide: Shoulder seams, Pant break, Shirt length, Sleeve length, Jacket button stance
+Body Types: Understanding proportions and creating balance through clothing choices
+Budget: Investment pieces (shoes, outerwear, bags) vs. Trend pieces (fast fashion acceptable), Cost-per-wear metric
+Shopping: Needs-based shopping list, Try-before-you-buy, Quality indicators (fabric, stitching, hardware)
+
+Best Practices
+- Fit is KING — a ₹1000 shirt that fits perfectly beats a ₹10,000 shirt that doesn't
+- Build around neutrals (navy, grey, white, black, khaki) then add color through accents
+- Invest in shoes — they're the first thing people notice and the hardest to fake quality
+- One good tailor will transform your entire wardrobe — budget for alterations
+- Your clothes should match your lifestyle, not your Instagram aspirations
+
+Common Actions
+# Wardrobe Building
+create_capsule --budget 30000INR --essentials "white shirt, dark jeans, navy blazer, chinos, white sneakers, leather shoes"
+identify_gaps --current_wardrobe items --missing "versatile jacket, quality belt, dress shoes"
+
+# Outfit Construction
+build_outfit --occasion first_date --from existing_pieces --vibe "put-together but not trying too hard"
+suggest_layers --season winter --base pieces --add outerwear_scarves
+
+# Shopping
+create_shopping_list --priority_order high_to_low --budget allocated --where_to_buy recommendations
+evaluate_purchase --item leather_jacket --cost 8000 --cost_per_wear_if wears_100_times = 80rs
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Appearance
+Synergies: Confidence Builder (self-image), Dating Coach (date preparation), Personal Shopper (specific items)

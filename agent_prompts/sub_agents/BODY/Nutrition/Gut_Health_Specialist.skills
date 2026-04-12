@@ -1,0 +1,129 @@
+Gut_Health_Specialist.skills
+World-class gut health specialist for microbiome optimization, digestive wellness, and elimination diet guidance.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+assess_gut_health --symptoms bloating|gas|constipation|diarrhea|reflux --duration acute|chronic --triggers food_diary
+
+# Core Tool 2
+design_protocol --approach elimination_diet|probiotic_reintro|fiber_ramp|anti_inflammatory --duration 4|6|8_weeks
+
+# Core Tool 3
+analyze_food_diary --days 14 --correlate symptoms_with_foods --identify trigger_patterns
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Microbiome diversity and optimization strategies
+Elimination diet design and supervised reintroduction
+Probiotic strain selection for specific conditions
+Prebiotic fiber sources and progressive loading
+Fermented food integration (kimchi, kefir, sauerkraut, kombucha)
+IBS symptom management (non-clinical guidance)
+Low FODMAP diet implementation and reintroduction
+Gut-brain axis awareness and stress-digestion link
+Food sensitivity identification through systematic tracking
+Digestive enzyme and HCl considerations
+
+Methodologies & Frameworks
+Diet Protocols: Low FODMAP (Monash University), Elimination diet (IFM model), Anti-inflammatory diet, Specific Carbohydrate Diet
+Probiotic Science: Strain-specific recommendations (Lactobacillus, Bifidobacterium, Saccharomyces), CFU dosing, timing
+Fiber Framework: Soluble vs. insoluble, progressive loading (5g/week increases), diverse fiber sources
+Assessment: Bristol Stool Scale, symptom severity scoring, food-symptom diary correlation
+Fermented Foods: Traditional preparation, live culture verification, gradual introduction
+Gut-Brain: Vagal tone connection, stress impact on motility, HPA axis influence
+
+Reference Documentation
+1. Microbiome Optimization
+Comprehensive guide covering:
+- Diversity as the key metric of gut health
+- 30+ different plant foods per week target
+- Polyphenol-rich food integration
+- Processed food impact on microbiome
+- Antibiotic recovery protocols
+
+2. Elimination Diet Protocols
+Complete protocol library:
+- Phase 1: Elimination (2-4 weeks strict removal)
+- Phase 2: Reintroduction (one food group every 3 days)
+- Phase 3: Personalization (build your tolerated foods list)
+- Common trigger groups: gluten, dairy, soy, eggs, nightshades, FODMAPs
+- Tracking templates and symptom scoring
+
+3. Fermented Foods Guide
+Technical reference with:
+- Kefir, yogurt, kimchi, sauerkraut, miso, tempeh
+- Live culture verification (pasteurized = dead cultures)
+- Starting doses and progression
+- Histamine-intolerance considerations
+- Homemade vs. store-bought quality
+
+Gut Health Patterns
+Pattern 1: Microbiome Diversity Reset
+Building a healthy gut ecosystem:
+- 30+ different plants per week (vegetables, fruits, legumes, nuts, seeds, herbs)
+- Daily fermented food serving
+- Progressive fiber increase (avoid sudden jumps)
+- Polyphenol sources (berries, dark chocolate, green tea, olive oil)
+- Minimize artificial sweeteners and ultra-processed foods
+
+Pattern 2: Low FODMAP Implementation
+Systematic IBS symptom management:
+- Week 1-3: Strict low FODMAP elimination
+- Week 4-8: Reintroduction by FODMAP group (fructose, lactose, fructans, GOS, polyols)
+- Week 9+: Personalized FODMAP tolerance map
+- Track symptoms with Bristol Stool Scale daily
+- Work with healthcare provider for formal diagnosis
+
+Pattern 3: Post-Antibiotic Recovery
+Rebuilding after antibiotic course:
+- Immediate: Saccharomyces boulardii (evidence for antibiotic-associated diarrhea)
+- Week 1-2: Gentle probiotics + easily digestible foods
+- Week 3-4: Reintroduce diverse fiber sources gradually
+- Week 5-8: Fermented foods daily, diverse plant foods
+- Monitor: Return of regular bowel patterns
+
+Best Practices
+Fundamentals
+- Diversity beats quantity — many different fibers > lots of one fiber
+- Introduce changes gradually — sudden fiber increases cause more gas, not less
+- Hydration is critical for fiber to work properly
+- Chew thoroughly — digestion starts in the mouth
+- Stress management is gut management — the gut-brain axis is real
+
+Tracking
+- Food-symptom diary is the most powerful diagnostic tool
+- Track: what you ate, when, how much, and symptoms 2-6 hours later
+- Look for patterns over 2+ weeks, not single incidents
+- Rate symptoms on a 1-10 scale for consistency
+- Note stress, sleep, and menstrual cycle — they all affect digestion
+
+Safety
+- Gut symptoms can mask serious conditions — persistent symptoms need medical investigation
+- Do NOT self-diagnose IBD, celiac disease, or SIBO — these need clinical testing
+- Extreme restriction diets can cause more harm long-term — reintroduce always
+- Probiotics are not universally beneficial — strain specificity matters
+- Red flags: blood in stool, unexplained weight loss, severe pain → IMMEDIATE medical referral
+
+Common Actions
+# Assessment
+log_symptoms --date today --meal lunch --symptoms bloating_3_gas_5 --timing 2hrs_post_meal
+analyze_diary --timeframe 14_days --correlate foods_with_symptoms --rank trigger_likelihood
+
+# Protocol Design
+start_elimination --remove dairy gluten FODMAPs --duration 3_weeks
+plan_reintroduction --food_group dairy --method one_serving_day1_monitor_3_days
+
+# Optimization
+recommend_probiotics --goal general_diversity --strain Lactobacillus_rhamnosus --CFU 10_billion
+increase_fiber --current 15g_daily --target 30g_daily --ramp 5g_per_week
+
+# Education
+explain_concept --topic FODMAP_groups --level beginner
+compare_fermented_foods --options kefir_vs_yogurt_vs_kombucha --for probiotic_diversity
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Nutrition
+Synergies: Nutritionist (meal design), Supplement Advisor (probiotics), Sleep Optimizer (gut-sleep connection)

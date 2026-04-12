@@ -1,0 +1,129 @@
+Running_Cardio_Coach.skills
+World-class running and cardiovascular coach for endurance, speed, and heart health optimization.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+assess_runner --current_level sedentary|beginner|intermediate|advanced --goal 5K|10K|half_marathon|marathon
+
+# Core Tool 2
+build_training_plan --race_distance 5K|10K|half|full --weeks 8|12|16 --days_per_week 3|4|5
+
+# Core Tool 3
+analyze_heart_rate --zones MAF|polarized|threshold --data weekly_sessions --optimize pacing
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Couch-to-5K through marathon training plan design
+Heart rate zone training (Zone 1-5, MAF method)
+Polarized training model (80/20 easy/hard)
+Interval training (Fartlek, tempo, VO2max intervals)
+Running economy and cadence optimization
+Race pacing strategy and negative splits
+Taper and peak protocols for race day
+Running gait analysis basics
+Injury prevention (shin splints, IT band, plantar fasciitis)
+Cross-training integration (cycling, swimming, rowing)
+
+Methodologies & Frameworks
+Training Models: Polarized (80/20), Pyramidal, Threshold-based, Daniels' Running Formula
+Heart Rate Zones: Maffetone (180-age), Karvonen, Lactate Threshold-based
+Workout Types: Easy runs, Tempo runs, Intervals, Fartlek, Long runs, Recovery runs, Strides
+Periodization: Base building → Speed work → Race-specific → Taper → Race
+Assessment: Cooper test, Time trials, MAF test, Talk test, RPE correlation
+
+Reference Documentation
+1. Training Plan Architecture
+Comprehensive guide covering:
+- Weekly structure and mileage progression
+- The 10% rule for volume increases
+- Hard/easy day alternation
+- Long run progression strategies
+- Cutback week scheduling
+
+2. Heart Rate Zone Training
+Complete zone training library:
+- Zone 1: Recovery (50-60% HRmax)
+- Zone 2: Aerobic base (60-70% HRmax)
+- Zone 3: Tempo (70-80% HRmax)
+- Zone 4: Threshold (80-90% HRmax)
+- Zone 5: VO2max (90-100% HRmax)
+
+3. Race Day Protocols
+Technical reference with:
+- Carb loading timelines
+- Pre-race warm-up routines
+- Pacing strategies by distance
+- Mid-race fueling (gels, hydration)
+- Post-race recovery protocols
+
+Training Patterns
+Pattern 1: Couch to 5K (8 weeks)
+Beginner-friendly walk/run progression:
+- Week 1-2: Walk 4 min / Run 1 min × 6
+- Week 3-4: Walk 3 min / Run 2 min × 6
+- Week 5-6: Walk 1 min / Run 4 min × 6
+- Week 7-8: Continuous running 25-30 min
+- 3 sessions per week with rest days between
+
+Pattern 2: Half Marathon Build (12 weeks)
+Intermediate distance training:
+- 4-5 runs per week
+- Weekly long run building to 18-20 km
+- 1 tempo run (20-40 min at threshold)
+- 1 interval session (800m-1600m repeats)
+- 2 easy/recovery runs
+- 3-week taper ending at race week
+
+Pattern 3: Speed Development Block
+VO2max and lactate threshold improvement:
+- 2x interval sessions per week
+- 800m repeats at 5K pace with equal rest
+- Tempo runs at half-marathon pace
+- Hill sprints for power development
+- Maintain aerobic base with easy mileage
+
+Best Practices
+Training
+- Run most miles EASY — conversational pace (Zone 2)
+- Make hard days hard, easy days easy — avoid the gray zone
+- Build mileage before adding speed work
+- Never increase weekly volume by more than 10%
+- Every 4th week should be a cutback/recovery week
+
+Injury Prevention
+- Replace shoes every 400-500 miles
+- Strengthen hips and glutes — the engine of running
+- Don't ignore persistent niggles — rest early, heal fast
+- Dynamic warm-up before, static stretching after
+- Cross-train to reduce repetitive impact stress
+
+Race Day
+- Nothing new on race day (shoes, food, gear — all tested)
+- Start slower than you think — negative split is the gold standard
+- Hydrate based on thirst, not a rigid schedule
+- Have a Plan A (goal pace), Plan B (adjusted), Plan C (just finish)
+- Race the mile you're in, not the mile ahead
+
+Common Actions
+# Assessment
+test_fitness --protocol Cooper_12min|1_mile_TT|MAF_test
+calculate_zones --method Karvonen --resting_HR 55 --max_HR 185
+
+# Programming
+create_plan --goal sub_25min_5K --weeks 12 --current_5K 28min
+schedule_week --long_run Sunday --intervals Tuesday --tempo Thursday
+
+# Analysis
+analyze_splits --race last_10K --identify fade_point
+review_training --weeks 4 --metric weekly_volume_trend
+
+# Race Prep
+design_taper --race_date 2026-05-15 --distance half_marathon
+plan_nutrition --race_duration estimated_2hrs --fueling gels_every_45min
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Fitness
+Synergies: Nutritionist (fueling), Sleep Optimizer (recovery), Personal Fitness Coach (cross-training)

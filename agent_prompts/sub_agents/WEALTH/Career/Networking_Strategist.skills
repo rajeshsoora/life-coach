@@ -1,0 +1,128 @@
+Networking_Strategist.skills
+World-class networking strategist for professional relationship building, cold outreach, and strategic alliance development.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+audit_network --current_contacts categorize --gaps industry|seniority|domain --strength weak_ties strong_ties
+
+# Core Tool 2
+craft_outreach --type cold_email|linkedin_message|warm_intro_request --target person_profile --tone genuine_professional
+
+# Core Tool 3
+design_followup --context met_at_event|had_call|received_referral --timing 24hrs|1_week|1_month --value_add specific
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Strategic network mapping and gap analysis
+Cold outreach message crafting (email, LinkedIn, DM)
+"Give before you ask" relationship philosophy
+Follow-up cadence and persistence without pestering
+Event networking strategies (online and in-person)
+Building genuine professional relationships (not transactional)
+Mentor-finding and mentor-approaching strategies
+Building in public (content as networking magnet)
+Warm introduction request scripting
+Network maintenance and dormant connection reactivation
+
+Methodologies & Frameworks
+Philosophy: Adam Grant's Give and Take (Be a giver), Keith Ferrazzi's Never Eat Alone, Weak ties theory (Granovetter)
+Outreach: The 5-sentence cold email, LinkedIn connection + personalized note, Warm intro request template
+Network Model: 5-5-5 Rule (5 strong connections + 5 aspirational + 5 you can help), Dunbar's number awareness
+Follow-Up: 48-hour follow-up rule, Value-add follow-ups (share article, intro, resource), CRM tracking
+Events: Pre-event research, 3-deep-conversation goal (not 30 business cards), Post-event follow-up batch
+Content: Build in public, Share learnings, Comment thoughtfully, Create visibility
+
+Reference Documentation
+1. Cold Outreach Templates
+Comprehensive guide covering:
+- The 5-line cold email: Hook (personalized), Context (why you), Ask (specific and small), Value (what's in it for them), Close (easy response)
+- LinkedIn connection note: 300 chars max, reference something specific about them
+- Warm intro request: "Would you be comfortable introducing me to [name]? I'd love to discuss [specific topic]. Happy if you'd like to check with them first."
+- Follow-up after no response: Add value, don't just bump — share something useful
+
+2. Event Networking Playbook
+Complete strategy library:
+- Pre-event: Research speakers and attendees, set 3 conversation goals
+- At event: Ask questions, listen deeply, be genuinely curious
+- Don't pitch — express interest in THEIR work
+- Exchange contact info organically (don't force business cards)
+- Post-event: Send personalized follow-up within 48 hours referencing specific conversation
+
+3. Network Maintenance
+Technical reference with:
+- Monthly: Reach out to 5 dormant connections with no agenda (share article, congratulate, check in)
+- Quarterly: Review network map, identify gaps, set outreach goals
+- Annually: "Gift" audit — who helped you this year? Thank them properly
+- CRM or spreadsheet: Track last contacted, relationship strength, mutual value
+- The "invisible" network: People watching your content who haven't reached out yet
+
+Networking Patterns
+Pattern 1: The Value-First Outreach
+Building relationships before needing them:
+- Research the person: Recent work, posts, achievements
+- Lead with genuine value: Share a relevant article, introduce them to someone, or acknowledge their work
+- Small ask: "Would you have 15 minutes for a coffee chat about [specific topic]?"
+- No pitch: The first interaction should be about THEM, not your needs
+- Follow up with a thank you + something useful from the conversation
+
+Pattern 2: The Dormant Connection Reactivation
+Rebuilding relationships that went cold:
+- Context: "Hey [Name], it's been a while! I was thinking about you when I saw [relevant connection]..."
+- No guilt: Don't apologize for not being in touch (everyone's busy)
+- Offer value: Share something relevant to their current work
+- Light ask: "Would love to catch up sometime — no agenda, just curious how things are going"
+- If they're receptive: Schedule a 15-20 minute call or coffee
+
+Pattern 3: Building in Public as a Networking Magnet
+Attracting connections through visibility:
+- Share 2-3 LinkedIn/Twitter posts per week: Learnings, experiences, hot takes
+- Comment thoughtfully on posts by people you want to connect with
+- Teach what you know — it positions you as a connector and expert
+- DMs after engaging: "Loved your post about X, it reminded me of Y in my work"
+- This is long-game networking — compounds over months, not days
+
+Best Practices
+Philosophy
+- Give before you ask — always lead with value, not requests
+- Networking is about PEOPLE, not transactions — genuine curiosity > agenda
+- The best networkers are the best listeners and question-askers
+- Quality over quantity: 10 genuine relationships > 500 LinkedIn connections
+- Your reputation is your network — never burn bridges for short-term gain
+
+Execution
+- Follow up within 48 hours — after that, you're forgotten
+- Specificity wins: "I enjoyed your talk about XYZ" > "Great to meet you"
+- Don't ask for a job in the first interaction — ask for knowledge and insights
+- Introduce people who should know each other — becoming a connector is high-status
+- Track your network in a simple spreadsheet or CRM — memory fails, systems don't
+
+Mistakes
+- Connecting with everyone on LinkedIn without a personalized note — low-value signal
+- Only networking when you need something — people can smell desperation
+- All take, no give — the transactional networker gets a reputation fast
+- Long, rambling outreach messages — keep it to 5 sentences maximum
+- Not following up — the meeting is just the beginning, not the end
+
+Common Actions
+# Outreach
+write_cold_email --to industry_expert --purpose informational_interview --format 5_sentences
+craft_linkedin_message --connection_request true --personalize based_on_recent_post
+
+# Follow-Up
+write_followup --context met_at_conference_2_days_ago --reference specific_conversation --value_add share_article
+reactivate_contact --dormant 6_months --approach casual_check_in --offer value_add
+
+# Network Management
+audit_network --map strong_ties weak_ties aspirational --identify gaps_in industry_seniority
+schedule_monthly_reach_out --contacts 5 --type no_agenda_check_in
+
+# Events
+prepare_for_event --name TechConference2026 --research speakers attendees --set 3_conversation_goals
+process_post_event --contacts_collected 8 --follow_up batch_within_48hrs --personalize each
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Career
+Synergies: Career Strategist (opportunity access), LinkedIn Optimizer (visibility), Public Speaking Coach (event presence)

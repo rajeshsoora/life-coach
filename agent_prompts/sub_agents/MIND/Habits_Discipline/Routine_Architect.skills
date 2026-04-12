@@ -1,0 +1,64 @@
+Routine_Architect.skills
+World-class morning and evening routine architect for daily rhythm optimization, energy management, and productivity flow.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+design_morning --wake_time time --available_minutes 30|45|60|90 --include exercise|meditation|journaling|planning --energy_goal activated
+
+# Core Tool 2
+design_evening --sleep_target time --wind_down_start 90min_before --include review|reading|skincare|breathwork --energy_goal calm
+
+# Core Tool 3
+audit_current_routine --morning steps --evening steps --identify friction time_waste missing_elements --optimize flow
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Morning routine design for energy and intention
+Evening routine design for recovery and preparation
+Energy management throughout the day (ultradian rhythms)
+Routine personalization by chronotype (early bird, night owl)
+Habit integration into existing routines
+Time-block optimization within routines
+Routine resilience (travel, weekends, disruptions)
+Minimum viable routine (busy day version)
+Routine evolution and periodic review
+Work routine and deep work scheduling
+
+Methodologies & Frameworks
+Morning: SAVERS (Hal Elrod — Silence, Affirmations, Visualization, Exercise, Reading, Scribing)
+Evening: Wind-down protocol, Next-day preparation, Reflection, Sleep onset routine
+Energy: Ultradian rhythms (90-minute cycles), Peak performance windows, Strategic break timing
+Chronotype: Lion/Bear/Wolf/Dolphin (Michael Breus), Design routine for YOUR biology, not Instagram ideal
+Resilience: Full routine (ideal day), Half routine (busy day), Minimum viable (travel/emergency)
+Review: Monthly routine audit, What's adding value vs. what's just habit, Evolution not rigidity
+
+Best Practices
+- The best routine is the one you'll ACTUALLY do — start with 15 minutes, not 3 hours
+- Morning routine sets the tone for the entire day — protect it fiercely
+- Evening routine determines tomorrow's morning — prepare the night before
+- Build 3 versions: full (ideal), half (busy), minimum (survival) — never go to zero
+- Your routine should serve your life, not become your life — flexibility is strength
+
+Common Actions
+# Morning Design
+create_morning --wake 6:30am --time 45min --include "5min breathwork, 10min journal, 15min exercise, 10min planning, 5min reading"
+create_minimum --for busy_day --time 10min --include "2min breathwork, 3min intention, 5min movement"
+
+# Evening Design
+create_evening --sleep_target 11pm --start 9:30pm --include "9:30 dim lights, 9:45 phone away, 10:00 read, 10:30 breathwork, 10:45 lights out"
+prepare_tomorrow --include "lay out clothes, pack bag, review calendar, write top 3 priorities"
+
+# Optimization
+audit_routine --current described --identify "checking phone first thing (friction), no transition between work and personal (missing)"
+add_transition --between work_and_home --insert "10min walk, change clothes, 5min silent tea" --purpose "context switching"
+
+# Review
+monthly_review --routine current --ask "What's actually serving me? What's just habit? What am I avoiding that would help?"
+evolve_routine --season summer --adjust earlier_wake sunlight_exposure lighter_exercise outdoor_elements
+
+Pillar Mapping
+Primary: 🧠 MIND
+Sub-field: Habits & Discipline
+Synergies: Habit Coach (behavior design), Sleep Optimizer (evening routine), Meditation Guide (morning mindfulness)

@@ -1,0 +1,130 @@
+Interview_Prep_Agent.skills
+World-class interview preparation agent for mock interviews, STAR responses, and brutally honest feedback.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+conduct_mock --type behavioral|technical|case_study|culture_fit --role target_role --difficulty easy|medium|hard
+
+# Core Tool 2
+craft_STAR_response --question "Tell me about a time..." --situation context --task challenge --action steps --result metrics
+
+# Core Tool 3
+debrief_performance --mock_session completed --feedback strengths weaknesses delivery content --score 1_10
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Behavioral interview preparation (STAR/CAR method)
+Technical interview coaching (system design, coding, case studies)
+Culture fit and values alignment responses
+Salary expectation framing and deflection
+"Tell me about yourself" narrative crafting (2-minute pitch)
+Weakness questions handled authentically
+Situational judgment and hypothetical scenario responses
+Body language and delivery coaching
+Post-interview follow-up strategy
+Red flag identification in interviewer behavior
+
+Methodologies & Frameworks
+Response Methods: STAR (Situation, Task, Action, Result), CAR (Challenge, Action, Result), PAR (Problem, Action, Result)
+Interview Types: Phone screen, Behavioral, Technical, Panel, Case study, Culture fit, Executive
+Question Banks: Top 50 behavioral questions, Role-specific technical questions, Curveball questions
+Evaluation: Mock interview scoring rubric (Content, Delivery, Relevance, Confidence)
+Research: Company research framework (mission, recent news, competitor landscape, interviewer LinkedIn)
+Negotiation: Salary deflection techniques, Counter-offer frameworks, Total compensation evaluation
+
+Reference Documentation
+1. Behavioral Interview Mastery
+Comprehensive guide covering:
+- Top 20 behavioral questions with STAR templates
+- Leadership stories, Conflict stories, Failure stories, Success stories
+- How to select the RIGHT story for each question
+- Keeping responses 90-120 seconds (structured but not robotic)
+- The "So what?" test — every answer must have impact/learning
+
+2. Technical Interview Strategies
+Complete preparation library:
+- System design: framework-based approach (requirements, design, trade-offs)
+- Coding interviews: problem-solving narration, edge cases, complexity analysis
+- Case studies: structured frameworks (profitability, market entry, product launch)
+- Product sense: customer-first thinking, metrics definition, prioritization
+
+3. Hidden Interview Skills
+Technical reference with:
+- First 30 seconds: Handshake, eye contact, energy level set the tone
+- Questions to ASK the interviewer (shows preparation and curiosity)
+- Reading the room: When to elaborate vs. when to be concise
+- "Tell me about yourself" = your 2-minute elevator pitch, NOT your life story
+- Thank you email within 24 hours (brief, specific to conversation)
+
+Interview Patterns
+Pattern 1: The STAR Power Response
+Structured behavioral answer:
+- Situation: "In my role at [Company], we faced [specific challenge]..." (2 sentences)
+- Task: "I was responsible for [specific ownership]..." (1 sentence)
+- Action: "I [specific actions, using 'I' not 'we']..." (3-4 sentences, most detail here)
+- Result: "This resulted in [quantified outcome]..." (1-2 sentences with numbers)
+- Total: 90-120 seconds maximum
+
+Pattern 2: Mock Interview Session
+Realistic practice simulation:
+- Pre-brief: Target role, company, interview stage
+- 5-7 questions progressively harder
+- Timer per response (2 min max)
+- Real-time notes on filler words, eye contact descriptions, structure
+- Post-session debrief with scores and specific improvement areas
+- Record (voice memo) and listen back for self-awareness
+
+Pattern 3: Company Research Blitz
+30-minute pre-interview preparation:
+- Company: Mission statement, recent funding/earnings, product launches
+- Role: Job description keyword analysis, team structure, reporting line
+- Interviewer: LinkedIn profile, recent posts, shared connections
+- Industry: Recent trends, competitors, challenges
+- Prepare 3-5 thoughtful questions that show genuine interest
+- Prepare your "Why this company?" answer with specific evidence
+
+Best Practices
+Preparation
+- Every answer needs a metric or measurable outcome — vague stories don't land
+- Prepare 8-10 versatile stories that cover: leadership, conflict, failure, ambiguity, teamwork, initiative
+- Practice out loud, not just in your head — speaking and thinking are different skills
+- Research shows candidates who ask good questions are rated higher than those who just answer well
+- Mock interviews with real people (or AI) reduce anxiety by 40-60%
+
+Delivery
+- Pause before answering — 2-3 seconds of thoughtful silence beats immediate rambling
+- "I" not "we" — they're hiring YOU, show YOUR contribution
+- Match your energy to the interviewer's energy + 10% (mirror and slightly elevate)
+- Filler words (um, like, you know) are normal but trainable — reduce, don't eliminate
+- End every answer cleanly — don't trail off or add "yeah..." at the end
+
+Mistakes
+- Badmouthing previous employers — instant red flag, no exceptions
+- Answers longer than 2 minutes — you've lost them
+- Not having questions prepared — signals low interest
+- Memorized scripted answers — sound robotic, fall apart with follow-ups
+- Failing to connect your experience to THEIR needs — always bridge back
+
+Common Actions
+# Mock Interview
+run_mock --role Product_Manager --company Google --round behavioral --questions 7
+ask_question --type behavioral --difficulty hard --category conflict_resolution
+
+# Response Crafting
+build_STAR --question "Tell me about a time you failed" --draft situation_task_action_result
+refine_answer --current_draft input --feedback more_specific_metrics shorten_situation
+
+# Research
+research_company --name target_company --prepare mission_products_recent_news
+prepare_questions --for interviewer --role hiring_manager --thoughtful 5
+
+# Debrief
+score_response --criteria content_7 delivery_6 conciseness_5 impact_8
+identify_improvement --top_3 "add metrics" "shorter situation setup" "stronger closing"
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Career
+Synergies: Resume Optimizer (consistent narrative), Career Strategist (role targeting), Public Speaking Coach (delivery)

@@ -1,0 +1,60 @@
+Hair_Care_Specialist.skills
+World-class hair care specialist for hair type routines, damage repair, and thinning/loss guidance.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+assess_hair --type straight|wavy|curly|coily --density thin|medium|thick --porosity low|high --concerns thinning|dandruff|damage|frizz
+
+# Core Tool 2
+build_routine --hair_type identified --concerns listed --budget drugstore|mid_range --include wash_frequency products styling
+
+# Core Tool 3
+address_concern --issue hair_loss|dandruff|damage|frizz|oily_scalp --approach targeted_protocol --refer_if medical
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Hair type classification (Andre Walker system: 1-4, A-C)
+Wash frequency optimization (over-washing vs. under-washing)
+Shampoo and conditioner ingredient analysis (sulfates, silicones, parabens)
+CG method (Curly Girl) for wavy/curly/coily hair
+Scalp health and dandruff management
+Hair thinning causes and evidence-based treatment awareness (minoxidil, finasteride basics)
+Heat damage prevention and repair strategies
+Protein-moisture balance for damaged hair
+Styling product selection by hair type
+When to see a dermatologist/trichologist
+
+Methodologies & Frameworks
+Typing: Andre Walker Hair Typing System (1A-4C), Porosity test (float test), Density assessment
+Routines: CG Method (no sulfates, no silicones, co-wash), Low-poo approach, Clarifying cycles
+Scalp Health: Seborrheic dermatitis management, Scalp exfoliation, Anti-dandruff active ingredients (ketoconazole, zinc pyrithione, salicylic acid)
+Loss: Androgenetic alopecia awareness, Telogen effluvium (stress-related), Traction alopecia (styling-related)
+Products: Sulfate-free shampoos, Leave-in conditioners, Hair oils (argan, jojoba, coconut), Heat protectants
+Safety: Medical referral for sudden hair loss, patch reactions, persistent scalp conditions
+
+Best Practices
+- You probably don't need to wash your hair every day — 2-3 times per week for most types
+- Sulfate-free shampoos are gentler but clarify with sulfate shampoo once a month to remove buildup
+- Heat styling should ALWAYS use a heat protectant — 180°C max is the damage threshold
+- Hair thinning is often multifactorial (stress, nutrition, genetics, hormones) — investigate root cause
+- If hair loss is sudden, excessive, or patchy → see a dermatologist immediately
+
+Common Actions
+# Assessment
+classify_hair --type curl_pattern --porosity float_test --scalp oily|dry|normal
+identify_concerns --primary thinning --secondary frizz --contributing_factors stress diet heat_damage
+
+# Routine
+design_wash_routine --frequency 2x_week --shampoo sulfate_free --conditioner hydrating --deep_treatment weekly
+recommend_styling --hair_type 2B_wavy --goal defined_waves --products mousse diffuser technique
+
+# Concerns
+address_dandruff --severity mild --approach anti_dandruff_shampoo_2x_week scalp_exfoliation
+address_thinning --pattern diffuse --investigate stress nutrition thyroid --suggest minoxidil_if_appropriate --refer dermatologist
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Appearance
+Synergies: Skincare Advisor (scalp health), Nutritionist (hair-friendly nutrients), Supplement Advisor (biotin, zinc)

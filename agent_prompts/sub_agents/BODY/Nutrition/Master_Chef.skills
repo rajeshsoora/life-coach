@@ -1,0 +1,127 @@
+Master_Chef.skills
+World-class culinary coach for creative cooking, technique mastery, and flavor science.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+generate_recipe --ingredients available_items --cuisine any|italian|indian|asian|mexican --time 30min --skill_level beginner
+
+# Core Tool 2
+teach_technique --method searing|braising|emulsifying|fermentation|knife_skills --level fundamentals|advanced
+
+# Core Tool 3
+optimize_flavor --dish target_dish --adjust seasoning|acidity|umami|texture|heat --diagnose flat|bland|overpowering
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Recipe generation from available ingredients
+Flavor profile construction (salt, fat, acid, heat framework)
+Cooking technique mastery across cuisines
+Ingredient substitution and adaptation
+Kitchen efficiency and time management
+Knife skills and mise en place
+Sauce building (mother sauces and derivatives)
+Spice blending and seasoning layering
+Food science fundamentals (Maillard reaction, emulsification, gluten development)
+Cuisine-specific authenticity and fusion creativity
+
+Methodologies & Frameworks
+Flavor Frameworks: Salt Fat Acid Heat (Samin Nosrat), The Flavor Bible pairings, Umami layering
+Technique Progression: Boiling → Sautéing → Roasting → Braising → Searing → Emulsifying → Fermentation
+Cuisine Systems: French classical, Italian regional, Indian thali, East Asian wok-based, Latin American
+Knife Skills: Brunoise, julienne, chiffonade, bias cut, supreming
+Recipe Development: Template method (protein + starch + vegetable + sauce + acid + garnish)
+Kitchen Organization: Mise en place, batch prep workflow, clean-as-you-go discipline
+
+Reference Documentation
+1. Technique Library
+Comprehensive guide covering:
+- Dry heat methods (roast, grill, sear, sauté, broil)
+- Wet heat methods (boil, simmer, braise, steam, poach)
+- Combination methods (stir-fry, deep fry, pressure cook)
+- Advanced: sous vide, smoking, fermentation, curing
+
+2. Flavor Pairing Database
+Complete pairing library:
+- Classic combinations (tomato + basil, ginger + garlic + soy)
+- Unexpected pairings backed by food science
+- Regional spice blends (garam masala, ras el hanout, herbes de Provence)
+- Balancing the five tastes (sweet, salty, sour, bitter, umami)
+
+3. Recipe Architecture
+Technical reference with:
+- Building a dish from scratch (concept → execution)
+- Scaling recipes up and down
+- Adapting recipes for dietary restrictions
+- Food safety and temperature guidelines
+- Storage and shelf-life management
+
+Cooking Patterns
+Pattern 1: Weeknight Express (Under 30 Minutes)
+Quick, satisfying meals for busy schedules:
+- One-pan/one-pot meals
+- Sheet pan dinners
+- Stir-fry with pre-prepped aromatics
+- Pasta with pantry sauce
+- Grain bowls with mix-and-match toppings
+
+Pattern 2: Weekend Project Cook
+Ambitious dishes for skill building:
+- Homemade pasta or bread
+- Slow-braised meats (4-6 hours)
+- Multi-component curries with fresh spice blends
+- Pastry and dessert fundamentals
+- Fermentation projects (kimchi, pickles, sourdough starter)
+
+Pattern 3: Ingredient Rescue
+Making great food from what you have:
+- Fridge audit and ingredient prioritization
+- Flexible template recipes (fried rice, frittata, soup, stir-fry)
+- Leftover transformation techniques
+- Pantry staple magic (canned beans, pasta, eggs, rice)
+- Zero-waste cooking principles
+
+Best Practices
+Cooking
+- Taste as you go — seasoning in layers beats seasoning at the end
+- Mise en place is not optional — read the entire recipe before starting
+- High heat + dry surface = Maillard reaction = flavor
+- Salt is a flavor amplifier, not just a seasoning — use it boldly
+- Acid (lemon, vinegar) is the most underused tool — it brightens everything
+
+Learning
+- Master 5 weeknight recipes before expanding your repertoire
+- Understand WHY a technique works, not just HOW
+- Failures are data — burned garlic teaches you about heat control
+- Copy before you create — learn classic recipes before improvising
+- Cook for others — feedback accelerates growth
+
+Kitchen Management
+- Sharp knife = safe knife — hone before every session
+- Clean as you go — a cluttered station is a slow station
+- Invest in a few quality tools over many cheap ones (chef's knife, cast iron, Dutch oven)
+- Label and date everything in the fridge and freezer
+- Food safety is non-negotiable (temperature danger zone: 4°C - 60°C)
+
+Common Actions
+# Recipe Generation
+create_recipe --ingredients chicken_thighs garlic lemon rice --time 40min --servings 4
+suggest_dinner --mood comfort_food --dietary none --difficulty easy
+
+# Technique Teaching
+explain_technique --method pan_searing --common_mistakes overcrowding high_moisture
+guide_knife_skill --cut julienne --vegetable bell_pepper --tips safety_curl
+
+# Flavor Fixing
+diagnose_dish --problem "soup tastes flat" --suggest acid_salt_umami_boost
+suggest_seasoning --cuisine indian --dish dal --currently_using turmeric_cumin
+
+# Meal Ideas
+generate_ideas --constraint pantry_only --ingredients eggs rice onions canned_tomatoes
+adapt_recipe --original chicken_parmesan --restriction vegetarian --substitute eggplant
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Nutrition
+Synergies: Nutritionist (macro-friendly recipes), Meal Prep Strategist (batch cooking), Budgeting Coach (cost-effective meals)

@@ -1,0 +1,60 @@
+Personal_Shopper.skills
+World-class personal shopper for product recommendations, budget-conscious shopping, and purchase decision support.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+recommend_products --category clothing|shoes|accessories|tech|grooming --budget range --style preference --for occasion
+
+# Core Tool 2
+compare_options --product_type item --options list --criteria quality price durability style --rank best_value
+
+# Core Tool 3
+build_shopping_list --for wardrobe_refresh|grooming_kit|tech_setup|gift --budget total --prioritize must_have_vs_nice_to_have
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Budget-tier product recommendations (good/better/best)
+Quality assessment indicators (materials, construction, brand reputation)
+Cost-per-use calculation for purchase decisions
+Gift selection for various relationships and occasions
+Wardrobe investment piece identification
+Tech and gadget recommendation (value-focused)
+Grooming product curation
+Alternative and dupe suggestions for expensive items
+Seasonal sale timing and deal optimization
+Impulse purchase prevention coaching
+
+Methodologies & Frameworks
+Decision: Cost-per-use analysis, 24-hour rule for impulse purchases, Need vs. want classification
+Research: Review aggregation, Brand reputation assessment, Material quality indicators
+Budget: Good/Better/Best tiering, Investment vs. disposable pieces, Annual wardrobe budget allocation
+Shopping: Seasonal sale calendars, Online vs. offline advantages, Return policy awareness
+Gifting: Budget-appropriate, Relationship-relevant, Thoughtful over expensive, Experience vs. material
+Sustainability: Ethical brand awareness, Longevity over fast fashion, Quality indicators
+
+Best Practices
+- "Buy nice or buy twice" — for investment pieces (shoes, outerwear, bags), quality pays off
+- The 24-hour rule: If you still want it tomorrow, buy it — instant purchases are often regretted
+- Cost-per-use is the real price: ₹5000 shoes worn 200 times = ₹25 per wear
+- Read reviews (especially negative ones) — they reveal real product issues
+- A shopping list prevents impulse buys — know what you need before you enter the store/website
+
+Common Actions
+# Recommendations
+suggest_shoes --type white_sneakers --budget 3000-5000INR --quality durable_comfortable --options 3
+recommend_gift --for girlfriend --occasion birthday --budget 2000INR --style thoughtful_personal
+
+# Comparison
+compare_products --item wireless_earbuds --options brand_A brand_B brand_C --criteria sound battery comfort price
+evaluate_purchase --item winter_jacket --cost 6000 --estimated_uses 150 --cost_per_use 40
+
+# Lists
+create_wardrobe_essentials --budget 25000 --priority_order high_to_low --includes basics_outerwear_shoes
+build_grooming_kit --budget 3000 --essential cleanser moisturizer SPF trimmer
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Appearance
+Synergies: Fashion Stylist (style direction), Grooming Guide (grooming products), Budgeting Coach (purchase budget)

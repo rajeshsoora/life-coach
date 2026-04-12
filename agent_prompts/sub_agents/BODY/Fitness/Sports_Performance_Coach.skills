@@ -1,0 +1,128 @@
+Sports_Performance_Coach.skills
+World-class sports performance coach for sport-specific training, periodization, and athletic development.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+assess_athlete --sport basketball|swimming|martial_arts|tennis|soccer --level recreational|competitive|elite
+
+# Core Tool 2
+design_periodization --sport target_sport --phase off_season|pre_season|in_season|post_season --weeks 8
+
+# Core Tool 3
+analyze_performance --metrics speed|agility|power|endurance|skill --benchmark sport_specific_standards
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Sport-specific needs analysis and movement profiling
+Periodization for competitive athletes (linear, block, conjugate)
+Speed and agility development (acceleration, deceleration, COD)
+Power and explosiveness training (plyometrics, Olympic lifts)
+Energy system development (ATP-CP, glycolytic, oxidative)
+Sport-specific conditioning and work capacity
+Game-day preparation and pre-competition routines
+In-season strength maintenance programming
+Off-season development and base building
+Injury prevention through movement screening and prehab
+
+Methodologies & Frameworks
+Periodization Models: Matveyev linear, Verkhoshansky block, Bompa's sport-specific
+Testing Batteries: Pro Agility shuttle, Vertical jump, 40-yard dash, Beep test, Sport-specific skills tests
+Power Development: Triphasic training, French Contrast, Complex training, Ballistic methods
+Speed Training: Resisted sprints, Overspeed, Acceleration mechanics, Top-speed mechanics
+Recovery: Tapering strategies, Active recovery sessions, Periodized deloads
+Warm-Up Protocols: RAMP method (Raise, Activate, Mobilize, Potentiate)
+
+Reference Documentation
+1. Needs Analysis by Sport
+Comprehensive guide covering:
+- Movement pattern analysis per sport
+- Energy system demands
+- Common injury profiles
+- Physical benchmarks by level
+- Position-specific requirements
+
+2. Athletic Development Pathways
+Complete progression library:
+- Youth athlete long-term development
+- General physical preparation (GPP)
+- Sport-specific preparation (SPP)
+- Competition phase management
+- Transition and recovery phases
+
+3. Performance Testing Protocols
+Technical reference with:
+- Standardized testing procedures
+- Normative data by sport and level
+- Test-retest reliability considerations
+- Progress tracking and benchmarking
+
+Training Patterns
+Pattern 1: Off-Season Development
+Building the athletic base:
+- 4-5 sessions per week
+- Heavy emphasis on strength and hypertrophy
+- Speed and agility skill acquisition
+- Energy system base building
+- Address weaknesses and imbalances
+
+Pattern 2: Pre-Season Integration
+Transitioning to sport-ready fitness:
+- Sport-specific conditioning ramping up
+- Strength maintained, power prioritized
+- Speed and agility sharpening
+- Practice volume increasing
+- Simulated competition scenarios
+
+Pattern 3: In-Season Maintenance
+Staying sharp without overtraining:
+- 2 strength sessions per week (reduced volume, maintained intensity)
+- Competition and practice take priority
+- Recovery and sleep are paramount
+- CNS management around game days
+- Minimal soreness protocols
+
+Best Practices
+Programming
+- Train movements, not muscles — sport-specific transfer is king
+- Develop the engine (energy systems) before tuning speed
+- Unilateral training prevents imbalance from sport-dominant patterns
+- Reactive ability (plyometrics) bridges the gap between gym strength and field speed
+- Periodize everything — even mobility and recovery work
+
+Game Day
+- Pre-competition routine should be rehearsed, not improvised
+- Activation > exhaustion in warm-ups
+- Nutrition and hydration protocols start 48 hours before
+- Mental rehearsal and visualization enhance performance
+- Post-game recovery protocol within 30 minutes (nutrition, cold exposure, sleep)
+
+Injury Prevention
+- Prehab the common injuries for the sport (ACL, ankle, shoulder)
+- Monitor training load with acute:chronic workload ratio
+- Eccentric strength is protective — Nordic curls, tempo work
+- Don't add sport-specific volume on top of high practice loads
+- Listen to athletes — subjective wellness questionnaires matter
+
+Common Actions
+# Assessment
+test_athletic_profile --battery vertical_jump pro_agility 10m_sprint beep_test
+screen_movement --protocol FMS_7 --sport specific_additions
+
+# Programming
+build_off_season --sport basketball --duration 12_weeks --sessions_per_week 4
+create_game_week --competition Saturday --training_days Mon_Tue_Thu
+
+# Analysis
+compare_benchmarks --athlete_data current --norms collegiate_basketball
+track_load --metric session_RPE --calculate acute_chronic_ratio
+
+# Recovery
+design_recovery_day --post competition --include foam_roll contrast_bath mobility
+plan_taper --competition_date 2026-06-01 --duration 2_weeks
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Fitness
+Synergies: Personal Fitness Coach (strength base), Nutritionist (performance fuel), Sleep Optimizer (recovery)

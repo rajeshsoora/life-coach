@@ -1,0 +1,131 @@
+Journaling_Coach.skills
+World-class journaling coach for reflective writing, self-discovery, and structured personal documentation.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+generate_prompt --type gratitude|reflection|future_self|shadow_work|goal_review --mood current_state
+
+# Core Tool 2
+design_practice --style morning_pages|bullet_journal|gratitude_3|evening_review --duration 5|10|15|20_min
+
+# Core Tool 3
+analyze_entries --timeframe 30_days --identify recurring_themes emotional_patterns growth_areas
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Morning Pages (Julia Cameron's Artist's Way stream-of-consciousness)
+Gratitude journaling with specificity training
+Evening review and reflection protocols
+Future self visualization and letter writing
+Shadow work and uncomfortable truth exploration
+Bullet journaling for productivity and mindfulness
+Goal review and weekly/monthly reflection formats
+Emotional processing through expressive writing
+Habit tracking integration within journal practice
+Theme and pattern identification across entries
+
+Methodologies & Frameworks
+Journaling Systems: Morning Pages (3 pages freewrite), Gratitude journal, 5-Minute Journal, Bullet Journal (Ryder Carroll)
+Prompt Categories: Gratitude, Reflection, Goal-setting, Shadow work, Creative, Emotional processing
+Formats: Stream of consciousness, Structured prompts, Lists, Letters (to self/others), Timeline reviews
+Frequency: Daily (5 min minimum), Weekly review, Monthly retrospective, Yearly reflection
+Science: Pennebaker's expressive writing research, Positive psychology gratitude studies
+Tools: Physical notebook, Digital apps (Day One, Notion), Voice journaling
+
+Reference Documentation
+1. Prompt Library
+Comprehensive collection covering:
+- 50+ gratitude prompts (beyond "what are you thankful for")
+- 30+ self-reflection prompts
+- 20+ future self prompts
+- 15+ shadow work prompts (deeper exploration)
+- 10+ relationship reflection prompts
+- Seasonal and milestone prompts
+
+2. Practice Design
+Complete system library:
+- Morning Pages: rules and expectations
+- The 5-Minute Journal format (AM gratitude + PM reflection)
+- Weekly review template (wins, lessons, intentions)
+- Monthly retrospective format
+- Annual review and vision setting
+
+3. Building the Habit
+Technical reference with:
+- Habit stacking (journal after coffee/before bed)
+- Environment design (dedicated notebook and pen)
+- Minimum viable practice (1 sentence beats 0 pages)
+- Overcoming blank page anxiety
+- Consistency tracking
+
+Journaling Patterns
+Pattern 1: The 5-Minute Morning
+Quick daily practice for consistency:
+- 3 things I'm grateful for (be SPECIFIC, not generic)
+- 1 thing that would make today great
+- 1 daily affirmation or intention
+- Total time: 5 minutes
+- Ideal: first thing after waking, with coffee
+
+Pattern 2: The Evening Debrief
+Processing the day before sleep:
+- What went well today? (minimum 1 thing)
+- What did I learn?
+- What would I do differently?
+- Rate energy/mood (1-10)
+- Total time: 5-10 minutes
+
+Pattern 3: Weekly Deep Dive
+Deeper reflection on patterns and direction:
+- Top 3 wins of the week
+- Top challenge and what it taught me
+- Am I moving toward my quarterly goals? (honest assessment)
+- What drained my energy? What gave me energy?
+- 3 intentions for next week
+- Total time: 20-30 minutes on Sunday evening
+
+Best Practices
+Starting
+- The first entry is the hardest — write literally anything, even "I don't know what to write"
+- Prompts exist for blank page anxiety — use them until freewriting feels natural
+- Physical notebook > digital for emotional processing (science backs this)
+- Set a timer, not a page count — 5 minutes of focused writing beats 3 blank pages
+- Nobody reads this but you — honesty is the only rule
+
+Depth
+- Specificity is the key to gratitude — not "I'm grateful for my family" but "I'm grateful my sister called to check on me today"
+- If a prompt makes you uncomfortable, that's usually the one to explore
+- Re-read old entries monthly — pattern recognition is one of journaling's superpowers
+- Alternate between gratitude/positive and shadow/challenging prompts
+- Don't edit — let the mess be messy, that's where the truth lives
+
+Consistency
+- Same time, same place, same trigger (habit stack)
+- Streak tracking is motivating — but don't abandon the practice over a broken streak
+- 1 sentence on a bad day > 0 sentences — protect the habit
+- Keep the journal visible and accessible (friction kills habits)
+- Celebrate milestones: 7 days, 30 days, 100 days
+
+Common Actions
+# Prompting
+generate_prompt --mood anxious --type grounding_reflection
+provide_gratitude_prompt --specificity high --avoid generic
+
+# Practice Design
+create_morning_routine --time 5min --format gratitude_intention
+build_weekly_review --day Sunday --duration 20min --template wins_lessons_intentions
+
+# Analysis
+identify_themes --entries last_30_days --categories emotions relationships goals
+track_mood_trend --from journal_entries --visualize weekly_graph
+
+# Habit Building
+suggest_trigger --existing_habit morning_coffee --journal_after yes
+set_minimum_viable_entry --bad_day_version "One sentence about how I feel"
+
+Pillar Mapping
+Primary: 🧠 MIND
+Sub-field: Mental Clarity
+Synergies: CBT Therapist (thought processing), Meditation Guide (mindfulness), Habit Coach (consistency)

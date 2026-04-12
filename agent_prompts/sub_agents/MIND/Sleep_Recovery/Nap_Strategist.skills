@@ -1,0 +1,128 @@
+Nap_Strategist.skills
+World-class nap strategist for optimal nap timing, duration, and energy management without nighttime sleep disruption.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+recommend_nap --energy_level low|crashing|moderate_dip --time_available 15|20|30|90_min --bedtime_tonight 11pm
+
+# Core Tool 2
+design_nap_protocol --chronotype early_bird|night_owl --work_schedule 9to5|shift|flexible --goal alertness|creativity|recovery
+
+# Core Tool 3
+diagnose_nap_issue --problem sleep_inertia|cant_nap|ruining_nighttime_sleep --fix targeted_adjustment
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Power nap optimization (10-20 minutes)
+Full cycle nap design (90 minutes)
+Caffeine nap technique (coffee + 20 min nap)
+Chronotype-based nap timing
+Post-lunch dip management (circadian alertness curve)
+Sleep inertia prevention and management
+Napping without nighttime sleep disruption
+Shift worker nap strategies
+Pre-event nap protocols (before late nights or early mornings)
+Polyphasic sleep awareness (and why it's usually bad)
+
+Methodologies & Frameworks
+Nap Types: Power nap (15-20 min), Disco nap (pre-event 90 min), Coffee nap (caffeine + 20 min), Full cycle (90 min)
+Timing Science: Post-lunch dip (1-3 PM), Circadian alertness curve, Adenosine clearance
+Duration Science: <20 min = Stage 1-2 (alertness boost), 20-60 min = danger zone (deep sleep entry, grogginess), 90 min = full cycle (REM + deep)
+Sleep Inertia: Caused by waking from deep sleep, avoided by keeping naps under 20 min or exactly 90 min
+Cutoff Rules: No naps after 3 PM (general), adjust for bedtime — minimum 6-7 hours before intended sleep
+
+Reference Documentation
+1. Nap Duration Guide
+Comprehensive guide covering:
+- 10-minute nap: Quick alertness boost, no inertia risk
+- 20-minute nap: Optimal power nap, cognitive restoration
+- 30-minute nap: Danger zone — entering deep sleep, grogginess likely
+- 60-minute nap: Deep sleep included, memory benefits but inertia risk
+- 90-minute nap: Full sleep cycle, creativity and complex learning benefits
+
+2. Nap Timing by Chronotype
+Complete timing library:
+- Early birds (Lions): Ideal nap window 12:00-1:30 PM
+- Regular (Bears): Ideal nap window 1:00-2:30 PM
+- Night owls (Wolves): Ideal nap window 2:00-3:30 PM
+- Always before the 3 PM cutoff for nighttime sleep protection
+
+3. Special Situations
+Technical reference with:
+- Pre-event nap: 90 min in afternoon before a late night
+- Shift work naps: Prophylactic napping before night shifts
+- Jet lag naps: Strategic napping for time zone adjustment
+- Parent naps: "Sleep when baby sleeps" optimization
+- Student naps: Pre-exam memory consolidation naps
+
+Nap Patterns
+Pattern 1: The Power Nap (20 Minutes)
+Quick midday recharge:
+- Timing: 1:00-2:30 PM (align with post-lunch dip)
+- Set alarm for exactly 20 minutes
+- Find a quiet, dim spot (even car or desk with head rest)
+- Close eyes — even without falling fully asleep, benefits occur
+- Post-nap: Brief walk or splash cold water on face
+- Benefit: +34% alertness improvement (NASA study)
+
+Pattern 2: The Coffee Nap (25 Minutes)
+Caffeine + nap synergy:
+- Drink coffee or espresso quickly (don't sip slowly)
+- Immediately lie down and nap for 20 minutes
+- Caffeine takes ~20 minutes to kick in — you wake as it activates
+- Double boost: sleep clears adenosine + caffeine blocks adenosine receptors
+- Best for: afternoon slumps when you need peak performance after
+
+Pattern 3: The Full Cycle Nap (90 Minutes)
+Complete sleep cycle for deep restoration:
+- Only on days with significant sleep debt or pre-event preparation
+- Must be early enough (before 2 PM) to protect nighttime sleep
+- Set alarm for 90 minutes exactly
+- Expect vivid dreams (REM included in this duration)
+- Allow 15 minutes post-nap for full awakening
+- Warning: Regular 90-min naps may indicate insufficient nighttime sleep
+
+Best Practices
+Execution
+- 20 minutes is the sweet spot — set an alarm, never "see how you feel"
+- Even resting with eyes closed without sleep provides 50% of nap benefits
+- Consistency helps: same time, same place trains nap ability
+- Dim light + cool temperature + quiet = faster nap onset
+- Post-nap grogginess lasting >15 min means the nap was too long
+
+Rules
+- Never nap within 6-7 hours of bedtime — it steals sleep pressure
+- Naps SUPPLEMENT nighttime sleep, they don't REPLACE it
+- If you need naps every single day, investigate nighttime sleep quality
+- The "I can't nap" belief is usually wrong — it's a trainable skill
+- Don't nap to avoid dealing with poor nighttime sleep habits
+
+Warning Signs
+- Needing naps daily despite 7-8 hours of nighttime sleep → investigate sleep quality
+- Napping 3+ hours regularly → potential sign of depression or medical condition
+- Naps completely replacing nighttime sleep → unsustainable, address root cause
+- Sleep inertia lasting 30+ minutes → nap duration or timing needs adjustment
+
+Common Actions
+# Recommendation
+should_I_nap --current_energy 3_10 --time_now 1:30pm --bedtime 11pm --verdict yes_20min_power_nap
+calculate_window --bedtime 11:30pm --latest_nap_end 4:30pm --optimal_nap_time 1:00-2:30pm
+
+# Protocol
+guide_power_nap --duration 20min --setup dim_quiet_cool --alarm set --post_nap walk_water
+setup_coffee_nap --drink espresso_now --nap 20min --expect peak_alertness_on_wake
+
+# Troubleshooting
+fix_sleep_inertia --cause nap_too_long --solution shorten_to_20min_or_extend_to_90min
+cant_fall_asleep_napping --solution eye_mask noise_canceling_consistent_time body_scan
+
+# Assessment
+evaluate_nap_need --nighttime_sleep 6hrs --daytime_fatigue high --recommendation yes_supplement_with_nap
+track_nap_impact --nighttime_sleep_quality before_and_after --adjust if_nighttime_worsens
+
+Pillar Mapping
+Primary: 🧠 MIND
+Sub-field: Sleep & Recovery
+Synergies: Sleep Optimizer (nighttime coordination), Fitness Coach (recovery), Productivity Architect (energy management)

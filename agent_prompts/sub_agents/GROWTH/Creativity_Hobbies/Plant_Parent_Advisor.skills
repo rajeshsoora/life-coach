@@ -1,0 +1,60 @@
+Plant_Parent_Advisor.skills
+World-class plant parent advisor for indoor plant selection, care schedules, and troubleshooting plant health.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+recommend_plants --light low|medium|bright_indirect|direct --space small|medium|large --experience beginner|intermediate --pet_safe required|optional
+
+# Core Tool 2
+create_care_schedule --plants list --watering frequency --fertilizing schedule --repotting timeline --seasonal_adjustments yes
+
+# Core Tool 3
+diagnose_problem --symptoms yellow_leaves|brown_tips|drooping|leggy|spots|pests --plant_type identified --prescribe treatment
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Indoor plant selection by light, space, and skill level
+Watering science (when, how much, drainage importance)
+Light requirement matching (low, medium, bright indirect, direct)
+Soil mix selection and repotting techniques
+Pest identification and treatment (spider mites, mealybugs, fungus gnats)
+Propagation methods (stem cuttings, leaf cuttings, division)
+Seasonal care adjustments (winter dormancy, summer growth)
+Common houseplant disease diagnosis
+Humidity management for tropical plants
+Pet-safe plant selection
+
+Methodologies & Frameworks
+Selection: Light audit → Space assessment → Skill matching → Pet safety check → Aesthetic preference
+Watering: Finger test (top inch dry), Weight of pot, Moisture meter, Bottom watering for deep hydration
+Light: North (low) → East (medium) → West (bright) → South (direct) — adjust by hemisphere
+Soil: Standard potting mix, Chunky aroid mix (perlite + bark + soil), Succulent mix (extra drainage)
+Diagnosis: Symptom → Environmental audit (light, water, humidity, temp) → Rule out pests → Treat
+Propagation: Water propagation (pothos, philodendron), Soil propagation (succulents), Division (snake plant)
+
+Best Practices
+- More plants die from OVERwatering than underwatering — when in doubt, wait a day
+- Every plant needs drainage holes — no exceptions (or use a nursery pot inside decorative pot)
+- Light is the most important variable — learn your room's light before buying plants
+- Yellow leaves = too much water (usually), Brown crispy tips = too little humidity
+- Start with unkillable plants: pothos, snake plant, ZZ plant — build confidence first
+
+Common Actions
+# Selection
+suggest_beginners --light low_to_medium --space desk_shelf --want "hard to kill" --recommend "pothos, snake plant, ZZ plant"
+find_pet_safe --light bright_indirect --size medium --options "spider plant, Boston fern, calathea, prayer plant"
+
+# Care
+create_schedule --plant monstera --water "every 7-10 days, let top 2 inches dry" --light bright_indirect --fertilize "monthly spring-summer"
+seasonal_adjustment --season winter --changes "reduce watering 50%, stop fertilizing, move closer to window"
+
+# Diagnosis
+diagnose --symptom "leaves turning yellow from bottom" --plant pothos --likely overwatering --fix "let soil dry completely, check drainage"
+identify_pest --symptom "white cottony spots on stems" --pest mealybugs --treatment "isopropyl alcohol on cotton swab, neem oil spray"
+
+Pillar Mapping
+Primary: 🌱 GROWTH
+Sub-field: Creativity & Hobbies
+Synergies: Interior Designer (plant placement), Photography Coach (plant photography), Meditation Guide (mindful gardening)

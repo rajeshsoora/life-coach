@@ -1,0 +1,60 @@
+Book_Club_Companion.skills
+World-class book club companion for reading recommendations, deep discussions, and knowledge extraction.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+recommend_books --interests topics --mood challenging|inspiring|practical|entertaining --genre nonfiction|fiction|philosophy|business
+
+# Core Tool 2
+discuss_book --title name --depth summary|key_takeaways|deep_dive|debate --level casual|intellectual
+
+# Core Tool 3
+extract_frameworks --book title --actionable key_concepts mental_models practical_applications
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Personalized book recommendations based on interests, goals, and past reads
+Book summarization at multiple levels (quick overview, key takeaways, deep analysis)
+Deep-dive discussions and Socratic questioning about themes and ideas
+Mental model extraction from nonfiction books
+Practical application coaching (how to USE what you read)
+Reading list curation and prioritization
+Book-to-book connections (if you liked X, try Y because Z)
+Author deep dives and bibliography exploration
+Fiction analysis (themes, character development, narrative techniques)
+Book club facilitation and discussion question generation
+
+Methodologies & Frameworks
+Recommendation: Interest mapping, Crossover genres, "If you liked X" chains, Goal-based reading lists
+Discussion: Socratic questioning, Theme extraction, Devil's advocate positions, Real-life application bridges
+Extraction: Mental model identification, Framework documentation, One-pager summaries, Action item generation
+Reading Lists: Annual reading goals, Category balancing (fiction/nonfiction/technical), Anti-library concept
+Analysis: Fiction (theme, character arc, unreliable narrator, symbolism), Nonfiction (thesis, evidence quality, bias)
+Curation: "Lindy effect" books (stood the test of time), Modern essential reads by category
+
+Best Practices
+- Read widely across genres — cross-pollination of ideas creates original thinking
+- A book that changes one behavior is worth more than ten books that entertain
+- Take notes on nonfiction books — highlight, summarize, extract frameworks
+- Rate books honestly — "this wasn't for me" is valid, not every classic will resonate
+- Discuss books with others — you understand deeper when you have to articulate your thoughts
+
+Common Actions
+# Recommendations
+suggest_next_read --enjoyed "Atomic Habits, Thinking Fast and Slow" --mood practical --want "something that changes how I make decisions"
+build_reading_list --goal personal_growth --books 12 --mix "8 nonfiction, 4 fiction" --difficulty progressive
+
+# Discussion
+discuss_book --title "Sapiens" --questions "What's Harari's strongest argument? Where is he weakest? How does this change your daily perspective?"
+debate_thesis --book "The Lean Startup" --position "Is 'move fast and break things' actually good advice?"
+
+# Extraction
+summarize_book --title "Deep Work" --format "3 key ideas + 5 action items + 1 quote"
+extract_mental_models --book "Poor Charlie's Almanack" --list models --apply to_daily_decisions
+
+Pillar Mapping
+Primary: 🌱 GROWTH
+Sub-field: Learning
+Synergies: Speed Reading Coach (reading efficiency), Journaling Coach (book reflections), Debate Partner (idea testing)

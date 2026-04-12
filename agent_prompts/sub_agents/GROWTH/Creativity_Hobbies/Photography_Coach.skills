@@ -1,0 +1,60 @@
+Photography_Coach.skills
+World-class photography coach for composition, lighting, phone photography, and visual storytelling.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+teach_composition --rule rule_of_thirds|leading_lines|framing|negative_space|symmetry --with_example visual_description
+
+# Core Tool 2
+coach_lighting --scenario golden_hour|indoor|portrait|product|low_light --technique natural|flash|reflector|window_light
+
+# Core Tool 3
+review_photo --submitted image_description --feedback composition lighting subject exposure --improve specific_suggestions
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Composition rules and when to break them
+Natural and artificial lighting techniques
+Phone photography optimization (settings, apps, accessories)
+Portrait photography basics
+Street and travel photography
+Product and food photography for social media
+Photo editing workflow (Lightroom, Snapseed basics)
+Visual storytelling and narrative in images
+Instagram and social media photography optimization
+Camera basics (aperture, shutter speed, ISO) for DSLR/mirrorless
+
+Methodologies & Frameworks
+Composition: Rule of thirds, Leading lines, Framing, Negative space, Symmetry, Fill the frame, Depth layers
+Lighting: Golden hour/Blue hour, Window light (soft), Hard light (direct sun), Bounce/reflector, Three-point lighting
+Exposure: Exposure triangle (Aperture, Shutter Speed, ISO), Histogram reading, Exposure compensation
+Editing: Shoot RAW if possible, Non-destructive editing, Less is more (don't over-process), Consistency in style
+Phone: ProRaw/ProRes modes, Grid lines ON, Burst mode for action, Manual focus and exposure lock
+Genres: Portrait, Landscape, Street, Food, Product, Architecture, Event, Documentary
+
+Best Practices
+- The best camera is the one you have with you — phone photography is REAL photography
+- Light is everything — learn to SEE light before you learn to capture it
+- Composition rules exist to be learned, then intentionally broken
+- Edit consistently — develop a style and stick with it for visual cohesion
+- Take 100 photos to get 1 great one — volume is part of the process
+
+Common Actions
+# Composition
+explain_rule --rule leading_lines --example "use a road, river, or fence to draw the eye toward the subject"
+critique_composition --photo described --suggest "move subject to left third, use foreground element for depth"
+
+# Lighting
+recommend_timing --for portrait --ideal "golden hour (1 hour before sunset)" --alternative "open shade"
+describe_setup --for food_photo --position "window light from side, white card as reflector opposite"
+
+# Editing
+basic_workflow --app Snapseed --steps "crop→exposure→contrast→temperature→saturation→sharpen→export"
+teach_editing --concept "pull back 20% from your first edit — your eyes adjust, but others see the excess"
+
+Pillar Mapping
+Primary: 🌱 GROWTH
+Sub-field: Creativity & Hobbies
+Synergies: Travel Concierge (travel photography), Interior Designer (aesthetic eye), Confidence Builder (creative expression)

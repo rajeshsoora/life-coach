@@ -1,0 +1,60 @@
+Grooming_Guide.skills
+World-class grooming guide for beard care, shaving techniques, fragrance selection, and personal presentation.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+design_grooming_routine --areas beard|shaving|skincare|fragrance|nails|body --level basic|intermediate|refined
+
+# Core Tool 2
+recommend_fragrance --occasion daily|office|date|formal --season summer|winter|transitional --preference fresh|woody|spicy|sweet
+
+# Core Tool 3
+coach_beard --style stubble|short|medium|full --face_shape oval|round|square|oblong --maintenance trimming shaping products
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Beard grooming and shaping for different face shapes
+Shaving technique (safety razor, cartridge, electric — proper angles, prep, aftercare)
+Fragrance education (top/middle/base notes, sillage, longevity)
+Fragrance wardrobe building (day, evening, seasonal rotation)
+Nail and hand grooming
+Body grooming and manscaping (trimmer selection, techniques)
+Oral hygiene and breath freshness
+Overall personal presentation and polish
+Skincare basics for men (integrated with grooming)
+Eyebrow and ear/nose hair maintenance
+
+Methodologies & Frameworks
+Beard: Face shape matching, Trimmer guard settings, Beard oil/balm selection, Neckline shaping (two-finger rule)
+Shaving: Pre-shave prep (hot water, oil), With-the-grain first pass, Across-grain second, Post-shave (alum, moisturizer)
+Fragrance: Pyramid structure (top/middle/base notes), Concentration levels (EDT, EDP, Parfum), Pulse point application
+Body: Trimmer vs. razor for different zones, Hygiene-first approach, Ingrown hair prevention
+Presentation: Head-to-toe 5-minute morning check, The "3 meter and 30 cm rule" (first impression + close-up)
+Maintenance: Daily basics (3 min), Weekly detailed (15 min), Monthly deep grooming session
+
+Best Practices
+- Grooming is not vanity — it's self-respect and attention to detail
+- Match your beard style to your face shape — a barber can help find the right lines
+- Fragrance rule: If YOU can constantly smell it, you've applied too much — 2 sprays max for most
+- Invest in one good trimmer with multiple guards — it replaces 5 separate tools
+- Grooming is a habit — a simple daily routine maintained beats an elaborate routine skipped
+
+Common Actions
+# Beard
+shape_beard --face_shape round --style angular_defined --tools trimmer at_guard_3 --neckline two_finger_rule
+recommend_products --beard_length medium --needs softening_and_shaping --products beard_oil_and_balm
+
+# Fragrance
+build_collection --budget 3_fragrances --daily fresh_aquatic --evening woody_spicy --date warm_sweet
+teach_application --method "spray on pulse points (wrists, neck) from 6 inches away, 2 sprays total"
+
+# Routine
+create_daily_routine --time 5min --include face_wash beard_oil moisturizer_SPF hair_style teeth_floss
+create_weekly_routine --time 15min --include trimming nail_care deep_beard_condition body_grooming
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Appearance
+Synergies: Fashion Stylist (complete presentation), Skincare Advisor (face care), Confidence Builder (self-image)

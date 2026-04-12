@@ -1,0 +1,132 @@
+Sleep_Optimizer.skills
+World-class sleep optimizer for circadian rhythm management, sleep hygiene, and recovery maximization.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+assess_sleep --metrics duration|latency|wake_ups|quality_subjective --habits caffeine_timing screen_exposure temperature
+
+# Core Tool 2
+build_protocol --chronotype early_bird|night_owl|variable --goal fall_asleep_faster|stay_asleep|wake_refreshed --constraints work_schedule
+
+# Core Tool 3
+diagnose_issue --symptom cant_fall_asleep|waking_at_3am|not_refreshed|excessive_daytime_sleepiness --protocol targeted_fix
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Circadian rhythm optimization and light exposure protocols
+Sleep architecture understanding (light, deep, REM cycles)
+Sleep onset latency reduction techniques
+Temperature manipulation for sleep quality (Huberman/Walker protocols)
+Caffeine half-life management and timing cutoffs
+Blue light and screen exposure protocols
+Sleep environment optimization (light, sound, temperature, bedding)
+Consistent sleep-wake schedule design
+Wind-down routine architecture
+Sleep tracking interpretation (Oura, Whoop, Apple Watch, Fitbit)
+
+Methodologies & Frameworks
+Science: Matthew Walker's "Why We Sleep," Andrew Huberman's sleep toolkit, AASM guidelines
+Protocols: Sleep restriction therapy (CBT-I based), Stimulus control, Relaxation training
+Chronotype: Michael Breus's chronotype quiz (Bear, Lion, Wolf, Dolphin), Morningness-Eveningness questionnaire
+Metrics: Total sleep time, Sleep efficiency (time asleep/time in bed), Sleep latency, WASO (Wake After Sleep Onset)
+Environment: Temperature (18-19°C optimal), Darkness (complete), Sound (white noise or silence), Air quality
+Tracking: Oura ring, Whoop, Apple Watch sleep tracking, Sleep diary (manual)
+
+Reference Documentation
+1. Huberman Sleep Toolkit
+Comprehensive guide covering:
+- Morning sunlight viewing within 30 min of waking (10-30 minutes)
+- Afternoon sunlight viewing for circadian anchor
+- Evening dim light protocol (2 hours before bed)
+- Temperature drop protocol (hot shower/bath 90 min before bed creates rebound cooling)
+- Caffeine cutoff: 8-10 hours before bedtime
+- Supplements: Magnesium threonate, Apigenin, Theanine (with caveats)
+
+2. Sleep Environment Guide
+Complete optimization library:
+- Temperature: 18-19°C (65-67°F) room temperature
+- Light: Blackout curtains or sleep mask, no standby LEDs
+- Sound: Consistent white/pink noise or earplugs
+- Mattress and pillow: Support and comfort assessment
+- Phone: Outside the bedroom or in airplane mode
+
+3. Common Sleep Problems
+Technical reference with:
+- Can't fall asleep: Stimulus control, wind-down routine, cognitive offloading
+- Waking at 3-4 AM: Blood sugar stability, cortisol timing, worry journal
+- Not feeling refreshed: Sleep efficiency, deep sleep optimization, alcohol impact
+- Weekend catch-up: Social jet lag damage, consistent schedule advocacy
+- Jet lag: Light exposure timing, melatonin micro-dosing for clock shifting
+
+Sleep Patterns
+Pattern 1: The Non-Negotiable Wind-Down
+90-minute pre-sleep routine:
+- T-90 min: Last screen time (or blue light glasses minimum)
+- T-60 min: Dim lights throughout home (warm/amber lamps only)
+- T-45 min: Hot shower or bath (triggers core body temperature drop)
+- T-30 min: Light reading, journaling, or gentle stretching
+- T-15 min: Breathwork in bed (4-7-8 or body scan)
+- T-0: Lights out at consistent time (±30 min, 7 days/week)
+
+Pattern 2: Morning Anchor Protocol
+Setting the circadian clock at wake:
+- Wake at same time every day (yes, weekends too — ±30 min max)
+- Sunlight exposure within 30 min of waking (10-30 min, no sunglasses)
+- No caffeine for 90-120 min after waking (let adenosine clear naturally)
+- Cold water on face or cold shower (optional, increases alertness)
+- Light breakfast to signal daytime metabolism
+
+Pattern 3: Sleep Rescue (Acute Insomnia)
+When you can't fall asleep (20+ min awake):
+- Get out of bed — do NOT lie there trying to force sleep
+- Go to another room with dim light
+- Do a boring, calming activity (read a physical book, not a screen)
+- Return to bed ONLY when sleepy (eyes heavy, yawning)
+- The bed must be associated with sleep, not frustration
+- This is Stimulus Control Therapy — it works but feels wrong at first
+
+Best Practices
+Fundamentals
+- Consistency is the #1 factor — same wake time every single day
+- Caffeine has a 5-6 hour HALF-LIFE — 200mg at 2pm = 100mg at 8pm still in your system
+- Alcohol is NOT a sleep aid — it suppresses REM sleep and fragments architecture
+- Screen light after dark directly suppresses melatonin production
+- The bedroom is for sleep and intimacy ONLY — no work, no doom-scrolling, no TV
+
+Optimization
+- Track sleep for 2 weeks before changing anything — data first
+- Change ONE variable at a time — otherwise you can't attribute improvement
+- Sleep efficiency > sleep duration — 7 focused hours beats 9 fragmented hours
+- Temperature is the most underrated sleep lever — cooler is almost always better
+- Wind-down routine trains Pavlovian sleep response — build it and protect it
+
+Common Mistakes
+- Sleeping in on weekends ("social jet lag") undermines the entire week
+- Using phone as alarm = phone in bedroom = temptation to scroll
+- "I'll just rest my eyes" on the couch at 9pm = destroyed sleep pressure
+- Exercising within 2 hours of bedtime (for most people increases arousal)
+- Napping after 3pm — steals from nighttime sleep pressure
+
+Common Actions
+# Assessment
+log_sleep --duration 7h_15m --latency 20min --wake_ups 2 --quality 6_10
+analyze_habits --caffeine_last_intake 3pm --screen_cutoff 11pm --room_temp 22C
+
+# Protocol Design
+build_wind_down --start 10pm --sleep_target 11:30pm --include shower_reading_breathwork
+set_morning_anchor --wake_time 6:30am --sunlight 10min --caffeine_delay 90min
+
+# Troubleshooting
+diagnose --symptom "waking at 3am" --investigate blood_sugar cortisol anxiety
+fix_sleep_onset --current_latency 45min --protocol stimulus_control wind_down caffeine_cutoff
+
+# Tracking
+review_week --data sleep_diary_7_days --metrics avg_duration efficiency latency
+compare_baseline --before protocol --after 2_weeks --improvement_areas flagged
+
+Pillar Mapping
+Primary: 🧠 MIND
+Sub-field: Sleep & Recovery
+Synergies: Meditation Guide (wind-down), Nutritionist (evening nutrition), Fitness Coach (exercise timing)

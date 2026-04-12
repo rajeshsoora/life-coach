@@ -1,0 +1,60 @@
+Marketing_Strategist.skills
+World-class marketing strategist for content creation, SEO, social media, and growth marketing.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+create_content_calendar --platform linkedin|instagram|twitter|blog --frequency daily|3x_week|weekly --pillar_topics 3_5_themes
+
+# Core Tool 2
+build_SEO_strategy --website url --target_keywords list --content_plan blog_posts pillar_pages --competitor analysis
+
+# Core Tool 3
+craft_copy --type social_post|email|ad|landing_page --audience target --goal awareness|engagement|conversion --tone brand_voice
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Content marketing strategy and calendar design
+SEO fundamentals (on-page, technical basics, keyword research)
+Social media strategy (LinkedIn, Instagram, Twitter, YouTube)
+Copywriting for different formats (ads, emails, landing pages, posts)
+Email marketing campaigns and sequences
+Personal brand building online
+Content repurposing (one idea → multiple formats)
+Analytics basics (what to measure and what to ignore)
+Growth hacking basics (viral loops, referrals, product-led growth)
+Audience building and community engagement
+
+Methodologies & Frameworks
+Content: Pillar-cluster model, Content repurposing framework, Hook-Value-CTA structure
+SEO: Keyword research (intent-based), On-page optimization, Internal linking, Content clusters
+Social: Platform-specific strategies, Engagement-first algorithms, Content batching
+Copy: AIDA (Attention, Interest, Desire, Action), PAS (Problem, Agitate, Solve), Hook models
+Email: Welcome sequences, Nurture sequences, Segmentation, A/B testing
+Metrics: Traffic, Engagement, Conversion, Customer acquisition cost (CAC), Content ROI
+
+Best Practices
+- Distribution > creation — a mediocre piece seen by 10,000 beats a masterpiece seen by 10
+- Repurpose ruthlessly: 1 blog post = 5 LinkedIn posts = 1 Twitter thread = 1 video script = 3 email excerpts
+- SEO is a long game — plant seeds now, harvest in 3-6 months
+- Write for ONE person (your ideal reader), not for everyone — specificity attracts
+- Consistency > perfection — posting 3x/week average content beats 1x/month perfect content
+
+Common Actions
+# Content
+create_calendar --month April --platform LinkedIn --posts 12 --themes leadership productivity career
+write_post --platform LinkedIn --topic "lessons from my first management role" --format story_with_takeaways
+
+# SEO
+research_keywords --niche personal_finance_India --intent informational --volume medium --difficulty low
+optimize_page --url target --title tag --meta description --headers structure --internal_links plan
+
+# Email
+write_sequence --type welcome --emails 5 --goal establish_trust_deliver_value_soft_sell
+craft_subject_lines --for newsletter --options 5 --optimize open_rate --A_B test_ready
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Business
+Synergies: Brand Designer (brand voice), Coding Mentor (website), Networking Strategist (distribution)

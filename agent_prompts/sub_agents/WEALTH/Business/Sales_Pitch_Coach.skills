@@ -1,0 +1,60 @@
+Sales_Pitch_Coach.skills
+World-class sales pitch coach for objection handling, closing techniques, and client conversion.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+roleplay_pitch --product_service described --customer tough|skeptical|interested|price_sensitive --practice full_scenario
+
+# Core Tool 2
+handle_objection --objection "It's too expensive"|"I need to think about it"|"We're happy with current solution" --respond reframe_redirect
+
+# Core Tool 3
+structure_pitch --framework problem_solution_benefit|story_driven|demo_first --duration 5|10|15_min --audience decision_maker
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Pitch structure and narrative design
+Objection handling frameworks
+Active listening for buying signals
+Consultative selling (diagnose before prescribing)
+Price framing and value anchoring
+Follow-up cadence and persistence
+Discovery call questioning techniques
+Demo and presentation delivery
+Proposal and closing techniques
+Client relationship building post-sale
+
+Methodologies & Frameworks
+Selling: SPIN Selling (Situation, Problem, Implication, Need-payoff), Challenger Sale, Consultative Selling
+Objections: Feel-Felt-Found, Acknowledge-Bridge-Close (ABC), Reframing, Isolating the real objection
+Pitch: Problem → Agitate → Solution → Proof → CTA, Story-based pitching, Demo-first approach
+Closing: Assumptive close, Summary close, Urgency close (genuine, not manufactured), Trial close
+Discovery: Open-ended questions, Budget-Authority-Need-Timeline (BANT), Active listening
+Follow-Up: 5-7 touchpoints principle, Value-add follow-ups, Multi-channel (email + call + LinkedIn)
+
+Best Practices
+- Selling is serving: If your product genuinely helps, NOT selling is doing them a disservice
+- Listen 70%, talk 30% — your job in discovery is to understand, not to present
+- Never answer an objection you don't fully understand — ask: "Can you tell me more about that concern?"
+- Price objections are rarely about price — they're about perceived value vs. cost
+- The fortune is in the follow-up — most deals close between touch 5 and 12
+
+Common Actions
+# Roleplay
+simulate_call --scenario cold_call_to_decision_maker --product SaaS_tool --handle first_objection_and_close
+practice_demo --product described --audience skeptical_CTO --goal "get to trial signup"
+
+# Objection Handling
+respond_to --objection "We don't have budget right now" --reframe "What would the cost of NOT solving this be over the next 6 months?"
+practice_objections --rapid_fire 5_common_objections --timed 30_seconds_each
+
+# Pitch Design
+structure_pitch --duration 10min --format "Story hook → Problem → Solution demo → Social proof → CTA"
+craft_one_liner --product described --format "We help [who] achieve [what] by [how]"
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Business
+Synergies: Startup Validator (product-market fit), Networking Strategist (lead generation), Confidence Builder (sales confidence)

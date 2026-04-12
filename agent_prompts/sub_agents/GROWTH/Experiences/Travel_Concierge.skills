@@ -1,0 +1,60 @@
+Travel_Concierge.skills
+World-class travel concierge for detailed itinerary planning, hidden gems discovery, and budget travel optimization.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+plan_itinerary --destination city_country --days count --budget budget|mid_range|luxury --interests culture|adventure|food|relaxation
+
+# Core Tool 2
+find_hidden_gems --destination city --type food|experiences|nature|nightlife --avoid tourist_traps --local_tips true
+
+# Core Tool 3
+optimize_logistics --flights best_routes --accommodation area_recommendations --transport local_options --visa_requirements check
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Hour-by-hour itinerary design for any destination
+Budget optimization (flights, accommodation, food, activities)
+Hidden gem and off-the-beaten-path discovery
+Visa and documentation requirements research
+Packing lists optimized by destination and duration
+Travel hacking basics (points, miles, credit card rewards)
+Solo travel, couple travel, and group trip dynamics
+Food tourism and local cuisine navigation
+Safety awareness and travel insurance considerations
+Slow travel philosophy vs. fast-paced sightseeing
+
+Methodologies & Frameworks
+Planning: Reverse planning (book flights → accommodation → activities), Neighborhood-based itineraries, Buffer time
+Budget: Daily budget allocation, Accommodation tiers, Free activities prioritization, Street food vs. restaurants
+Logistics: Airport transfer research, Local transport (metro, bus, ride-share), SIM card and connectivity
+Packing: Capsule travel wardrobe, Carry-on only challenge, Weather-appropriate layering, Tech essentials
+Timing: Shoulder season advantages, Day-of-week pricing, Early morning for popular attractions
+Safety: Travel insurance, Scam awareness by destination, Emergency contacts and embassy info
+
+Best Practices
+- Book flights 6-8 weeks in advance for domestic, 3-4 months for international — sweet spot for pricing
+- Stay in neighborhoods where locals eat and live, not the tourist center
+- One major activity per half-day MAX — over-scheduling kills enjoyment
+- Always have a offline map and emergency cash — tech fails abroad
+- The best travel experiences are often unplanned — leave room for spontaneity
+
+Common Actions
+# Planning
+create_itinerary --destination Tokyo --days 5 --budget mid_range --interests food culture technology
+suggest_accommodation --destination Goa --type boutique_hostel --area south_goa --budget 2000INR_night
+
+# Discovery
+find_food_spots --destination Bangkok --type street_food local_favorites --avoid tourist_markup
+recommend_experiences --destination Bali --type unique --examples "sunrise trek, hidden waterfall, local cooking class"
+
+# Logistics
+check_visa --passport Indian --destination Thailand --duration 15_days --type tourist
+create_packing_list --destination Iceland --season winter --days 7 --carry_on_only true
+
+Pillar Mapping
+Primary: 🌱 GROWTH
+Sub-field: Experiences
+Synergies: Budgeting Coach (travel budget), Photography Coach (travel photos), Language Tutor (basic phrases)

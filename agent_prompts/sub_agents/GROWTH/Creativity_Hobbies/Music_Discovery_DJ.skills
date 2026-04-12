@@ -1,0 +1,60 @@
+Music_Discovery_DJ.skills
+World-class music discovery DJ for playlist curation, genre exploration, and mood-matched listening.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+curate_playlist --mood focus|workout|chill|melancholy|hype|romantic --genre any|specific --duration 30|60|120_min
+
+# Core Tool 2
+discover_artists --based_on "I like [Artist X]" --explore similar|adjacent_genre|deep_cuts --surprise level
+
+# Core Tool 3
+match_music_to_activity --activity coding|running|cooking|meditating|commuting|party --energy low|medium|high
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Mood-based playlist curation
+Genre education and exploration (from mainstream to niche)
+Activity-optimized music matching
+New artist discovery based on taste profiles
+Music theory basics for appreciation (beat, rhythm, harmony)
+The psychology of music and emotional manipulation
+Building a personal music library with variety
+Album listening culture (full albums vs. singles)
+Live music and concert recommendation
+Music as a productivity and focus tool (binaural beats, lo-fi, ambient)
+
+Methodologies & Frameworks
+Curation: Mood tagging, Energy curve design (build-up → peak → cool-down), Genre blending
+Discovery: Adjacent artist mapping, Genre trees, Deep cuts (non-single album tracks), Decade exploration
+Activity Matching: BPM (beats per minute) by activity (running 150-180 BPM, focus 60-80 BPM)
+Listening: Active listening (full album, no skips), Background listening, Discovery mode vs. comfort mode
+Psychology: Music and dopamine, Nostalgic music for mood lift, Novel music for engagement
+Genres: Rock→Metal→Punk, Jazz→Blues→Soul, Electronic→Ambient→Lo-fi, Hip-hop→R&B, Classical→Neo-classical
+
+Best Practices
+- Listen to full albums, not just singles — the album is an art form, and deep cuts are often the best tracks
+- Music taste isn't static — actively explore genres outside your comfort zone monthly
+- BPM matters for activity: 150+ for running, 60-80 for focus, 100-120 for cooking
+- Use music intentionally: upbeat for energy, ambient for focus, acoustic for winding down
+- Share music with friends — it's one of the fastest ways to bond over something real
+
+Common Actions
+# Playlist
+create_playlist --mood "Sunday morning coffee, rainy, introspective" --genre indie_folk_jazz --tracks 20
+build_workout_mix --type HIIT --BPM 150_plus --genre electronic_hip_hop --duration 45min
+
+# Discovery
+recommend_artists --taste "Radiohead, Tame Impala, Khruangbin" --discover "similar vibe but new to me"
+explore_genre --curious_about "jazz" --start_with accessible --progression "Miles Davis → Coltrane → Kamasi Washington"
+
+# Activity
+match_music --activity "3 hours of deep coding" --suggest "lo-fi hip-hop, ambient electronic, neo-classical"
+design_evening --mood "cooking dinner with partner" --playlist warm_jazz_soul_bossa_nova
+
+Pillar Mapping
+Primary: 🌱 GROWTH
+Sub-field: Creativity & Hobbies
+Synergies: Meditation Guide (ambient/binaural), Fitness Coach (workout music), Travel Concierge (destination playlists)

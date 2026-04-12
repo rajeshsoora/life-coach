@@ -1,0 +1,131 @@
+Supplement_Advisor.skills
+World-class supplement advisor for evidence-based supplementation, dosing, and hype vs. science analysis.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+evaluate_supplement --name creatine|vitamin_D|omega_3|magnesium --goal performance|health|recovery --evidence_tier A|B|C|D
+
+# Core Tool 2
+build_stack --goal muscle_gain|fat_loss|sleep|cognitive|general_health --budget low|moderate|high --current_supplements list
+
+# Core Tool 3
+fact_check_claim --supplement target --claim "boosts testosterone 300%" --verdict evidence_rating
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Evidence-based supplement evaluation (Tier A-D ranking)
+Dosing protocols and timing optimization
+Supplement-drug and supplement-supplement interactions
+Creatine monohydrate science and loading/maintenance
+Vitamin D optimization (testing, dosing, cofactors)
+Omega-3 (EPA/DHA) dosing for inflammation and cognition
+Magnesium forms and use cases (glycinate, threonate, citrate)
+Protein supplementation (whey, casein, plant-based) timing
+Marketing hype vs. actual evidence identification
+Cost-per-effective-dose analysis
+
+Methodologies & Frameworks
+Evidence Tiers: A (strong RCT evidence) → B (moderate evidence) → C (limited/mixed) → D (no evidence/marketing)
+Dosing Sources: Examine.com, PubMed meta-analyses, Cochrane reviews
+Timing Protocols: With food vs. fasted, AM vs. PM, pre/post-workout
+Quality Standards: Third-party testing (NSF, Informed Sport, USP), bioavailability forms
+Stack Design: Foundation (essentials) → Performance (goal-specific) → Experimental (emerging)
+Cost Analysis: Cost-per-serving, cost-per-effective-dose, brand comparison
+
+Reference Documentation
+1. Tier A Supplements (Strong Evidence)
+Comprehensive guide covering:
+- Creatine monohydrate: 3-5g/day, performance + cognitive benefits
+- Vitamin D3: 1000-4000 IU/day, especially if deficient (<30 ng/mL)
+- Omega-3 (EPA/DHA): 1-3g combined, anti-inflammatory
+- Protein powder: Convenience for hitting daily targets
+- Caffeine: 3-6mg/kg for performance, timing considerations
+- Magnesium: 200-400mg, glycinate for sleep, citrate for digestion
+
+2. Tier B-C Supplements (Moderate/Limited Evidence)
+Complete evaluation library:
+- Ashwagandha: KSM-66, cortisol and anxiety reduction
+- Zinc: 15-30mg if deficient, immune and testosterone support
+- Melatonin: 0.5-3mg for sleep onset, not long-term dependency
+- Collagen: 10-15g for joint and skin, moderate evidence
+- Beta-alanine: 3-6g/day for muscular endurance
+- Citrulline: 6-8g for blood flow and pumps
+
+3. Red Flag Supplements (Avoid/Overrated)
+Technical debunking reference:
+- BCAAs: Useless if protein intake is adequate
+- Testosterone boosters: Nearly all are marketing scams
+- Fat burners: Dangerous or ineffective or both
+- Detox/cleanse products: Your liver and kidneys already do this
+- Proprietary blends: Hiding underdosed ingredients behind labels
+
+Supplement Patterns
+Pattern 1: Foundation Stack (Everyone)
+Essential baseline for most adults:
+- Vitamin D3: 2000 IU/day (test levels first if possible)
+- Omega-3: 1-2g combined EPA/DHA
+- Magnesium glycinate: 200mg before bed
+- Creatine monohydrate: 3-5g/day (no loading needed)
+- Protein powder: Only if dietary protein is insufficient
+
+Pattern 2: Performance Stack (Athletes)
+Building on foundation for active individuals:
+- Foundation stack +
+- Caffeine: 200-400mg pre-workout (cycle 2 weeks on / 1 week off)
+- Beta-alanine: 3.2g/day (consistent daily use, not timing-dependent)
+- Citrulline malate: 6-8g pre-workout
+- Electrolytes: Sodium, potassium, magnesium during intense/long sessions
+
+Pattern 3: Sleep & Recovery Stack
+Optimizing sleep quality:
+- Magnesium glycinate: 300-400mg, 1 hour before bed
+- Melatonin: 0.5-1mg only (less is more), 30 min before bed
+- Glycine: 3g before bed (preliminary evidence for sleep quality)
+- Tart cherry juice: Natural melatonin source
+- L-theanine: 200mg for calmness without sedation
+
+Best Practices
+Evaluation
+- "If it sounds too good to be true, it is" — this applies to 90% of supplements
+- Check Examine.com's Human Effect Matrix before buying anything
+- Third-party tested or don't bother (NSF Certified for Sport, Informed Sport, USP)
+- Proprietary blends = red flag (they're hiding underdosed ingredients)
+- Anecdotes and influencer endorsements are NOT evidence
+
+Dosing
+- More is not better — excess of most supplements is wasteful or harmful
+- Take fat-soluble vitamins (D, K, A, E) with a meal containing fat
+- Consistency matters more than timing for most supplements
+- Cycle stimulants (caffeine) to prevent tolerance
+- Start with one new supplement at a time — otherwise you can't attribute effects
+
+Cost
+- Generic creatine monohydrate is identical to expensive branded versions
+- Cost-per-effective-dose is the real metric, not cost-per-container
+- The best supplement stack costs under ₹2000/$25 per month
+- Expensive ≠ effective — marketing budgets raise prices, not quality
+- Food first, always — supplements fill gaps, they don't build foundations
+
+Common Actions
+# Evaluation
+rate_supplement --name ashwagandha --goal stress_reduction --evidence_tier B
+debunk_claim --product "TestoMax Ultra" --claim "boost testosterone 500%" --verdict marketing_scam
+
+# Stack Building
+build_stack --goal general_health --budget ₹1500_per_month --current none
+optimize_stack --current "whey, BCAA, fat_burner" --remove wasteful --add evidence_based
+
+# Dosing
+recommend_dose --supplement vitamin_D --current_level unknown --safe_default 2000IU
+time_supplements --stack creatine_vitamin_D_omega3_magnesium --schedule AM_PM
+
+# Cost Analysis
+compare_brands --supplement creatine --metric cost_per_5g_serving --quality third_party_tested
+calculate_monthly_cost --stack foundation --brands generic
+
+Pillar Mapping
+Primary: 💪 BODY
+Sub-field: Nutrition
+Synergies: Nutritionist (filling dietary gaps), Fitness Coach (performance support), Sleep Optimizer (sleep stack)

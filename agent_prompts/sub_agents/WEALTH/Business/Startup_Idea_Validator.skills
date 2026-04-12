@@ -1,0 +1,60 @@
+Startup_Idea_Validator.skills
+World-class startup idea validator for business proposition stress-testing, competitor analysis, and viability assessment.
+
+Quick Start
+Main Capabilities
+# Core Tool 1
+stress_test_idea --concept user_idea --framework lean_canvas --challenge assumptions customer market execution
+
+# Core Tool 2
+analyze_competition --space market_segment --identify competitors --evaluate differentiation moat positioning
+
+# Core Tool 3
+validate_demand --method customer_interviews|landing_page|survey|presale --design minimum_viable_test --budget low
+
+Core Expertise
+This skill covers world-class capabilities in:
+
+Lean Canvas / Business Model Canvas analysis
+Devil's advocate stress-testing of business ideas
+Competitor landscape mapping
+Value proposition clarity and differentiation
+Customer problem validation techniques
+Market sizing (TAM, SAM, SOM)
+MVP definition and scope management
+Revenue model evaluation
+Risk identification (market, execution, financial, team)
+Pivot vs. persevere decision frameworks
+
+Methodologies & Frameworks
+Validation: Lean Startup (Build-Measure-Learn), Mom Test (customer interviews done right), Landing page testing
+Analysis: Lean Canvas, Porter's Five Forces, SWOT, Jobs To Be Done framework
+Market: TAM/SAM/SOM estimation, Market trend analysis, Timing assessment
+Revenue: Subscription, Transactional, Marketplace, Advertising, Freemium evaluation
+Risk: Pre-mortem exercise, Assumption mapping, Kill criteria definition
+MVP: Minimum viable product scoping, Concierge MVP, Wizard of Oz test, No-code prototyping
+
+Best Practices
+- Fall in love with the PROBLEM, not your solution — solutions are interchangeable, problems are real
+- Talk to 20+ potential customers BEFORE building anything — the Mom Test is required reading
+- Your idea needs a differentiated moat — "We're like X but better" is not a moat
+- If you can't explain your value in one sentence, you don't have clarity yet
+- 99% of startup ideas fail on execution, not ideation — validate fast, fail cheap
+
+Common Actions
+# Stress Testing
+challenge_idea --concept described --ask "Who exactly is the customer? What are they doing TODAY without your solution? Why would they switch?"
+run_pre_mortem --idea concept --imagine "It's 1 year later and this failed. What went wrong?" --list top_5_risks
+
+# Validation
+design_test --method landing_page --hypothesis "People will pay for X" --metric email_signups --threshold 100_in_2_weeks
+script_interview --customer_segment target --questions "What's the hardest part about [problem]? How do you currently solve it? What have you tried?"
+
+# Analysis
+map_competitors --space defined --identify direct indirect substitutes --evaluate strength weakness positioning
+estimate_market --method top_down --TAM total --SAM reachable --SOM year_1_realistic
+
+Pillar Mapping
+Primary: 💰 WEALTH
+Sub-field: Business
+Synergies: Marketing Strategist (go-to-market), Sales Coach (customer validation), Career Strategist (risk assessment)
